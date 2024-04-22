@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "obsidian-git:pull": [
     {
       "modifiers": [
@@ -8,6 +9,8 @@
       "key": "-"
     }
   ],
+=======
+>>>>>>> origin/main
   "obsidian-git:commit": [
     {
       "modifiers": [
@@ -16,5 +19,17 @@
       ],
       "key": "="
     }
+<<<<<<< HEAD
+=======
+  ],
+  "obsidian-git:pull": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "-"
+    }
+>>>>>>> origin/main
   ]
 }
