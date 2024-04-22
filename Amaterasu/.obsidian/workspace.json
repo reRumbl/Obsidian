@@ -1,0 +1,149 @@
+{
+  "main": {
+    "id": "f712a14e334395d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a2ced3e8c979c69",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8eae4c56c69418f3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e0265d93bd8d08f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd0b9231563a44c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4620b63e4c4c2bd1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a9d49ac2bca949bb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b9daaea93103359e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8690fdd545c43760",
+    "type": "split",
+    "children": [
+      {
+        "id": "63075b4f408b30dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27420091b29696d1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Важное.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3b0d8fbd50dadc40",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Важное.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e112c525845cb9e8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "732f20e8c840f222",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Важное.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "8eae4c56c69418f3",
+  "lastOpenFiles": [
+    "Важное.md",
+    "Welcome.md"
+  ]
+}
