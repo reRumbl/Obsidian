@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Семестр 2/Собеседование 1/11. Эталонные модели.md",
+                "file": "Семестр 2/Собеседование 1/12. Инкапсуляция данных.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Семестр 2/Собеседование 1/11. Эталонные модели.md",
+                "file": "Семестр 2/Собеседование 1/12. Инкапсуляция данных.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Семестр 2/Собеседование 1/11. Эталонные модели.md",
+                "file": "Семестр 2/Собеседование 1/12. Инкапсуляция данных.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Семестр 2/Собеседование 1/11. Эталонные модели.md"
+                "file": "Семестр 2/Собеседование 1/12. Инкапсуляция данных.md"
               }
             }
           }
@@ -156,8 +156,9 @@
   },
   "active": "737d5e02884738ec",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Семестр 2/Собеседование 1/11. Эталонные модели.md",
+    "Семестр 2/Собеседование 1/12. Инкапсуляция данных.md",
+    "conflict-files-obsidian-git.md",
     "Изображения/Сравнение моделей OSI и TCP IP.png",
     "Изображения/Модель TCP IP.png",
     "Изображения/Модель OSI.png",
