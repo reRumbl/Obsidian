@@ -1,2 +1,2 @@
 # Obsidian
- My notes in obsidian
+ My notes in obsidian.
