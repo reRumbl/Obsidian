@@ -11,7 +11,19 @@
             "id": "8eae4c56c69418f3",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "markdown",
+              "state": {
+                "file": "TensorFlow/Без названия.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7c30d963ea476504",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
               "state": {}
             }
           }
@@ -81,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Важное.md",
+                "file": "TensorFlow/Без названия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Важное.md",
+                "file": "TensorFlow/Без названия.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,15 +133,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Важное.md"
+                "file": "TensorFlow/Без названия.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -141,9 +155,11 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "8eae4c56c69418f3",
+  "active": "3b0d8fbd50dadc40",
   "lastOpenFiles": [
+    "TensorFlow/Без названия.md",
     "Важное.md",
+    "TensorFlow",
     "Welcome.md"
   ]
 }
