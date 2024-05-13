@@ -23,11 +23,16 @@
             "id": "7c30d963ea476504",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ООП/Без названия.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TensorFlow/Без названия.md",
+                "file": "ООП/Без названия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TensorFlow/Без названия.md",
+                "file": "ООП/Без названия.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TensorFlow/Без названия.md"
+                "file": "ООП/Без названия.md"
               }
             }
           }
@@ -155,9 +160,12 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "3b0d8fbd50dadc40",
+  "active": "7c30d963ea476504",
   "lastOpenFiles": [
+    "Без названия.md",
+    "ООП/Без названия.md",
     "TensorFlow/Без названия.md",
+    "ООП",
     "Важное.md",
     "TensorFlow",
     "Welcome.md"
