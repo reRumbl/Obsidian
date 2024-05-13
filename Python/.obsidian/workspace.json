@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ООП/Без названия.md",
+                "file": "ООП/Классы.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ООП/Без названия.md",
+                "file": "ООП/Классы.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ООП/Без названия.md",
+                "file": "ООП/Классы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ООП/Без названия.md"
+                "file": "ООП/Классы.md"
               }
             }
           }
@@ -163,7 +163,7 @@
   "active": "7c30d963ea476504",
   "lastOpenFiles": [
     "Без названия.md",
-    "ООП/Без названия.md",
+    "ООП/Классы.md",
     "TensorFlow/Без названия.md",
     "ООП",
     "Важное.md",
