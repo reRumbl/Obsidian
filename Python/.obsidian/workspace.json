@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8eae4c56c69418f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TensorFlow/Без названия.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7c30d963ea476504",
             "type": "leaf",
             "state": {
@@ -29,6 +17,14 @@
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "f844563cbeb45b5f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -98,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ООП/Классы.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ООП/Классы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ООП/Классы.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -160,10 +152,10 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "7c30d963ea476504",
+  "active": "f844563cbeb45b5f",
   "lastOpenFiles": [
-    "Без названия.md",
     "ООП/Классы.md",
+    "Без названия.md",
     "TensorFlow/Без названия.md",
     "ООП",
     "Важное.md",
