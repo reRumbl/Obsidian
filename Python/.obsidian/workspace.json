@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Декораторы.md",
+                "file": "Базовые функции/Декораторы.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Декораторы.md",
+                "file": "Базовые функции/Декораторы.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Декораторы.md",
+                "file": "Базовые функции/Декораторы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Декораторы.md"
+                "file": "Базовые функции/Декораторы.md"
               }
             }
           }
@@ -168,9 +168,9 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "c5e3be7e00cf9629",
+  "active": "4620b63e4c4c2bd1",
   "lastOpenFiles": [
-    "Декораторы.md",
+    "Базовые функции/Декораторы.md",
     "Базовые функции",
     "ООП/Классы.md",
     "TensorFlow/Без названия.md",
