@@ -23,8 +23,12 @@
             "id": "f844563cbeb45b5f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Requests/Requests.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -94,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pillow/ImageFont.md",
+                "file": "Requests/Requests.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pillow/ImageFont.md",
+                "file": "Requests/Requests.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pillow/ImageFont.md"
+                "file": "Requests/Requests.md"
               }
             }
           }
@@ -158,9 +162,9 @@
   },
   "active": "f844563cbeb45b5f",
   "lastOpenFiles": [
+    "Pillow/Image.md",
     "Pillow/ImageFont.md",
     "Pillow/Pillow.md",
-    "Pillow/Image.md",
     "Pillow/ImageDraw.md",
     "Pillow/ImageFilter.md",
     "Requests/Requests.md",
