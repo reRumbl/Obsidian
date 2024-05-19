@@ -25,12 +25,12 @@ import requests
 url = 'https://sportishka.com/uploads/posts/2022-11/1667475216_15-sportishka-com-p-yaponskaya-gora-fudziyama-instagram-16.jpg'
 
 try:
-    resp = requests.get(url, stream=True).raw
+    response = requests.get(url, stream=True).raw
 except requests.exceptions.RequestException as e:
     print(e)
 
 try:
-    image = Image.open(resp)
+    image = Image.open(response)
     image.show()
 except IOError:
     print("Unable to open image")

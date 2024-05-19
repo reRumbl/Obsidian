@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pillow/ImageFont.md",
+                "file": "Pillow/Image.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,16 +23,11 @@
             "id": "f844563cbeb45b5f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Requests/Requests.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Requests/Requests.md",
+                "file": "Pillow/Image.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Requests/Requests.md",
+                "file": "Pillow/Image.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Requests/Requests.md"
+                "file": "Pillow/Image.md"
               }
             }
           }
@@ -160,13 +155,13 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "f844563cbeb45b5f",
+  "active": "7c30d963ea476504",
   "lastOpenFiles": [
-    "Pillow/Pillow.md",
     "Requests/Requests.md",
-    "Изображения/Requests.png",
-    "Pillow/Image.md",
     "Pillow/ImageFont.md",
+    "Pillow/Image.md",
+    "Pillow/Pillow.md",
+    "Изображения/Requests.png",
     "Pillow/ImageDraw.md",
     "Pillow/ImageFilter.md",
     "Базовые функции/Исключения.md",

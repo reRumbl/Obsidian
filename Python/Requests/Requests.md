@@ -20,11 +20,11 @@ import requests
 response = requests.get('https://api.github.com')
 ```
 
-**Проверка ответа на ошибки:**
+**Проверка ответа на ошибки при помощи конструкций [[Исключения|исключений]]:**
 
 ```Python
-if response.status_code == 200:
-    print('Successfully')
-elif response.status_code == 404:
-    print('Not Found')
+try:
+    response = requests.get('https://api.github.com', stream=True)
+except requests.exceptions.RequestException as e:
+    print(e)
 ```
