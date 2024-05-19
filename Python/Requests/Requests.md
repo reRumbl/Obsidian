@@ -24,8 +24,7 @@ response = requests.get('https://api.github.com')
 
 ```Python
 if response.status_code == 200:
-    print('Success!')
-
+    print('Successfully')
 elif response.status_code == 404:
-    print('Not Found.')
+    print('Not Found')
 ```
