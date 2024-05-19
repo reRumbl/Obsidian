@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ООП/Классы.md",
+                "file": "Pillow/ImageFont.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Pillow/ImageFont.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Pillow/ImageFont.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Pillow/ImageFont.md"
+              }
             }
           }
         ],
@@ -154,10 +158,27 @@
   },
   "active": "f844563cbeb45b5f",
   "lastOpenFiles": [
-    "ООП/Классы.md",
+    "Pillow/ImageFont.md",
+    "Pillow/Pillow.md",
+    "Pillow/Image.md",
+    "Pillow/ImageDraw.md",
+    "Pillow/ImageFilter.md",
+    "Requests/Requests.md",
+    "Базовые функции/Исключения.md",
     "Базовые функции/Декораторы.md",
+    "Requests",
+    "Изображения/Pillow.png",
+    "Кастомные классы и функции/Linked List.md",
+    "Кастомные классы и функции/Binar Tree.md",
+    "Pillow",
+    "Изображения/Классический BinarTree.png",
+    "Изображения",
+    "Изображения/Цикличный Linked List.png",
+    "Без названия.canvas",
+    "ООП/Классы.md",
+    "Кастомные классы и функции",
     "Базовые функции",
-    "TensorFlow/Без названия.md",
+    "TensorFlow/Tensorflow.md",
     "ООП",
     "Важное.md",
     "TensorFlow",
