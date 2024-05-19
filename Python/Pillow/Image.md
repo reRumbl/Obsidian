@@ -35,7 +35,7 @@ try:
 except IOError:
     print("Unable to open image")
 
-img.save('fujiyama.jpg', 'jpeg')
+image.save('fujiyama.jpg', 'jpeg')
 ```
 
 **Информация об изображении через Pillow:**
