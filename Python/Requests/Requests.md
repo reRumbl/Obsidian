@@ -13,3 +13,19 @@ pip install requests
 ```Python
 import requests
 ```
+
+**Запись ответа при помощи метода get():**
+
+```Python
+response = requests.get('https://api.github.com')
+```
+
+**Проверка ответа на ошибки:**
+
+```Python
+if response.status_code == 200:
+    print('Success!')
+
+elif response.status_code == 404:
+    print('Not Found.')
+```
