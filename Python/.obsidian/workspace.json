@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные модули/Os.md",
+                "file": "Requests/Requests.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные модули/Os.md",
+                "file": "Requests/Requests.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные модули/Os.md",
+                "file": "Requests/Requests.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные модули/Os.md"
+                "file": "Requests/Requests.md"
               }
             }
           }
@@ -156,9 +156,11 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Встроенные модули/Sys.md",
+    "TensorFlow/Tensorflow.md",
     "Встроенные модули/Os.md",
     "Встроенные модули/Logging.md",
+    "Изображения/Os.png",
+    "Встроенные модули/Sys.md",
     "Разработка/Dotenv.md",
     "Кастомные классы и функции/Binar Tree.md",
     "Кастомные классы и функции/Linked List.md",
@@ -196,7 +198,6 @@
     "Изображения",
     "Изображения/Цикличный Linked List.png",
     "Без названия.canvas",
-    "TensorFlow/Tensorflow.md",
     "Важное.md",
     "Welcome.md"
   ]
