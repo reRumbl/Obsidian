@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Requests/Requests.md",
+                "file": "Git/Gitignore.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Requests/Requests.md",
+                "file": "Git/Gitignore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Requests/Requests.md",
+                "file": "Git/Gitignore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Requests/Requests.md"
+                "file": "Git/Gitignore.md"
               }
             }
           }
@@ -156,6 +156,10 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Requests/Requests.md",
+    "Git/Gitignore.md",
+    "Git",
+    "Pillow/Pillow.md",
     "TensorFlow/Tensorflow.md",
     "Встроенные модули/Os.md",
     "Встроенные модули/Logging.md",
@@ -172,14 +176,12 @@
     "Разработка",
     "Базы данных/SQLite.md",
     "Pillow/Image.md",
-    "Requests/Requests.md",
     "Pandas/Pandas.md",
     "Новый текстовый документ.txt",
     "Базы данных",
     "Pandas/DataFrame.md",
     "Logging",
     "ООП/Классы.md",
-    "Pillow/Pillow.md",
     "Изображения/NumPy.png",
     "NumPy",
     "Изображения/Pandas.png",
@@ -195,7 +197,6 @@
     "Изображения/Pillow.png",
     "Pillow",
     "Изображения/Классический BinarTree.png",
-    "Изображения",
     "Изображения/Цикличный Linked List.png",
     "Без названия.canvas",
     "Важное.md",

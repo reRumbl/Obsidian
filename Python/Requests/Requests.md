@@ -14,29 +14,22 @@ pip install requests
 import requests
 ```
 
-**Запись ответа при использовании GET для HTTP, при помощи метода get():**
+**Пример использования GET для HTTP, при помощи метода get():**
 
 ```Python
 response = requests.get('https://api.github.com')
 ```
 
-**Запись ответа при использовании POST для HTTP, при помощи метода get():**
+**Пример использования POST для HTTP, при помощи метода post():**
 
 ```Python
-COOKIES = {  
-    'ltuid': 'your_ltuid',  
-    'ltoken': 'your_ltoken'  
-}  
-  
-HEADERS = {  
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '  
-                  'Chrome/91.0.4472.124 Safari/537.36',  
-    'Referer': 'https://www.hoyolab.com/',  
+data = {  
+    'id': '1234567890'
 }
-response = requests.post('https://api.github.com', cookies=COOKIES, headers=HEADERS, json=data)
+response = requests.post('https://api.github.com', json=data)
 ```
 
-**Запись ответа при использовании PUT для HTTP, при помощи метода get():**
+**Пример использования PUT для HTTP, при помощи метода put():**
 
 ```Python
 data = [1, 4, 8, 8]
