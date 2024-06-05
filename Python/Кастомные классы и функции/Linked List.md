@@ -24,7 +24,7 @@ nodehead = ListNode(1, node1)
 data = LinkedList(nodehead)
 ```
 
-Схематичное изображение данного экземпляра:
+*Схематичное изображение данного экземпляра:*
 
-![[Цикличный Linked List.png]]
+*![[Цикличный Linked List.png]]
 
