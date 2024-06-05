@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Кастомные классы и функции/Binar Tree.md",
+                "file": "Приватность и безопасность/Dotenv.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Кастомные классы и функции/Binar Tree.md",
+                "file": "Приватность и безопасность/Dotenv.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Кастомные классы и функции/Binar Tree.md",
+                "file": "Приватность и безопасность/Dotenv.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Кастомные классы и функции/Binar Tree.md"
+                "file": "Приватность и безопасность/Dotenv.md"
               }
             }
           }
@@ -156,8 +156,10 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Кастомные классы и функции/Linked List.md",
     "Кастомные классы и функции/Binar Tree.md",
+    "Приватность и безопасность/Dotenv.md",
+    "Приватность и безопасность",
+    "Кастомные классы и функции/Linked List.md",
     "Базы данных/SQLite.md",
     "Logging/Logging.md",
     "Pillow/Image.md",
@@ -189,7 +191,6 @@
     "Изображения/Цикличный Linked List.png",
     "Без названия.canvas",
     "Кастомные классы и функции",
-    "Базовые функции",
     "TensorFlow/Tensorflow.md",
     "Важное.md",
     "Welcome.md"
