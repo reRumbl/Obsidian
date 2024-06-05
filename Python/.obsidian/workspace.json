@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Приватность и безопасность/Dotenv.md",
+                "file": "Встроенные модули/Os.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Приватность и безопасность/Dotenv.md",
+                "file": "Встроенные модули/Os.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Приватность и безопасность/Dotenv.md",
+                "file": "Встроенные модули/Os.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Приватность и безопасность/Dotenv.md"
+                "file": "Встроенные модули/Os.md"
               }
             }
           }
@@ -156,16 +156,20 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Разработка/Dotenv.md",
+    "Встроенные модули/Os.md",
+    "Встроенные модули",
+    "Разработка/Без названия.md",
+    "Приватность и безопасность/Без названия.md",
+    "NumPy/NumPy.md",
+    "Встроенные модули/Logging.md",
     "Кастомные классы и функции/Binar Tree.md",
-    "Приватность и безопасность/Dotenv.md",
-    "Приватность и безопасность",
+    "Разработка",
     "Кастомные классы и функции/Linked List.md",
     "Базы данных/SQLite.md",
-    "Logging/Logging.md",
     "Pillow/Image.md",
     "Requests/Requests.md",
     "Pandas/Pandas.md",
-    "NumPy/NumPy.md",
     "Новый текстовый документ.txt",
     "Базы данных",
     "Pandas/DataFrame.md",
@@ -190,7 +194,6 @@
     "Изображения",
     "Изображения/Цикличный Linked List.png",
     "Без названия.canvas",
-    "Кастомные классы и функции",
     "TensorFlow/Tensorflow.md",
     "Важное.md",
     "Welcome.md"
