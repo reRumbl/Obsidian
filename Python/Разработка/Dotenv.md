@@ -32,3 +32,10 @@ def prepare_environment():
 value = os.getenv('KEY')
 token = os.getenv('BOT_TOKEN')
 ```
+
+**Изменение данных переменного окружения, используя [[Os|модуль os]]:**
+
+```Python
+os.putenv('KEY', 'VERYSECRETKEY')
+os.putenv('BOT_TOKEN', 'VERYSECRETTOKEN')
+```
