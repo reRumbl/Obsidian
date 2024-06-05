@@ -87,7 +87,7 @@ for user in users:
 	users_list.append(user_dict)
 ```
 
-**Управление транзакциями:
+**Управление транзакциями:**
 
 *При помощи SQL:*
 
