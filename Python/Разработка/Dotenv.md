@@ -26,4 +26,9 @@ def prepare_environment():
         raise FileNotFoundError('.env file not found.')
 ```
 
-Д
+**Извлечение данных из переменного окружения, используя [[Os|модуль os]]:**
+
+```Python
+value = os.getenv('KEY')
+token = os.getenv('BOT_TOKEN')
+```

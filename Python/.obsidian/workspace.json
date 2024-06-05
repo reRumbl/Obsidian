@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Разработка/Dotenv.md",
+                "file": "Встроенные модули/Os.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Разработка/Dotenv.md",
+                "file": "Встроенные модули/Os.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Разработка/Dotenv.md",
+                "file": "Встроенные модули/Os.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Разработка/Dotenv.md"
+                "file": "Встроенные модули/Os.md"
               }
             }
           }
@@ -156,17 +156,17 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Кастомные классы и функции/Binar Tree.md",
-    "Кастомные классы и функции/Linked List.md",
-    "Разработка/Dotenv.md",
-    "Изображения/Dotenv.png",
-    "NumPy/NumPy.md",
     "Встроенные модули/Sys.md",
     "Встроенные модули/Os.md",
+    "Встроенные модули/Logging.md",
+    "Разработка/Dotenv.md",
+    "Кастомные классы и функции/Binar Tree.md",
+    "Кастомные классы и функции/Linked List.md",
+    "Изображения/Dotenv.png",
+    "NumPy/NumPy.md",
     "Встроенные модули",
     "Разработка/Без названия.md",
     "Приватность и безопасность/Без названия.md",
-    "Встроенные модули/Logging.md",
     "Разработка",
     "Базы данных/SQLite.md",
     "Pillow/Image.md",
