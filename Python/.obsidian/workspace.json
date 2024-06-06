@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные модули/Collections.md",
+                "file": "Различные полезные модули/Geopy.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные модули/Collections.md",
+                "file": "Различные полезные модули/Geopy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные модули/Collections.md",
+                "file": "Различные полезные модули/Geopy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные модули/Collections.md"
+                "file": "Различные полезные модули/Geopy.md"
               }
             }
           }
@@ -154,13 +154,14 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "d719e56e11c0f051",
+  "active": "4620b63e4c4c2bd1",
   "lastOpenFiles": [
-    "Различные полезные модули/Termcolor.md",
-    "Встроенные модули/Collections.md",
+    "Изображения/GeoPy.png",
     "Различные полезные модули/Geopy.md",
-    "Изображения/Termcolor.png",
     "Различные полезные модули/Rembg.md",
+    "Встроенные модули/Collections.md",
+    "Различные полезные модули/Termcolor.md",
+    "Изображения/Termcolor.png",
     "Базовые функции/F-Строки.md",
     "Встроенные модули/Os.md",
     "Встроенные модули/Logging.md",
@@ -192,14 +193,12 @@
     "Pillow/Pillow.md",
     "TensorFlow/Tensorflow.md",
     "Изображения/Os.png",
-    "Встроенные модули/Sys.md",
     "Изображения/Dotenv.png",
     "Встроенные модули",
     "Разработка",
     "Новый текстовый документ.txt",
     "Базы данных",
     "Logging",
-    "Изображения/NumPy.png",
     "NumPy",
     "Pandas",
     "Без названия.canvas"
