@@ -72,5 +72,22 @@ path = os.path.join(parent, directory)
 os.rmdir(path)
 ```
 
+**Открытие и закрытие файлов:**
 
+*Открытие:*
 
+```Python
+file = os.popen('D:/file.txt')
+```
+
+*Закрытие:*
+
+```Python
+os.close(file)
+```
+
+Переименование файла:
+
+```Python
+
+```
