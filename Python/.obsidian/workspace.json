@@ -11,11 +11,9 @@
             "id": "d719e56e11c0f051",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Различные полезные модули/Rembg.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20240606102148.png"
               }
             }
           },
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Различные полезные модули/Rembg.md",
+                "file": "Pasted image 20240606102148.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Различные полезные модули/Rembg.md",
+                "file": "Pasted image 20240606102148.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Различные полезные модули/Rembg.md"
+                "file": "Pasted image 20240606102148.png"
               }
             }
           }
@@ -156,9 +154,12 @@
   },
   "active": "4620b63e4c4c2bd1",
   "lastOpenFiles": [
+    "Различные полезные модули/Rembg.md",
+    "Pasted image 20240606102243.png",
+    "Pasted image 20240606102148.png",
+    "NumPy/Array.md",
     "Изображения/Rembg.png",
     "Разработка/Dotenv.md",
-    "Различные полезные модули/Rembg.md",
     "Кастомные классы и функции/Linked List.md",
     "Различные полезные модули",
     "Aiogram/Aiogram.md",
@@ -191,7 +192,6 @@
     "Pandas/Pandas.md",
     "Новый текстовый документ.txt",
     "Базы данных",
-    "Pandas/DataFrame.md",
     "Logging",
     "Изображения/NumPy.png",
     "NumPy",
@@ -199,9 +199,6 @@
     "Pasted image 20240522105440.png",
     "Pandas",
     "Изображения/Requests.png",
-    "Изображения/Pillow.png",
-    "Изображения/Классический BinarTree.png",
-    "Изображения/Цикличный Linked List.png",
     "Без названия.canvas"
   ]
 }
