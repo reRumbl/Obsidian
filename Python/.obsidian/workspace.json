@@ -27,7 +27,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Базовые функции/Исключения.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Базовые функции/Исключения.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Базовые функции/Исключения.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -154,10 +151,10 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "d719e56e11c0f051",
+  "active": "f844563cbeb45b5f",
   "lastOpenFiles": [
-    "Базовые функции/Декораторы.md",
     "Базовые функции/Исключения.md",
+    "Базовые функции/Декораторы.md",
     "Изображения/Исключения.png",
     "Git/Gitignore.md",
     "Разработка/Dotenv.md",
