@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Различные полезные модули/Termcolor.md",
+                "file": "Встроенные модули/Collections.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Различные полезные модули/Termcolor.md",
+                "file": "Встроенные модули/Collections.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Различные полезные модули/Termcolor.md",
+                "file": "Встроенные модули/Collections.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Различные полезные модули/Termcolor.md"
+                "file": "Встроенные модули/Collections.md"
               }
             }
           }
@@ -156,9 +156,11 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Различные полезные модули/Rembg.md",
-    "Различные полезные модули/Geopy.md",
     "Различные полезные модули/Termcolor.md",
+    "Встроенные модули/Collections.md",
+    "Различные полезные модули/Geopy.md",
+    "Изображения/Termcolor.png",
+    "Различные полезные модули/Rembg.md",
     "Базовые функции/F-Строки.md",
     "Встроенные модули/Os.md",
     "Встроенные модули/Logging.md",
@@ -192,7 +194,6 @@
     "Изображения/Os.png",
     "Встроенные модули/Sys.md",
     "Изображения/Dotenv.png",
-    "NumPy/NumPy.md",
     "Встроенные модули",
     "Разработка",
     "Новый текстовый документ.txt",
@@ -200,7 +201,6 @@
     "Logging",
     "Изображения/NumPy.png",
     "NumPy",
-    "Изображения/Pandas.png",
     "Pandas",
     "Без названия.canvas"
   ]
