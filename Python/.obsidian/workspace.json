@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Кастомные классы и функции/Linked List.md",
+                "file": "Различные полезные модули/Rembg.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Кастомные классы и функции/Linked List.md",
+                "file": "Различные полезные модули/Rembg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Кастомные классы и функции/Linked List.md",
+                "file": "Различные полезные модули/Rembg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Кастомные классы и функции/Linked List.md"
+                "file": "Различные полезные модули/Rembg.md"
               }
             }
           }
@@ -154,11 +154,14 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "d719e56e11c0f051",
+  "active": "4620b63e4c4c2bd1",
   "lastOpenFiles": [
+    "Изображения/Rembg.png",
     "Разработка/Dotenv.md",
-    "Aiogram/Aiogram.md",
+    "Различные полезные модули/Rembg.md",
     "Кастомные классы и функции/Linked List.md",
+    "Различные полезные модули",
+    "Aiogram/Aiogram.md",
     "Базовые функции/Декораторы.md",
     "Базовые функции/Исключения.md",
     "Базовые функции/Ошибки.md",
@@ -190,14 +193,12 @@
     "Базы данных",
     "Pandas/DataFrame.md",
     "Logging",
-    "ООП/Классы.md",
     "Изображения/NumPy.png",
     "NumPy",
     "Изображения/Pandas.png",
     "Pasted image 20240522105440.png",
     "Pandas",
     "Изображения/Requests.png",
-    "Requests",
     "Изображения/Pillow.png",
     "Изображения/Классический BinarTree.png",
     "Изображения/Цикличный Linked List.png",
