@@ -36,5 +36,7 @@ print(f'{num:.2f}')  # 3.12
 ```Python
 text_code = 32
 text_name = 'Green'
-print(f'\033[{text_code}m {text_code} {text_name} \033[0m')
+bg_color = 42
+
+print(f'\033[{text_code}m\033[{bg_color}m {text_code} {text_name} \033[0m')
 ```
