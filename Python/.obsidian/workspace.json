@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Базовые функции/Ошибки.md",
+                "file": "Кастомные классы и функции/Linked List.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Базовые функции/Ошибки.md",
+                "file": "Кастомные классы и функции/Linked List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Базовые функции/Ошибки.md",
+                "file": "Кастомные классы и функции/Linked List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Базовые функции/Ошибки.md"
+                "file": "Кастомные классы и функции/Linked List.md"
               }
             }
           }
@@ -156,20 +156,20 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Разработка/Dotenv.md",
+    "Aiogram/Aiogram.md",
+    "Кастомные классы и функции/Linked List.md",
+    "Базовые функции/Декораторы.md",
+    "Базовые функции/Исключения.md",
+    "Базовые функции/Ошибки.md",
     "Базовые функции/Функции.md",
     "Базовые функции/Циклы.md",
-    "Базовые функции/Ошибки.md",
-    "Базовые функции/Исключения.md",
-    "Aiogram/Aiogram.md",
+    "Git/Gitignore.md",
     "Aiogram",
-    "Базовые функции/Декораторы.md",
     "Базы данных/PostgreSQL.md",
     "Базы данных/SQLite.md",
-    "Кастомные классы и функции/Linked List.md",
     "Кастомные классы и функции/Binar Tree.md",
     "Изображения/Исключения.png",
-    "Git/Gitignore.md",
-    "Разработка/Dotenv.md",
     "Requests/Requests.md",
     "Git",
     "Pillow/Pillow.md",
