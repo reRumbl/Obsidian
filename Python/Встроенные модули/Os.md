@@ -8,3 +8,11 @@
 import os
 ```
 
+## иС
+
+**Захват текущей рабочей директории:**
+
+```Python
+cwd = os.getcwd() 
+print(f'Current working directory: {cwd}')
+```
