@@ -31,3 +31,10 @@ num = 3.12345678
 print(f'{num:.2f}')  # 3.12
 ```
 
+**Окраска строк:**
+
+```Python
+text_code = 32
+text_name = 'Green'
+print(f'\033[{text_code}m {text_code} {text_name} \033[0m')
+```
