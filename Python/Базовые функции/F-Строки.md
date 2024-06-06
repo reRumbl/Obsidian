@@ -28,7 +28,6 @@ for city in cities:
 ```Python
 num = 3.12345678
 
-print(f'{num:.1f}')
-print(f'{num:.2f}')
+print(f'{num:.2f}')  # 3.12
 ```
 
