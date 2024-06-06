@@ -56,7 +56,7 @@ dir_list = os.listdir(path)
 
 ```Python
 for root, dirs, files in walk(directory):
-	
+	# Do something
 ```
 
 **Удаление файлов и директорий:**
@@ -65,7 +65,7 @@ for root, dirs, files in walk(directory):
 
 ```Python
 file = 'image1.jpg'
-location = "D:/Pycharm/New Project/data/images/"
+location = 'D:/Pycharm/New Project/data/images/'
 path = os.path.join(location, file) 
 os.remove(path)
 ```
@@ -73,8 +73,8 @@ os.remove(path)
 *При помощи rmdir (только пустые папки):*
 
 ```Python
-directory = "csv"
-parent = "D:/Pycharm/New Project/data
+directory = 'csv'
+parent = 'D:/Pycharm/New Project/data'
 path = os.path.join(parent, directory) 
 os.rmdir(path)
 ```
@@ -102,11 +102,18 @@ os.rename('D:/file.txt', 'renamed.txt')
 **Проверка на наличие пути к файлу:**
 
 ```Python
-result = os.path.exists("file_name")
+if os.path.exists('file_name'):
+	print('File exists')
+```
+
+**Проверка на то, является ли объект фалом или папкой:**
+
+```Python
+if os.
 ```
 
 **Получение размера файла:**
 
 ```Python
-size = os.path.getsize("filename")
+size = os.path.getsize('filename')
 ```

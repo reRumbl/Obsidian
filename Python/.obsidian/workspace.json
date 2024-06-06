@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные модули/Random.md",
+                "file": "Встроенные модули/Os.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные модули/Random.md",
+                "file": "Встроенные модули/Os.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные модули/Random.md",
+                "file": "Встроенные модули/Os.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные модули/Random.md"
+                "file": "Встроенные модули/Os.md"
               }
             }
           }
@@ -156,9 +156,10 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Встроенные модули/Random.md",
+    "Изображения/Random.png",
     "Pasted image 20240606114043.png",
     "Встроенные модули/Os.md",
-    "Встроенные модули/Random.md",
     "Различные полезные модули/Termcolor.md",
     "Различные полезные модули/Rembg.md",
     "Изображения/Image with background.png",
@@ -199,9 +200,7 @@
     "Изображения/NumPy.png",
     "NumPy",
     "Изображения/Pandas.png",
-    "Pasted image 20240522105440.png",
     "Pandas",
-    "Изображения/Requests.png",
     "Без названия.canvas"
   ]
 }
