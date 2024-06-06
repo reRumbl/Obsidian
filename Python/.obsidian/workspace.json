@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Базовые функции/Декораторы.md",
+                "file": "Базовые функции/Ошибки.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Базовые функции/Декораторы.md",
+                "file": "Базовые функции/Ошибки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Базовые функции/Декораторы.md",
+                "file": "Базовые функции/Ошибки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Базовые функции/Декораторы.md"
+                "file": "Базовые функции/Ошибки.md"
               }
             }
           }
@@ -156,13 +156,15 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Базовые функции/Исключения.md",
+    "Базовые функции/Функции.md",
     "Базовые функции/Циклы.md",
     "Базовые функции/Ошибки.md",
+    "Базовые функции/Исключения.md",
+    "Aiogram/Aiogram.md",
+    "Aiogram",
+    "Базовые функции/Декораторы.md",
     "Базы данных/PostgreSQL.md",
     "Базы данных/SQLite.md",
-    "Базовые функции/Функции.md",
-    "Базовые функции/Декораторы.md",
     "Кастомные классы и функции/Linked List.md",
     "Кастомные классы и функции/Binar Tree.md",
     "Изображения/Исключения.png",
@@ -194,12 +196,9 @@
     "Изображения/Pandas.png",
     "Pasted image 20240522105440.png",
     "Pandas",
-    "Pillow/ImageFont.md",
     "Изображения/Requests.png",
-    "Pillow/ImageDraw.md",
     "Requests",
     "Изображения/Pillow.png",
-    "Pillow",
     "Изображения/Классический BinarTree.png",
     "Изображения/Цикличный Linked List.png",
     "Без названия.canvas"
