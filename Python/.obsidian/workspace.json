@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Gitignore.md",
+                "file": "Базовые функции/Декораторы.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Gitignore.md",
+                "file": "Базовые функции/Декораторы.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Gitignore.md",
+                "file": "Базовые функции/Декораторы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Gitignore.md"
+                "file": "Базовые функции/Декораторы.md"
               }
             }
           }
@@ -156,9 +156,11 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Базовые функции/Исключения.md",
+    "Базовые функции/Декораторы.md",
+    "Git/Gitignore.md",
     "Разработка/Dotenv.md",
     "Requests/Requests.md",
-    "Git/Gitignore.md",
     "Git",
     "Pillow/Pillow.md",
     "TensorFlow/Tensorflow.md",
@@ -191,8 +193,6 @@
     "Изображения/Requests.png",
     "Pillow/ImageDraw.md",
     "Pillow/ImageFilter.md",
-    "Базовые функции/Исключения.md",
-    "Базовые функции/Декораторы.md",
     "Requests",
     "Изображения/Pillow.png",
     "Pillow",
