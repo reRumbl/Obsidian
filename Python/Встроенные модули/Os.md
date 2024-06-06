@@ -23,12 +23,31 @@ print(f'Current working directory: {cwd}')
 os.chdir('C:/Users/')
 ```
 
-**Создание директории при помощи mkdir:**
+**Создание директории:**
+
+*При помощи mkdir (создается одна папка):*
 
 ```Python
-directory = "New Dir"
-parent_dir = "D:/Pycharm projects/"
+directory = "New Project"
+parent_dir = "R:/Pycharm/"
 path = os.path.join(parent_dir, directory)
 
 os.mkdir(path)
+```
+
+*При помощи makedirs (папки создаются рекурсивно, в случае отсутствия):*
+
+```Python
+directory = "images"
+parent_dir = "R:/Pycharm/New Project/data"
+path = os.path.join(parent_dir, directory)
+
+os.makedirs(path)
+```
+
+**Получение списка файлов в директории:**
+
+```Python
+path = "/"
+dir_list = os.listdir(path)
 ```
