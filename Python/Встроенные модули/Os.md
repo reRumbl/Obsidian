@@ -52,6 +52,13 @@ path = 'R:/Pycharm/New Project'
 dir_list = os.listdir(path)
 ```
 
+**Прохождение по всем файлам и директориям в указанной директории:**
+
+```Python
+for root, dirs, files in walk(directory):
+	
+```
+
 **Удаление файлов и директорий:**
 
 *При помощи remove (только файлы):*
