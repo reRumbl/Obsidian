@@ -26,13 +26,23 @@ import rembg
 
 ```Python
 from PIL import Image
-import numpy as np
 
 image = Image.open('Image with background.png').convert("RGBA")
-
-
+image_rembg = rembg.remove(image)
+image_rembg.save('Image without background.png')
 ```
 
 *Результат:*
 
 ![[Image without background.png]]
+
+**Получение маски объекта при помощи функции remove:**
+
+```Python
+from PIL import Image
+import numpy as np
+
+image = Image.open('Image with background.png').convert("RGBA")
+np_image = np.array(image)
+mask = remove(np_image, only_mask=True)
+```
