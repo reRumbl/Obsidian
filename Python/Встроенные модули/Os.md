@@ -65,7 +65,7 @@ for root, dirs, files in walk(directory):
 
 ```Python
 file = 'image1.jpg'
-location = 'D:/Pycharm/New Project/data/images/'
+location = 'R:/Pycharm/New Project/data/images/'
 path = os.path.join(location, file) 
 os.remove(path)
 ```
@@ -74,7 +74,7 @@ os.remove(path)
 
 ```Python
 directory = 'csv'
-parent = 'D:/Pycharm/New Project/data'
+parent = 'R:/Pycharm/New Project/data'
 path = os.path.join(parent, directory) 
 os.rmdir(path)
 ```
@@ -96,7 +96,7 @@ os.close(file)
 **Переименование файла:**
 
 ```Python
-os.rename('D:/file.txt', 'renamed.txt')
+os.rename('R:/file.txt', 'renamed.txt')
 ```
 
 **Проверка на наличие пути к файлу:**
@@ -108,8 +108,18 @@ if os.path.exists('file_name'):
 
 **Проверка на то, является ли объект фалом или папкой:**
 
+*Проверка на папку:*
+
 ```Python
-if os.
+if os.path.isdir('R:/Pycharm'):
+	print('This is a directory')
+```
+
+*Проверка на файл:*
+
+```Python
+if os.path.isfile('R:/file/txt'):
+	print('This is a file')
 ```
 
 **Получение размера файла:**
