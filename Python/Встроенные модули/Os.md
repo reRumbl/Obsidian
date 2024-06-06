@@ -28,8 +28,8 @@ os.chdir('C:/Users/')
 *При помощи mkdir (создается одна папка):*
 
 ```Python
-directory = "New Project"
-parent_dir = "R:/Pycharm/"
+directory = 'New Project'
+parent_dir = 'R:/Pycharm/'
 path = os.path.join(parent_dir, directory)
 
 os.mkdir(path)
@@ -38,8 +38,8 @@ os.mkdir(path)
 *При помощи makedirs (папки создаются рекурсивно, в случае отсутствия):*
 
 ```Python
-directory = "images"
-parent_dir = "R:/Pycharm/New Project/data"
+directory = 'images'
+parent_dir = 'R:/Pycharm/New Project/data'
 path = os.path.join(parent_dir, directory)
 
 os.makedirs(path)
@@ -48,6 +48,24 @@ os.makedirs(path)
 **Получение списка файлов в директории:**
 
 ```Python
-path = "/"
+path = 'R:/Pycharm/New Project'
 dir_list = os.listdir(path)
 ```
+
+**Удаление файлов и директорий:**
+
+*При помощи remove (только файлы):*
+
+```Python
+file = 'image1.jpg'
+location = "D:/Pycharm/New Project/data/images/"
+path = os.path.join(location, file) 
+os.remove(path)
+```
+
+*При помощи rmdir (только пустые папки):*
+
+```Python
+location = "D:/Pycharm/New Project/data
+```
+
