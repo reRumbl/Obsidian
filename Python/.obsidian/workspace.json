@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Базовые функции/Исключения.md",
+                "file": "Базовые функции/Декораторы.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Базовые функции/Исключения.md",
+                "file": "Базовые функции/Декораторы.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Базовые функции/Исключения.md",
+                "file": "Базовые функции/Декораторы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Базовые функции/Исключения.md"
+                "file": "Базовые функции/Декораторы.md"
               }
             }
           }
@@ -156,11 +156,15 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Базовые функции/Исключения.md",
+    "Базовые функции/Циклы.md",
+    "Базовые функции/Ошибки.md",
+    "Базы данных/PostgreSQL.md",
+    "Базы данных/SQLite.md",
+    "Базовые функции/Функции.md",
     "Базовые функции/Декораторы.md",
     "Кастомные классы и функции/Linked List.md",
     "Кастомные классы и функции/Binar Tree.md",
-    "Базовые функции/Исключения.md",
-    "Базовые функции/Ошибки.md",
     "Изображения/Исключения.png",
     "Git/Gitignore.md",
     "Разработка/Dotenv.md",
@@ -178,7 +182,6 @@
     "Разработка/Без названия.md",
     "Приватность и безопасность/Без названия.md",
     "Разработка",
-    "Базы данных/SQLite.md",
     "Pillow/Image.md",
     "Pandas/Pandas.md",
     "Новый текстовый документ.txt",
@@ -194,14 +197,11 @@
     "Pillow/ImageFont.md",
     "Изображения/Requests.png",
     "Pillow/ImageDraw.md",
-    "Pillow/ImageFilter.md",
     "Requests",
     "Изображения/Pillow.png",
     "Pillow",
     "Изображения/Классический BinarTree.png",
     "Изображения/Цикличный Linked List.png",
-    "Без названия.canvas",
-    "Важное.md",
-    "Welcome.md"
+    "Без названия.canvas"
   ]
 }
