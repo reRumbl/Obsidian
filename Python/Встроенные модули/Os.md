@@ -86,8 +86,20 @@ file = os.popen('D:/file.txt')
 os.close(file)
 ```
 
-Переименование файла:
+**Переименование файла:**
 
 ```Python
+os.rename('D:/file.txt', 'renamed.txt')
+```
 
+**Проверка на наличие пути к файлу:**
+
+```Python
+result = os.path.exists("file_name")
+```
+
+**Получение размера файла:**
+
+```Python
+size = os.path.getsize("filename")
 ```
