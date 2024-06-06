@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Различные полезные модули/Geopy.md",
+                "file": "Базовые функции/Декораторы.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Различные полезные модули/Geopy.md",
+                "file": "Базовые функции/Декораторы.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Различные полезные модули/Geopy.md",
+                "file": "Базовые функции/Декораторы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Различные полезные модули/Geopy.md"
+                "file": "Базовые функции/Декораторы.md"
               }
             }
           }
@@ -154,10 +154,11 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "4620b63e4c4c2bd1",
+  "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Изображения/GeoPy.png",
+    "Базовые функции/Декораторы.md",
     "Различные полезные модули/Geopy.md",
+    "Изображения/GeoPy.png",
     "Различные полезные модули/Rembg.md",
     "Встроенные модули/Collections.md",
     "Различные полезные модули/Termcolor.md",
@@ -177,7 +178,6 @@
     "Кастомные классы и функции/Linked List.md",
     "Различные полезные модули",
     "Aiogram/Aiogram.md",
-    "Базовые функции/Декораторы.md",
     "Базовые функции/Исключения.md",
     "Базовые функции/Ошибки.md",
     "Базовые функции/Функции.md",
