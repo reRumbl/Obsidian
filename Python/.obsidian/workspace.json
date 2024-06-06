@@ -11,9 +11,11 @@
             "id": "d719e56e11c0f051",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20240606102148.png"
+                "file": "Различные полезные модули/Rembg.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -91,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20240606102148.png",
+                "file": "Различные полезные модули/Rembg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20240606102148.png",
+                "file": "Различные полезные модули/Rembg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20240606102148.png"
+                "file": "Различные полезные модули/Rembg.md"
               }
             }
           }
@@ -154,9 +156,9 @@
   },
   "active": "4620b63e4c4c2bd1",
   "lastOpenFiles": [
+    "Изображения/Image with background.png",
+    "Изображения/Image without background.png",
     "Различные полезные модули/Rembg.md",
-    "Pasted image 20240606102243.png",
-    "Pasted image 20240606102148.png",
     "NumPy/Array.md",
     "Изображения/Rembg.png",
     "Разработка/Dotenv.md",

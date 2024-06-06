@@ -20,10 +20,19 @@ import rembg
 
 *Входное изображение:*
 
-![[Pasted image 20240606102148.png]]
+![[Image with background.png]]
 
 *Код:*
 
+```Python
+from PIL import Image
+import numpy as np
+
+image = Image.open('Image with background.png').convert("RGBA")
 
 
-![[Pasted image 20240606102243.png]]
+```
+
+*Результат:*
+
+![[Image without background.png]]
