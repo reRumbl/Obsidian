@@ -22,3 +22,13 @@ for city in cities:
 	name, country, status = city
 	print(f'{name:{width}} {country:{width}} {status:{width}}')
 ```
+
+**Округления:**
+
+```Python
+num = 3.12345678
+
+print(f'{num:.1f}')
+print(f'{num:.2f}')
+```
+
