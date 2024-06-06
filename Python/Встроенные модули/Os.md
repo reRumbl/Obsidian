@@ -66,6 +66,10 @@ os.remove(path)
 *При помощи rmdir (только пустые папки):*
 
 ```Python
-location = "D:/Pycharm/New Project/data
+directory = "csv"
+parent = "D:/Pycharm/New Project/data
+path = os.path.join(parent, directory) 
+os.rmdir(path)
 ```
+
 
