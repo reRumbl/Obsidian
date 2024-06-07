@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Базы данных/SQLite.md",
+                "file": "Различные полезные модули/Geopy.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Базы данных/SQLite.md",
+                "file": "Различные полезные модули/Geopy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Базы данных/SQLite.md",
+                "file": "Различные полезные модули/Geopy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Базы данных/SQLite.md"
+                "file": "Различные полезные модули/Geopy.md"
               }
             }
           }
@@ -156,6 +156,10 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Базовые функции/F-Строки.md",
+    "Базовые функции/Циклы.md",
+    "Базовые функции/Функции.md",
+    "Базы данных/SQLite.md",
     "Базовые функции/Декораторы.md",
     "Различные полезные модули/Geopy.md",
     "Изображения/GeoPy.png",
@@ -163,7 +167,6 @@
     "Встроенные модули/Collections.md",
     "Различные полезные модули/Termcolor.md",
     "Изображения/Termcolor.png",
-    "Базовые функции/F-Строки.md",
     "Встроенные модули/Os.md",
     "Встроенные модули/Logging.md",
     "Встроенные модули/Itertools.md",
@@ -180,12 +183,9 @@
     "Aiogram/Aiogram.md",
     "Базовые функции/Исключения.md",
     "Базовые функции/Ошибки.md",
-    "Базовые функции/Функции.md",
-    "Базовые функции/Циклы.md",
     "Git/Gitignore.md",
     "Aiogram",
     "Базы данных/PostgreSQL.md",
-    "Базы данных/SQLite.md",
     "Кастомные классы и функции/Binar Tree.md",
     "Изображения/Исключения.png",
     "Requests/Requests.md",
