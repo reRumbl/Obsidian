@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Различные полезные модули/Geopy.md",
+                "file": "Aiogram/Aiogram.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Различные полезные модули/Geopy.md",
+                "file": "Aiogram/Aiogram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Различные полезные модули/Geopy.md",
+                "file": "Aiogram/Aiogram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Различные полезные модули/Geopy.md"
+                "file": "Aiogram/Aiogram.md"
               }
             }
           }
@@ -154,14 +154,15 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "d719e56e11c0f051",
+  "active": "4620b63e4c4c2bd1",
   "lastOpenFiles": [
+    "Изображения/Aiogram.png",
+    "Различные полезные модули/Geopy.md",
     "Базовые функции/F-Строки.md",
     "Базовые функции/Циклы.md",
     "Базовые функции/Функции.md",
     "Базы данных/SQLite.md",
     "Базовые функции/Декораторы.md",
-    "Различные полезные модули/Geopy.md",
     "Изображения/GeoPy.png",
     "Различные полезные модули/Rembg.md",
     "Встроенные модули/Collections.md",
