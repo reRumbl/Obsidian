@@ -4,19 +4,15 @@
 
 **Установка через cmd или terminal:**
 
-Python
-
-Копировать код
-
-`pip install aiogram`
+```Python
+pip install aiogram
+```
 
 **Подключение в проект:**
 
-Python
-
-Копировать код
-
-`from aiogram import Bot, Dispatcher`
+```Python
+import aiogram
+```
 
 **Создание простого бота:**
 
@@ -26,12 +22,33 @@ Python
     
 
 **Пример создания простого бота с помощью Aiogram 3:**
+```Python
+import asyncio 
+from aiogram import Bot, Dispatcher, types 
+from aiogram.types import ParseMode 
+from aiogram.contrib.middlewares.logging 
+import LoggingMiddleware 
+from aiogram.dispatcher.filters 
+import Command from aiogram.utils 
+import executor  
 
-Python
+API_TOKEN = 'YOUR_API_TOKEN_HERE'
+bot = Bot(token=API_TOKEN, parse_mode=ParseMode.HTML)
+dp = Dispatcher(bot) 
+dp.middleware.setup(LoggingMiddleware())
 
-Копировать код
 
-`import asyncio from aiogram import Bot, Dispatcher, types from aiogram.types import ParseMode from aiogram.contrib.middlewares.logging import LoggingMiddleware from aiogram.dispatcher.filters import Command from aiogram.utils import executor  # Укажите ваш токен бота API_TOKEN = 'YOUR_API_TOKEN_HERE'  # Инициализация бота и диспетчера bot = Bot(token=API_TOKEN, parse_mode=ParseMode.HTML) dp = Dispatcher(bot) dp.middleware.setup(LoggingMiddleware())  # Обработчик команды /start @dp.message_handler(Command("start")) async def send_welcome(message: types.Message):     await message.reply("Привет! Я бот на основе Aiogram 3. Как я могу помочь вам сегодня?")  # Обработчик текстовых сообщений @dp.message_handler() async def echo(message: types.Message):     await message.reply(message.text)  # Функция запуска бота if __name__ == '__main__':     executor.start_polling(dp, skip_updates=True)`
+@dp.message_handler(Command("start"))
+async def send_welcome(message: types.Message):     
+	await message.reply("Привет! Я бот на основе Aiogram 3. Как я могу помочь вам сегодня?")
+
+
+@dp.message_handler() 
+async def echo(message: types.Message):
+	await message.reply(message.text)
+	if __name__ == '__main__':
+		executor.start_polling(dp, skip_updates=True)
+```
 
 **Описание работы бота:**
 
