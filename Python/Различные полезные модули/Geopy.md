@@ -38,7 +38,10 @@ print("Долгота:", location.longitude)
 **Пример пространственного анализа при помощи GeoPy:**
 
 ```Python
-
+cords1 = (41.49008, -71.312796)
+cords2 = (41.499498, -81.695391)
+print(geopy.distance.distance(cords1, cords2).km)
+print(geopy.distance.great_circle(cords1, cords2).km)
 ```
 
 ## Визуализация данных
