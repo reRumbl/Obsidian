@@ -22,6 +22,7 @@ import aiogram
     
 
 **Пример создания простого бота с помощью Aiogram 3:**
+
 ```Python
 import asyncio 
 from aiogram import Bot, Dispatcher, types 
@@ -52,7 +53,7 @@ async def echo(message: types.Message):
 
 **Описание работы бота:**
 
-1. **Инициализация:** Бот и диспетчер инициализируются с использованием API-токена. `parse_mode=ParseMode.HTML` позволяет обрабатывать HTML-теги в сообщениях.
+1. **Инициализация:** Бот и диспетчер инициализируются с использованием API-токена. **parse_mode=ParseMode.HTML** позволяет обрабатывать HTML-теги в сообщениях.
     
 2. **Middleware:** Добавление middleware для логирования всех событий.
     

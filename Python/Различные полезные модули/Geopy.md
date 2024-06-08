@@ -44,6 +44,12 @@ print(geopy.distance.distance(cords1, cords2).km)
 print(geopy.distance.great_circle(cords1, cords2).km)
 ```
 
+**Конвертация и сравнение единиц измерения:**
+
+```Python
+print(geopy.distance.Distance(miles=10).km)
+print(geopy.distance.Distance(kilometers=2) > geopy.distance.Distance(miles=1))
+```
 ## Визуализация данных
 
 **Визуализация данных:** Геоданные можно визуализировать на картах, используя различные инструменты и библиотеки. Визуализация делает информацию более наглядной и понятной.

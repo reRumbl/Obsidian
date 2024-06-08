@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Различные полезные модули/Geopy.md",
+                "file": "Aiogram/Aiogram.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Различные полезные модули/Geopy.md",
+                "file": "Aiogram/Aiogram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Различные полезные модули/Geopy.md",
+                "file": "Aiogram/Aiogram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Различные полезные модули/Geopy.md"
+                "file": "Aiogram/Aiogram.md"
               }
             }
           }
@@ -148,6 +148,12 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "NumPy/NumPy.md",
+    "Pandas/Pandas.md",
+    "Pandas/DataFrame.md",
+    "PySide/Qt.md",
+    "Различные полезные модули/Geopy.md",
+    "PySide",
     "Базовые функции/F-Строки.md",
     "Базовые типы/Float.md",
     "Базовые типы/Function.md",
@@ -159,7 +165,6 @@
     "Встроенные модули/Math.md",
     "Aiogram/Aiogram.md",
     "Изображения/Aiogram.png",
-    "Различные полезные модули/Geopy.md",
     "Базовые функции/Циклы.md",
     "Базовые функции/Функции.md",
     "Базы данных/SQLite.md",
@@ -179,11 +184,7 @@
     "Изображения/Image without background.png",
     "NumPy/Array.md",
     "Изображения/Rembg.png",
-    "Разработка/Dotenv.md",
-    "Кастомные классы и функции/Linked List.md",
     "Различные полезные модули",
-    "Базовые функции/Исключения.md",
-    "Базовые функции/Ошибки.md",
     "Aiogram",
     "Изображения/Исключения.png",
     "Git",
@@ -193,7 +194,6 @@
     "Новый текстовый документ.txt",
     "Базы данных",
     "Logging",
-    "NumPy",
     "Без названия.canvas"
   ]
 }
