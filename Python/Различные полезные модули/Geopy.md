@@ -28,3 +28,4 @@ print("Адрес:", address)
 print("Широта:", location.latitude)
 print("Долгота:", location.longitude)
 ```
+

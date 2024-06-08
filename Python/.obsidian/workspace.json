@@ -13,22 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Базовые функции/F-Строки.md",
+                "file": "Различные полезные модули/Geopy.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "f844563cbeb45b5f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Базовые функции/F-Строки.md",
+                "file": "Различные полезные модули/Geopy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Базовые функции/F-Строки.md",
+                "file": "Различные полезные модули/Geopy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Базовые функции/F-Строки.md"
+                "file": "Различные полезные модули/Geopy.md"
               }
             }
           }
@@ -155,9 +146,15 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "f844563cbeb45b5f",
+  "active": "d719e56e11c0f051",
   "lastOpenFiles": [
     "Базовые функции/F-Строки.md",
+    "Базовые типы/Float.md",
+    "Базовые типы/Function.md",
+    "Базовые типы/Bool.md",
+    "Базовые типы/Int.md",
+    "Базовые типы/Str.md",
+    "Базовые типы",
     "Git/Gitignore.md",
     "Встроенные модули/Math.md",
     "Aiogram/Aiogram.md",
@@ -188,13 +185,8 @@
     "Базовые функции/Исключения.md",
     "Базовые функции/Ошибки.md",
     "Aiogram",
-    "Базы данных/PostgreSQL.md",
-    "Кастомные классы и функции/Binar Tree.md",
     "Изображения/Исключения.png",
-    "Requests/Requests.md",
     "Git",
-    "Pillow/Pillow.md",
-    "TensorFlow/Tensorflow.md",
     "Изображения/Os.png",
     "Встроенные модули",
     "Разработка",
@@ -202,7 +194,6 @@
     "Базы данных",
     "Logging",
     "NumPy",
-    "Pandas",
     "Без названия.canvas"
   ]
 }
