@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aiogram/Aiogram.md",
+                "file": "Различные полезные модули/BeautifullSoup.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Aiogram/Aiogram.md",
+                "file": "Различные полезные модули/BeautifullSoup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Aiogram/Aiogram.md",
+                "file": "Различные полезные модули/BeautifullSoup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Aiogram/Aiogram.md"
+                "file": "Различные полезные модули/BeautifullSoup.md"
               }
             }
           }
@@ -148,6 +148,16 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "ООП/Главные принципы ООП.md",
+    "Различные полезные модули/BeautifullSoup.md",
+    "ООП/Наследование.md",
+    "ООП/Свойства классов (Get и Set).md",
+    "ООП/Dunder-методы.md",
+    "ООП/Классы.md",
+    "Базовые функции/Декораторы.md",
+    "Асинхронность/Asyncio.md",
+    "Aiogram/Aiogram.md",
+    "Асинхронность",
     "NumPy/NumPy.md",
     "Pandas/Pandas.md",
     "Pandas/DataFrame.md",
@@ -163,26 +173,17 @@
     "Базовые типы",
     "Git/Gitignore.md",
     "Встроенные модули/Math.md",
-    "Aiogram/Aiogram.md",
     "Изображения/Aiogram.png",
     "Базовые функции/Циклы.md",
     "Базовые функции/Функции.md",
     "Базы данных/SQLite.md",
-    "Базовые функции/Декораторы.md",
     "Изображения/GeoPy.png",
     "Различные полезные модули/Rembg.md",
-    "Встроенные модули/Collections.md",
-    "Различные полезные модули/Termcolor.md",
     "Изображения/Termcolor.png",
-    "Встроенные модули/Os.md",
-    "Встроенные модули/Logging.md",
-    "Встроенные модули/Itertools.md",
-    "Встроенные модули/Random.md",
     "Изображения/Random.png",
     "Pasted image 20240606114043.png",
     "Изображения/Image with background.png",
     "Изображения/Image without background.png",
-    "NumPy/Array.md",
     "Изображения/Rembg.png",
     "Различные полезные модули",
     "Aiogram",
@@ -193,7 +194,6 @@
     "Разработка",
     "Новый текстовый документ.txt",
     "Базы данных",
-    "Logging",
     "Без названия.canvas"
   ]
 }
