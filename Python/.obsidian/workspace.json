@@ -27,7 +27,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,14 +155,14 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "d719e56e11c0f051",
+  "active": "f844563cbeb45b5f",
   "lastOpenFiles": [
+    "Базовые функции/F-Строки.md",
     "Git/Gitignore.md",
     "Встроенные модули/Math.md",
     "Aiogram/Aiogram.md",
     "Изображения/Aiogram.png",
     "Различные полезные модули/Geopy.md",
-    "Базовые функции/F-Строки.md",
     "Базовые функции/Циклы.md",
     "Базовые функции/Функции.md",
     "Базы данных/SQLite.md",
