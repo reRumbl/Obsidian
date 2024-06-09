@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Различные полезные модули/BeautifullSoup.md",
+                "file": "Различные полезные модули/SpeechRecognition.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "07cc5d988cf2b42d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.2"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Различные полезные модули/BeautifullSoup.md",
+                "file": "Различные полезные модули/SpeechRecognition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Различные полезные модули/BeautifullSoup.md",
+                "file": "Различные полезные модули/SpeechRecognition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Различные полезные модули/BeautifullSoup.md"
+                "file": "Различные полезные модули/SpeechRecognition.md"
               }
             }
           }
@@ -157,10 +146,11 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "07cc5d988cf2b42d",
+  "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "ООП/Главные принципы ООП.md",
     "Различные полезные модули/BeautifullSoup.md",
+    "Различные полезные модули/SpeechRecognition.md",
+    "ООП/Главные принципы ООП.md",
     "ООП/Наследование.md",
     "ООП/Свойства классов (Get и Set).md",
     "ООП/Dunder-методы.md",
@@ -189,7 +179,6 @@
     "Базовые функции/Функции.md",
     "Базы данных/SQLite.md",
     "Изображения/GeoPy.png",
-    "Различные полезные модули/Rembg.md",
     "Изображения/Termcolor.png",
     "Изображения/Random.png",
     "Pasted image 20240606114043.png",
