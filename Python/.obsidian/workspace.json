@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Различные полезные модули/SpeechRecognition.md",
+                "file": "Различные полезные модули/Rembg.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Различные полезные модули/SpeechRecognition.md",
+                "file": "Различные полезные модули/Rembg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Различные полезные модули/SpeechRecognition.md",
+                "file": "Различные полезные модули/Rembg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Различные полезные модули/SpeechRecognition.md"
+                "file": "Различные полезные модули/Rembg.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Различные полезные модули/BeautifullSoup.md",
     "Различные полезные модули/SpeechRecognition.md",
+    "Изображения/SpeechRecognition.png",
+    "Различные полезные модули/BeautifullSoup.md",
     "ООП/Главные принципы ООП.md",
     "ООП/Наследование.md",
     "ООП/Свойства классов (Get и Set).md",
@@ -177,7 +178,6 @@
     "Изображения/Aiogram.png",
     "Базовые функции/Циклы.md",
     "Базовые функции/Функции.md",
-    "Базы данных/SQLite.md",
     "Изображения/GeoPy.png",
     "Изображения/Termcolor.png",
     "Изображения/Random.png",
@@ -189,7 +189,6 @@
     "Aiogram",
     "Изображения/Исключения.png",
     "Git",
-    "Изображения/Os.png",
     "Встроенные модули",
     "Разработка",
     "Новый текстовый документ.txt",
