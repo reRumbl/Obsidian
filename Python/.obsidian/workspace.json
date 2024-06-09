@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ООП/Классы.md",
+                "file": "Pandas/DataFrame.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "cde2f9827377486d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ООП/Классы.md",
+                "file": "Pandas/DataFrame.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ООП/Классы.md",
+                "file": "Pandas/DataFrame.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ООП/Классы.md"
+                "file": "Pandas/DataFrame.md"
               }
             }
           }
@@ -157,8 +146,10 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "cde2f9827377486d",
+  "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Pandas/Pandas.md",
+    "ООП/Классы.md",
     "Различные полезные модули/SpeechRecognition.md",
     "Различные полезные модули/Termcolor.md",
     "Различные полезные модули/Rembg.md",
@@ -168,13 +159,11 @@
     "ООП/Наследование.md",
     "ООП/Свойства классов (Get и Set).md",
     "ООП/Dunder-методы.md",
-    "ООП/Классы.md",
     "Базовые функции/Декораторы.md",
     "Асинхронность/Asyncio.md",
     "Aiogram/Aiogram.md",
     "Асинхронность",
     "NumPy/NumPy.md",
-    "Pandas/Pandas.md",
     "Pandas/DataFrame.md",
     "PySide/Qt.md",
     "Различные полезные модули/Geopy.md",
