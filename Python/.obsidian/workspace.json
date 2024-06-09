@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Различные полезные модули/Rembg.md",
+                "file": "Различные полезные модули/SpeechRecognition.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Различные полезные модули/Rembg.md",
+                "file": "Различные полезные модули/SpeechRecognition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Различные полезные модули/Rembg.md",
+                "file": "Различные полезные модули/SpeechRecognition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Различные полезные модули/Rembg.md"
+                "file": "Различные полезные модули/SpeechRecognition.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Различные полезные модули/Termcolor.md",
+    "Различные полезные модули/Rembg.md",
     "Различные полезные модули/SpeechRecognition.md",
     "Изображения/SpeechRecognition.png",
     "Различные полезные модули/BeautifullSoup.md",
@@ -177,7 +179,6 @@
     "Встроенные модули/Math.md",
     "Изображения/Aiogram.png",
     "Базовые функции/Циклы.md",
-    "Базовые функции/Функции.md",
     "Изображения/GeoPy.png",
     "Изображения/Termcolor.png",
     "Изображения/Random.png",
