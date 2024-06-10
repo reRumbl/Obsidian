@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pandas/DataFrame.md",
+                "file": "Встроенные модули/Unittest.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pandas/DataFrame.md",
+                "file": "Встроенные модули/Unittest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pandas/DataFrame.md",
+                "file": "Встроенные модули/Unittest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pandas/DataFrame.md"
+                "file": "Встроенные модули/Unittest.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Pandas/DataFrame.md",
+    "Встроенные модули/Unittest.md",
+    "PyTorch",
     "Pandas/Pandas.md",
     "ООП/Классы.md",
     "Различные полезные модули/SpeechRecognition.md",
@@ -164,7 +167,6 @@
     "Aiogram/Aiogram.md",
     "Асинхронность",
     "NumPy/NumPy.md",
-    "Pandas/DataFrame.md",
     "PySide/Qt.md",
     "Различные полезные модули/Geopy.md",
     "PySide",
@@ -178,7 +180,6 @@
     "Git/Gitignore.md",
     "Встроенные модули/Math.md",
     "Изображения/Aiogram.png",
-    "Базовые функции/Циклы.md",
     "Изображения/GeoPy.png",
     "Изображения/Termcolor.png",
     "Изображения/Random.png",
@@ -193,7 +194,6 @@
     "Встроенные модули",
     "Разработка",
     "Новый текстовый документ.txt",
-    "Базы данных",
     "Без названия.canvas"
   ]
 }
