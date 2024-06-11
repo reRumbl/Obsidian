@@ -54,3 +54,27 @@ dima = People('Дмитрий', 'Чеботков', 19, 'Ozon-Фреш Конс�
 dima.age = 1488
 print(dima.age)
 ```
+
+**Пример класса с декораторами @property:**
+
+```Python
+class People:
+	def __init__(self):  # Конструктор класса
+		self._age = age
+
+	def set_age(self, age):  # Метод Get для поля age
+		self._age = age
+
+	def get_age(self):  # Метод Set для поля age
+		return self._age
+
+	def del_age(self):  # Метод Del для поля age
+		del self._age
+
+	age = property(get_age, set_age, del_age, 'Возраст')
+
+
+dima = People('Дмитрий', 'Чеботков', 19, 'Ozon-Фреш Консультант')
+dima.age = 1488
+print(dima.age)
+```
