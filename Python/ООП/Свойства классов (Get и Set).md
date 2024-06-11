@@ -20,6 +20,8 @@ class People:
 
 
 dima = People('Дмитрий', 'Чеботков', 19, 'Ozon-Фреш Консультант')
+dima.set_age(1488)
+print(dima.get_age() == dima._age)
 ```
 
 ## Использование функции property() в качестве геттеров и сеттеров
@@ -46,4 +48,9 @@ class People:
 		del self._age
 
 	age = property(get_age, set_age, del_age, 'Возраст')
+
+
+dima = People('Дмитрий', 'Чеботков', 19, 'Ozon-Фреш Консультант')
+dima.age = 1488
+print(dima.age)
 ```
