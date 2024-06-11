@@ -13,13 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pandas/DataFrame.md",
+                "file": "Стиль и оформление/PEP8.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "0a84eb4ec79ad8c6",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pandas/DataFrame.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pandas/DataFrame.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Pandas/DataFrame.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,12 +151,16 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "d719e56e11c0f051",
+  "active": "0a84eb4ec79ad8c6",
   "lastOpenFiles": [
-    "Встроенные модули/Os.md",
+    "Стиль и оформление/PEP8.md",
+    "Встроенные модули/Collections.md",
     "ООП/Классы.md",
-    "Встроенные модули/Unittest.md",
+    "Стиль и оформление",
+    "ООП/Главные принципы ООП.md",
     "Pandas/DataFrame.md",
+    "Встроенные модули/Os.md",
+    "Встроенные модули/Unittest.md",
     "PyTorch",
     "Pandas/Pandas.md",
     "Различные полезные модули/SpeechRecognition.md",
@@ -159,7 +168,6 @@
     "Различные полезные модули/Rembg.md",
     "Изображения/SpeechRecognition.png",
     "Различные полезные модули/BeautifullSoup.md",
-    "ООП/Главные принципы ООП.md",
     "ООП/Наследование.md",
     "ООП/Свойства классов (Get и Set).md",
     "ООП/Dunder-методы.md",
@@ -176,9 +184,7 @@
     "Базовые типы/Function.md",
     "Базовые типы/Bool.md",
     "Базовые типы/Int.md",
-    "Базовые типы/Str.md",
     "Базовые типы",
-    "Git/Gitignore.md",
     "Изображения/Aiogram.png",
     "Изображения/GeoPy.png",
     "Изображения/Termcolor.png",
@@ -193,7 +199,6 @@
     "Git",
     "Встроенные модули",
     "Разработка",
-    "Новый текстовый документ.txt",
     "Без названия.canvas"
   ]
 }
