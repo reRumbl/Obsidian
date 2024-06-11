@@ -6,11 +6,8 @@
 
 ```Python
 class People:
-	def __init__(self, name, surname, age, profession):  # Конструктор класса
-		self._name = name
-		self._surname = surname
+	def __init__(self, age = 0):  # Конструктор класса
 		self._age = age
-		self._profession = profession
 
 	def set_age(self, age):  # Метод Get для поля age
 		self._age = age
@@ -19,7 +16,7 @@ class People:
 		return self._age
 
 
-dima = People('Дмитрий', 'Чеботков', 19, 'Ozon-Фреш Консультант')
+dima = People()
 dima.set_age(1488)
 print(dima.get_age() == dima._age)
 ```
@@ -32,17 +29,14 @@ print(dima.get_age() == dima._age)
 
 ```Python
 class People:
-	def __init__(self, name, surname, age, profession):  # Конструктор класса
-		self._name = name
-		self._surname = surname
-		self._age = age
-		self._profession = profession
-
-	def set_age(self, age):  # Метод Get для поля age
+	def __init__(self, age = 0):  # Конструктор класса
 		self._age = age
 
-	def get_age(self):  # Метод Set для поля age
+	def get_age(self):  # Метод Get для поля age
 		return self._age
+
+	def set_age(self, age):  # Метод Set для поля age
+		self._age = age
 
 	def del_age(self):  # Метод Del для поля age
 		del self._age
@@ -62,14 +56,14 @@ class People:
 	def __init__(self):  # Конструктор класса
 		self._age = age
 
-	def set_age(self, age):  # Метод Get для поля age
-		self._age = age
-
-	def get_age(self):  # Метод Set для поля age
+	@property
+	def age(self, age):  # Метод Get для поля age
 		return self._age
 
-	def del_age(self):  # Метод Del для поля age
-		del self._age
+	@age.setter
+	def age(self, x):  # Метод Set для поля age
+		if (x < 0):
+			raise ValueError("Invalid age")
 
 	age = property(get_age, set_age, del_age, 'Возраст')
 
