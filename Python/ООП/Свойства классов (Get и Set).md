@@ -17,6 +17,9 @@ class People:
 
 	def get_age(self):  # Метод Set для поля age
 		return self._age
+
+
+dima = People('Дмитрий', 'Чеботков', 19, 'Ozon-Фреш Консультант')
 ```
 
 ## Использование функции property() в качестве геттеров и сеттеров
@@ -42,5 +45,5 @@ class People:
 	def del_age(self):  # Метод Del для поля age
 		del self._age
 
-	age = property(get_age, set_age, del_age, """Возраст""")
+	age = property(get_age, set_age, del_age, 'Возраст')
 ```
