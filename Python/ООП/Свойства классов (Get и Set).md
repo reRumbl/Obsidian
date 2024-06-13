@@ -44,7 +44,7 @@ class People:
 	age = property(get_age, set_age, del_age, 'Возраст')
 
 
-dima = People('Дмитрий', 'Чеботков', 19, 'Ozon-Фреш Консультант')
+dima = People()
 dima.age = 1488
 print(dima.age)
 ```
@@ -62,15 +62,19 @@ class People:
 
 	@age.setter
 	def age(self, age):  # Метод Set для поля age
-		if (x < 0):
+		if (age < 0):
 			raise ValueError("Invalid age")
 		self._age = age
 
 
-dima = People('Дмитрий', 'Чеботков', 19, 'Ozon-Фреш Консультант')
+dima = People()
 dima.age = 1488
 print(dima.age)
 ```
+
+## Приватные атрибуты и методы
+
+Сделаем методы закрытыми, чтобы внешние вызывающие [[Функции|функции]] не могли манипулировать переменными внутри них. Ими можно управлять только с помощью [[Функции|функций]], определенных в [[Классы|классе]]. Они становятся закрытыми, если ставить перед ними два символа подчеркивания.
 
 **Приватные атрибуты:**
 
@@ -86,7 +90,7 @@ class People:
 		self.___age = age
 
 
-dima = People('Дмитрий', 'Чеботков', 19, 'Ozon-Фреш Консультант')
+dima = People()
 print(dima._age)
 print(dima.get_age())
 dima.set_age(1488)
@@ -106,12 +110,12 @@ class People:
 
 	@age.setter
 	def age(self, age):  # Метод Set для поля age
-		if (x < 0):
-			raise ValueError("Invalid age")
-		self._age = age
+		self.___age = age
 
 
-dima = People('Дмитрий', 'Чеботков', 19, 'Ozon-Фреш Консультант')
+dima = People()
+print(dima._age)
+
 dima.age = 1488
 print(dima.age)
 ```
