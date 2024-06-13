@@ -119,5 +119,3 @@ print(dima._age)
 dima.age = 1488
 print(dima.age)
 ```
-
-
