@@ -57,7 +57,7 @@ class People:
 		self._age = age
 
 	@property
-	def age(self, age):  # Метод Get для поля age
+	def age(self):  # Метод Get для поля age
 		return self._age
 
 	@age.setter
@@ -79,16 +79,41 @@ class People:
 	def __init__(self):  # Конструктор класса
 		self._age = age
 
-	def get_age(self, age):  # Метод Get для поля age
+	def get_age(self):  # Метод Get для поля age
 		return self.___age
 
 	def age(self, age):  # Метод Set для поля age
+		self.___age = age
+
+
+dima = People('Дмитрий', 'Чеботков', 19, 'Ozon-Фреш Консультант')
+print(dima._age)
+print(dima.get_age())
+dima.set_age(1488)
+print(dima._age)
+```
+
+**Чтение значений из частных методов:**
+
+```Python
+class People:
+	def __init__(self):  # Конструктор класса
+		self._age = age
+
+	@property
+	def age(self):  # Метод Get для поля age
+		return self.___age
+
+	@age.setter
+	def age(self, age):  # Метод Set для поля age
 		if (x < 0):
 			raise ValueError("Invalid age")
-		self.___age = age
+		self._age = age
 
 
 dima = People('Дмитрий', 'Чеботков', 19, 'Ozon-Фреш Консультант')
 dima.age = 1488
 print(dima.age)
 ```
+
+
