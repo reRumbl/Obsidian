@@ -65,8 +65,6 @@ class People:
 		if (x < 0):
 			raise ValueError("Invalid age")
 
-	age = property(get_age, set_age, del_age, 'Возраст')
-
 
 dima = People('Дмитрий', 'Чеботков', 19, 'Ozon-Фреш Консультант')
 dima.age = 1488
