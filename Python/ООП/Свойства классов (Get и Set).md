@@ -61,9 +61,31 @@ class People:
 		return self._age
 
 	@age.setter
-	def age(self, x):  # Метод Set для поля age
+	def age(self, age):  # Метод Set для поля age
 		if (x < 0):
 			raise ValueError("Invalid age")
+		self._age = age
+
+
+dima = People('Дмитрий', 'Чеботков', 19, 'Ozon-Фреш Консультант')
+dima.age = 1488
+print(dima.age)
+```
+
+**Приватные атрибуты:**
+
+```Python
+class People:
+	def __init__(self):  # Конструктор класса
+		self._age = age
+
+	def get_age(self, age):  # Метод Get для поля age
+		return self.___age
+
+	def age(self, age):  # Метод Set для поля age
+		if (x < 0):
+			raise ValueError("Invalid age")
+		self.___age = age
 
 
 dima = People('Дмитрий', 'Чеботков', 19, 'Ozon-Фреш Консультант')
