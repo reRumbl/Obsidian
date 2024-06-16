@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TensorFlow/Tensorflow.md",
+                "file": "Различные полезные модули/SpeechRecognition.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TensorFlow/Tensorflow.md",
+                "file": "Различные полезные модули/SpeechRecognition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TensorFlow/Tensorflow.md",
+                "file": "Различные полезные модули/SpeechRecognition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TensorFlow/Tensorflow.md"
+                "file": "Различные полезные модули/SpeechRecognition.md"
               }
             }
           }
@@ -156,6 +156,8 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Различные полезные модули/Termcolor.md",
+    "TensorFlow/Tensorflow.md",
     "ООП/Свойства классов (Get и Set).md",
     "Стиль и оформление/PEP8.md",
     "Стиль и оформление/Docstring.md",
@@ -171,7 +173,6 @@
     "PyTorch",
     "Pandas/Pandas.md",
     "Различные полезные модули/SpeechRecognition.md",
-    "Различные полезные модули/Termcolor.md",
     "Различные полезные модули/Rembg.md",
     "Изображения/SpeechRecognition.png",
     "Различные полезные модули/BeautifullSoup.md",
@@ -186,7 +187,6 @@
     "PySide",
     "Базовые функции/F-Строки.md",
     "Базовые типы/Float.md",
-    "Базовые типы/Function.md",
     "Базовые типы",
     "Изображения/Aiogram.png",
     "Изображения/GeoPy.png",
