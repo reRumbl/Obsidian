@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Различные полезные модули/SpeechRecognition.md",
+                "file": "Различные полезные модули/PyScript.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Различные полезные модули/SpeechRecognition.md",
+                "file": "Различные полезные модули/PyScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Различные полезные модули/SpeechRecognition.md",
+                "file": "Различные полезные модули/PyScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Различные полезные модули/SpeechRecognition.md"
+                "file": "Различные полезные модули/PyScript.md"
               }
             }
           }
@@ -156,6 +156,9 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Различные полезные модули/SpeechRecognition.md",
+    "Различные полезные модули/PyScript.md",
+    "Без названия",
     "Различные полезные модули/Termcolor.md",
     "TensorFlow/Tensorflow.md",
     "ООП/Свойства классов (Get и Set).md",
@@ -172,7 +175,6 @@
     "Встроенные модули/Unittest.md",
     "PyTorch",
     "Pandas/Pandas.md",
-    "Различные полезные модули/SpeechRecognition.md",
     "Различные полезные модули/Rembg.md",
     "Изображения/SpeechRecognition.png",
     "Различные полезные модули/BeautifullSoup.md",
@@ -186,7 +188,6 @@
     "Различные полезные модули/Geopy.md",
     "PySide",
     "Базовые функции/F-Строки.md",
-    "Базовые типы/Float.md",
     "Базовые типы",
     "Изображения/Aiogram.png",
     "Изображения/GeoPy.png",
@@ -201,7 +202,6 @@
     "Изображения/Исключения.png",
     "Git",
     "Встроенные модули",
-    "Разработка",
     "Без названия.canvas"
   ]
 }
