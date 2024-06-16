@@ -154,11 +154,13 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "d719e56e11c0f051",
+  "active": "4620b63e4c4c2bd1",
   "lastOpenFiles": [
+    "FastAPI",
+    "Flask",
+    "Django",
     "Различные полезные модули/SpeechRecognition.md",
     "Различные полезные модули/PyScript.md",
-    "Без названия",
     "Различные полезные модули/Termcolor.md",
     "TensorFlow/Tensorflow.md",
     "ООП/Свойства классов (Get и Set).md",
@@ -187,7 +189,6 @@
     "PySide/Qt.md",
     "Различные полезные модули/Geopy.md",
     "PySide",
-    "Базовые функции/F-Строки.md",
     "Базовые типы",
     "Изображения/Aiogram.png",
     "Изображения/GeoPy.png",
@@ -201,7 +202,6 @@
     "Aiogram",
     "Изображения/Исключения.png",
     "Git",
-    "Встроенные модули",
     "Без названия.canvas"
   ]
 }
