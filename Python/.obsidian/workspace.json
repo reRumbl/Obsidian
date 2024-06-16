@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Различные полезные модули/PyScript.md",
+                "file": "Git/Gitignore.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Различные полезные модули/PyScript.md",
+                "file": "Git/Gitignore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Различные полезные модули/PyScript.md",
+                "file": "Git/Gitignore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Различные полезные модули/PyScript.md"
+                "file": "Git/Gitignore.md"
               }
             }
           }
@@ -154,13 +154,13 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "4620b63e4c4c2bd1",
+  "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Различные полезные модули/PyScript.md",
     "FastAPI",
     "Flask",
     "Django",
     "Различные полезные модули/SpeechRecognition.md",
-    "Различные полезные модули/PyScript.md",
     "Различные полезные модули/Termcolor.md",
     "TensorFlow/Tensorflow.md",
     "ООП/Свойства классов (Get и Set).md",
@@ -201,7 +201,6 @@
     "Различные полезные модули",
     "Aiogram",
     "Изображения/Исключения.png",
-    "Git",
     "Без названия.canvas"
   ]
 }
