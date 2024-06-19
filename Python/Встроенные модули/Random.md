@@ -44,7 +44,9 @@ import random
 **Пример использования функции random():**
 
 ```Python
-print(f'Вывод случайного числа: {random.random()}')
+rnum = random.random()
+print(f'Вывод случайного числа: {rnum}')
 ```
 
-Пример
+**Генерация случайных целых чисел при помощи randint и randrange():**
+
