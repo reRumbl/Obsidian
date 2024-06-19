@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PyTorch/Тензоры в PyTorch.md",
+                "file": "PyTorch/Нейронные сети в PyTorch.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PyTorch/Тензоры в PyTorch.md",
+                "file": "PyTorch/Нейронные сети в PyTorch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PyTorch/Тензоры в PyTorch.md",
+                "file": "PyTorch/Нейронные сети в PyTorch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PyTorch/Тензоры в PyTorch.md"
+                "file": "PyTorch/Нейронные сети в PyTorch.md"
               }
             }
           }
@@ -156,12 +156,13 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "PyTorch/Тензоры в PyTorch.md",
+    "PyTorch/Нейронные сети в PyTorch.md",
     "PyTorch/PyTorch.md",
     "NumPy/Ndarray.md",
     "NumPy/NumPy.md",
     "Встроенные модули/Random.md",
     "Git/Gitignore.md",
-    "PyTorch/Тензоры в PyTorch.md",
     "TensorFlow/Tensorflow.md",
     "Изображения/PyTorch.png",
     "Изображения/Keras.png",
@@ -190,7 +191,6 @@
     "Различные полезные модули/Rembg.md",
     "Изображения/SpeechRecognition.png",
     "Различные полезные модули/BeautifullSoup.md",
-    "ООП/Dunder-методы.md",
     "Асинхронность",
     "PySide",
     "Базовые типы",

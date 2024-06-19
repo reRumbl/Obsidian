@@ -61,7 +61,8 @@ print(a.sum())
 ```Python
 import numpy as np
 
-a = torch.tensor(np.random.random((3, 3)), dtype=torch.float32) b = torch.tensor(np.random.random((3, 3)), dtype=torch.float32)
+a = torch.tensor(np.random.random((3, 3)), dtype=torch.float32)
+b = torch.tensor(np.random.random((3, 3)), dtype=torch.float32)
 ```
 
 
