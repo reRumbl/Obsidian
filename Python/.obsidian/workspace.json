@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Gitignore.md",
+                "file": "Встроенные модули/Random.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Gitignore.md",
+                "file": "Встроенные модули/Random.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Gitignore.md",
+                "file": "Встроенные модули/Random.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Gitignore.md"
+                "file": "Встроенные модули/Random.md"
               }
             }
           }
@@ -156,6 +156,7 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Git/Gitignore.md",
     "PyTorch/Тензоры в PyTorch.md",
     "PyTorch/PyTorch.md",
     "TensorFlow/Tensorflow.md",
@@ -164,7 +165,6 @@
     "TensorFlow/GradientTape.md",
     "Изображения/TensorFlow.png",
     "Различные полезные модули/SpeechRecognition.md",
-    "Git/Gitignore.md",
     "Различные полезные модули/PyScript.md",
     "FastAPI",
     "Flask",
