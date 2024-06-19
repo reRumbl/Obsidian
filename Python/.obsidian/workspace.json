@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NumPy/Array.md",
+                "file": "NumPy/Ndarray.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NumPy/Array.md",
+                "file": "NumPy/Ndarray.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NumPy/Array.md",
+                "file": "NumPy/Ndarray.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NumPy/Array.md"
+                "file": "NumPy/Ndarray.md"
               }
             }
           }
@@ -157,6 +157,7 @@
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
     "NumPy/NumPy.md",
+    "NumPy/Ndarray.md",
     "Встроенные модули/Random.md",
     "Git/Gitignore.md",
     "PyTorch/Тензоры в PyTorch.md",
@@ -190,7 +191,6 @@
     "Изображения/SpeechRecognition.png",
     "Различные полезные модули/BeautifullSoup.md",
     "ООП/Dunder-методы.md",
-    "Базовые функции/Декораторы.md",
     "Асинхронность",
     "PySide",
     "Базовые типы",
