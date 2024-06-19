@@ -53,7 +53,6 @@ labels = torch.randint(0, 3, (10,), dtype=torch.long)  # 10 меток в диа
 model.fit(train_data, labels, epochs=20)
 ```
 
-
-
+Пример базовой нейронной сети для классификации изображений из набора данных 
 
 
