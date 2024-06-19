@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные модули/Random.md",
+                "file": "NumPy/Array.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные модули/Random.md",
+                "file": "NumPy/Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные модули/Random.md",
+                "file": "NumPy/Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные модули/Random.md"
+                "file": "NumPy/Array.md"
               }
             }
           }
@@ -156,6 +156,8 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "NumPy/NumPy.md",
+    "Встроенные модули/Random.md",
     "Git/Gitignore.md",
     "PyTorch/Тензоры в PyTorch.md",
     "PyTorch/PyTorch.md",
@@ -189,8 +191,6 @@
     "Различные полезные модули/BeautifullSoup.md",
     "ООП/Dunder-методы.md",
     "Базовые функции/Декораторы.md",
-    "Асинхронность/Asyncio.md",
-    "Aiogram/Aiogram.md",
     "Асинхронность",
     "PySide",
     "Базовые типы",
