@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PyTorch/Нейронные сети в PyTorch.md",
+                "file": "PyTorch/Загрузка данных в PyTorch.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PyTorch/Нейронные сети в PyTorch.md",
+                "file": "PyTorch/Загрузка данных в PyTorch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PyTorch/Нейронные сети в PyTorch.md",
+                "file": "PyTorch/Загрузка данных в PyTorch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PyTorch/Нейронные сети в PyTorch.md"
+                "file": "PyTorch/Загрузка данных в PyTorch.md"
               }
             }
           }
@@ -156,8 +156,9 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "PyTorch/Тензоры в PyTorch.md",
+    "PyTorch/Загрузка данных в PyTorch.md",
     "PyTorch/Нейронные сети в PyTorch.md",
+    "PyTorch/Тензоры в PyTorch.md",
     "PyTorch/PyTorch.md",
     "NumPy/Ndarray.md",
     "NumPy/NumPy.md",
@@ -190,7 +191,6 @@
     "Pandas/Pandas.md",
     "Различные полезные модули/Rembg.md",
     "Изображения/SpeechRecognition.png",
-    "Различные полезные модули/BeautifullSoup.md",
     "Асинхронность",
     "PySide",
     "Базовые типы",

@@ -51,8 +51,6 @@ labels = torch.randint(0, 3, (10,), dtype=torch.long)  # 10 меток в диа
   
 # Обучение модели  
 model.fit(train_data, labels, epochs=20)
-
-print(model(torch.tensor([1, 2, 3])))
 ```
 
 
