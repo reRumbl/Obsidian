@@ -59,6 +59,16 @@ print(a.sum())
 **Создание тензоров указанной размерности со случайными значениями:**
 
 ```Python
+rand_tensor = torch.rand(3, dtype=torch.float32) * 10  # Случайные значения от 0 до 10
+
+randn_tensor = torch.randn((7, 3)) # Случайные значения из нормального распределения
+
+randint_tensor = torch.randint(low, high, size)
+```
+
+**Создание тензоров указанной размерности со случайными значениями через NumPy:**
+
+```Python
 import numpy as np
 
 a = torch.tensor(np.random.random((3, 3)), dtype=torch.float32)
