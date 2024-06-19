@@ -154,8 +154,9 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "d719e56e11c0f051",
+  "active": "4620b63e4c4c2bd1",
   "lastOpenFiles": [
+    "Изображения/Keras.png",
     "TensorFlow/GradientTape.md",
     "TensorFlow/Tensorflow.md",
     "Изображения/TensorFlow.png",
@@ -189,7 +190,6 @@
     "Асинхронность/Asyncio.md",
     "Aiogram/Aiogram.md",
     "Асинхронность",
-    "NumPy/NumPy.md",
     "PySide",
     "Базовые типы",
     "Изображения/Aiogram.png",

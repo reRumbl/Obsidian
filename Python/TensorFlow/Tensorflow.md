@@ -32,5 +32,9 @@ model.compile(optimizer="rmsprop", loss="sparse_categorical_crossentropy", metri
 model.fit(train_images, train_labels, epochs=5, batch_size=128)
 ```
 
+## Keras
 
+Глубокое обучение в TensorFlow реализуется через библиотек **Keras**. **Keras** — это библиотека глубокого обучения для Python, основанная на TensorFlow, которая обеспечивает удобный способ определения и тренировки моделей глубокого обучения. Первоначально **Keras** создавалась для исследований с целью упростить эксперименты с глубоким обучением.
+
+![[Keras.png]]
 
