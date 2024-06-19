@@ -14,7 +14,7 @@ pip install tensorflow
 import tensorflow
 ```
 
-**Построение базовой нейронной сети на TensoFlow:**
+**Построение и обучение базовой нейронной сети на TensoFlow:**
 
 ```Python
 (train_images, train_labels), (test_images, test_labels) = mnist.load_data() train_images = train_images.reshape((60000, 28 * 28))
@@ -26,5 +26,11 @@ model = keras.Sequential([
 	layers.Dense(512, activation="relu"),
 	layers.Dense(10, activation="softmax")
 ])
+
+model.compile(optimizer="rmsprop", loss="sparse_categorical_crossentropy", metrics=["accuracy"])
+
+model.fit(train_images, train_labels, epochs=5, batch_size=128)
 ```
+
+
 
