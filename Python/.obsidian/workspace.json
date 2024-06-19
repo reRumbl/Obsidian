@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TensorFlow/Tensorflow.md",
+                "file": "TensorFlow/GradientTape.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TensorFlow/Tensorflow.md",
+                "file": "TensorFlow/GradientTape.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TensorFlow/Tensorflow.md",
+                "file": "TensorFlow/GradientTape.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TensorFlow/Tensorflow.md"
+                "file": "TensorFlow/GradientTape.md"
               }
             }
           }
@@ -156,14 +156,17 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "TensorFlow/Tensorflow.md",
+    "TensorFlow/GradientTape.md",
+    "Изображения/TensorFlow.png",
+    "PyTorch/PyTorch.md",
+    "Различные полезные модули/SpeechRecognition.md",
     "Git/Gitignore.md",
     "Различные полезные модули/PyScript.md",
     "FastAPI",
     "Flask",
     "Django",
-    "Различные полезные модули/SpeechRecognition.md",
     "Различные полезные модули/Termcolor.md",
-    "TensorFlow/Tensorflow.md",
     "ООП/Свойства классов (Get и Set).md",
     "Стиль и оформление/PEP8.md",
     "Стиль и оформление/Docstring.md",
@@ -187,8 +190,6 @@
     "Aiogram/Aiogram.md",
     "Асинхронность",
     "NumPy/NumPy.md",
-    "PySide/Qt.md",
-    "Различные полезные модули/Geopy.md",
     "PySide",
     "Базовые типы",
     "Изображения/Aiogram.png",
@@ -201,7 +202,6 @@
     "Изображения/Rembg.png",
     "Различные полезные модули",
     "Aiogram",
-    "Изображения/Исключения.png",
     "Без названия.canvas"
   ]
 }
