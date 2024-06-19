@@ -13,8 +13,13 @@ pip install tensorflow
 ```Python
 import tensorflow
 ```
+## Keras
 
-**Построение и обучение базовой нейронной сети на TensoFlow:**
+Глубокое обучение в TensorFlow реализуется через библиотеку **Keras**. **Keras** — это библиотека глубокого обучения для Python, основанная на TensorFlow, которая обеспечивает удобный способ определения и тренировки моделей глубокого обучения. Первоначально **Keras** создавалась для исследований с целью упростить эксперименты с глубоким обучением.
+
+![[Keras.png]]
+
+**Построение и обучение базовой нейронной сети на TensorFlow:**
 
 ```Python
 (train_images, train_labels), (test_images, test_labels) = mnist.load_data() train_images = train_images.reshape((60000, 28 * 28))
@@ -31,10 +36,3 @@ model.compile(optimizer="rmsprop", loss="sparse_categorical_crossentropy", metri
 
 model.fit(train_images, train_labels, epochs=5, batch_size=128)
 ```
-
-## Keras
-
-Глубокое обучение в TensorFlow реализуется через библиотек **Keras**. **Keras** — это библиотека глубокого обучения для Python, основанная на TensorFlow, которая обеспечивает удобный способ определения и тренировки моделей глубокого обучения. Первоначально **Keras** создавалась для исследований с целью упростить эксперименты с глубоким обучением.
-
-![[Keras.png]]
-
