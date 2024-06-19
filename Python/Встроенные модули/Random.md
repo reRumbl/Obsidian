@@ -58,5 +58,8 @@ print(f'Вывод случайного целого числа с шагом: {
 **Выбор случайного элемента из последовательности при помощи choice():**
 
 ```Python
-
+city_list = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Philadelphia']
+print("Выбор случайного города из списка: ", random.choice(city_list))
 ```
+
+Выборка элементов из последовательности при помощи sample():
