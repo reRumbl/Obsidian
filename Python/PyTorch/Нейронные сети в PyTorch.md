@@ -3,25 +3,26 @@
 **Пример простой нейронной сети на PyTorch:**
 
 ```Python
-import torch.nn as nn
+import torch
+from torch import nn
 
-# Определение нейронной сети на основе nn.Module
-class SimpleNN(nn.Module):
+class NeuralNetwork(nn.Module):
     def __init__(self):
-        super(SimpleNN, self).__init__()
-        self.fc1 = nn.Linear(3, 3)  # Полносвязный слой (fully connected layer)
+        super(NeuralNetwork, self).__init__()
+        self.fc1 = nn.Linear(3, 3, dtype=torch.float32)
 
-    def forward(self, x):  # Переопределение метода forward()
+    def forward(self, x):
         x = self.fc1(x)
         return x
 
-# Создание экземпляра модели
-model = SimpleNN()
+model = NeuralNetwork()
 
-# Пример ввода
-input_tensor = torch.tensor([1.0, 2.0, 3.0])
+# Генерация случайного тензора с использованием PyTorch
+input_tensor = torch.rand(3, dtype=torch.float32) * 10  # случайные значения от 0 до 10
+print(f'Input: {input_tensor}')
+
 output_tensor = model(input_tensor)
-print("Output:", output_tensor)
+print(f'Output: {output_tensor}')
 ```
 
 
