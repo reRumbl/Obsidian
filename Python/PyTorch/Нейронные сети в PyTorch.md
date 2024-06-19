@@ -15,15 +15,46 @@ class NeuralNetwork(nn.Module):
         x = self.fc1(x)
         return x
 
-model = NeuralNetwork()
+	def fit(self, x_train, x_labels, epochs=100):  
+    self.loss_func = nn.CrossEntropyLoss()  
+    self.optimizer = optim.Adam(self.parameters(), lr=0.001)  
+  
+    for epoch in range(epochs):  
+        epoch_loss = 0.0  
+  
+        for i in range(x_train.size(0)):  
+            # Прямой проход  
+            outputs = self(x_train[i])  
+  
+            # Вычисление потерь  
+            loss = self.loss_func(outputs.unsqueeze(0), x_labels[i].unsqueeze(0))  
+  
+            # Обратное распространение  
+            self.optimizer.zero_grad()  
+            loss.backward()  
+  
+            # Обновление параметров  
+            self.optimizer.step()  
+  
+            epoch_loss += loss.item()  
+  
+        # Средние потери за эпоху  
+        epoch_loss /= x_train.size(0)  
+        print(f'Epoch {epoch + 1}/{epochs}, Loss: {epoch_loss:.4f}')
 
-# Генерация случайного тензора с использованием PyTorch
-input_tensor = torch.rand(3, dtype=torch.float32) * 10  # случайные значения от 0 до 10
-print(f'Input: {input_tensor}')
 
-output_tensor = model(input_tensor)
-print(f'Output: {output_tensor}')
+model = NeuralNetwork()  
+  
+# Генерация случайных данных для тренировки  
+train_data = torch.rand((10, 3), dtype=torch.float32)  # 10 примеров, 3 входа каждый  
+labels = torch.randint(0, 3, (10,), dtype=torch.long)  # 10 меток в диапазоне [0, 3)  
+  
+# Обучение модели  
+model.fit(train_data, labels, epochs=20)
+
+print(model(torch.tensor([1, 2, 3])))
 ```
+
 
 
 
