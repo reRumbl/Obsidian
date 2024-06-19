@@ -59,7 +59,13 @@ print(f'Вывод случайного целого числа с шагом: {
 
 ```Python
 city_list = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Philadelphia']
-print("Выбор случайного города из списка: ", random.choice(city_list))
+print(f'Выбор случайного города из списка: {random.choice(city_list)}')
 ```
 
-Выборка элементов из последовательности при помощи sample():
+**Выборка элементов из последовательности при помощи sample():**
+
+```Python
+sequence = [228, 2, -56, 81, 9, -123, 133, 1488]
+
+print (f'Выборка 3-х случайных элементов: {random.sample(sequence, 3)}')
+```
