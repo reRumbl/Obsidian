@@ -63,7 +63,7 @@ rand_tensor = torch.rand(3, dtype=torch.float32) * 10  # Случайные зн
 
 randn_tensor = torch.randn((7, 3)) # Случайные значения из нормального распределения
 
-randint_tensor = torch.randint(low, high, size)
+randint_tensor = torch.randint(0, 255, (4, 9))  # Случайные целые числа в диапазоне
 ```
 
 **Создание тензоров указанной размерности со случайными значениями через NumPy:**
@@ -72,7 +72,7 @@ randint_tensor = torch.randint(low, high, size)
 import numpy as np
 
 a = torch.tensor(np.random.random((3, 3)), dtype=torch.float32)
-b = torch.tensor(np.random.random((3, 3)), dtype=torch.float32)
+b = torch.tensor(np.random.uniform(0.0, 10.0, (3, 3)), dtype=torch.float32)
 ```
 
 
