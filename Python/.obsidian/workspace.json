@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PyTorch/Нейронные сети в PyTorch.md",
+                "file": "FastAPI/FastAPI.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PyTorch/Нейронные сети в PyTorch.md",
+                "file": "FastAPI/FastAPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PyTorch/Нейронные сети в PyTorch.md",
+                "file": "FastAPI/FastAPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PyTorch/Нейронные сети в PyTorch.md"
+                "file": "FastAPI/FastAPI.md"
               }
             }
           }
@@ -157,6 +157,7 @@
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
     "PyTorch/Загрузка данных в PyTorch.md",
+    "FastAPI/FastAPI.md",
     "PyTorch/Нейронные сети в PyTorch.md",
     "PyTorch/Тензоры в PyTorch.md",
     "PyTorch/PyTorch.md",
@@ -189,7 +190,6 @@
     "Встроенные модули/Unittest.md",
     "PyTorch",
     "Pandas/Pandas.md",
-    "Различные полезные модули/Rembg.md",
     "Изображения/SpeechRecognition.png",
     "Асинхронность",
     "PySide",
