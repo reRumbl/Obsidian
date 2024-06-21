@@ -35,4 +35,16 @@ def read_root():
     return {'message': 'Hello, World!'}
 ```
 
-Для запуска веб-приложений на FastAPI требуется использовать библи
+**Для запуска веб-приложений на FastAPI требуется использовать пакет uvicorn:**
+
+```Python
+pip install uvicorn
+```
+
+*Запуск:*
+
+Команда запуска имеет следующий формат: uvicorn {script_name}:{application_name} other_parameters
+
+```Python
+uvicorn main:app --reload
+```
