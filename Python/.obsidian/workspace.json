@@ -154,8 +154,9 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "d719e56e11c0f051",
+  "active": "4620b63e4c4c2bd1",
   "lastOpenFiles": [
+    "Изображения/FastAPI.png",
     "Pandas/Pandas.md",
     "FastAPI/FastAPI.md",
     "PyTorch/Загрузка данных в PyTorch.md",
@@ -188,7 +189,6 @@
     "Стиль и оформление",
     "Pandas/DataFrame.md",
     "Встроенные модули/Os.md",
-    "Встроенные модули/Unittest.md",
     "PyTorch",
     "Изображения/SpeechRecognition.png",
     "Асинхронность",
