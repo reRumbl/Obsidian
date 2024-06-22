@@ -57,7 +57,7 @@ def read_root():
     return {'message': 'Hello, World!'}  
   
   
-@app.get("/items/{item_id}")  
+@app.get("/items/{item_id}")
 def get_item_id(item_id: int):  
     return {'item_id': item_id,  
             'message': f'Item id is {item_id}'}
