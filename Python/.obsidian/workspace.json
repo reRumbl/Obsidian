@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/FastAPI.md",
+                "file": "Git/Gitignore.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FastAPI/FastAPI.md",
+                "file": "Git/Gitignore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FastAPI/FastAPI.md",
+                "file": "Git/Gitignore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FastAPI/FastAPI.md"
+                "file": "Git/Gitignore.md"
               }
             }
           }
@@ -156,8 +156,8 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Различные полезные модули/Rembg.md",
     "FastAPI/FastAPI.md",
+    "Различные полезные модули/Rembg.md",
     "Изображения/FastAPI.png",
     "Pandas/Pandas.md",
     "PyTorch/Загрузка данных в PyTorch.md",
