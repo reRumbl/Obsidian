@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/FastAPI.md",
+                "file": "FastAPI/Pydantic.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FastAPI/FastAPI.md",
+                "file": "FastAPI/Pydantic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FastAPI/FastAPI.md",
+                "file": "FastAPI/Pydantic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FastAPI/FastAPI.md"
+                "file": "FastAPI/Pydantic.md"
               }
             }
           }
@@ -156,8 +156,9 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Git/Gitignore.md",
     "FastAPI/FastAPI.md",
+    "FastAPI/Pydantic.md",
+    "Git/Gitignore.md",
     "Различные полезные модули/Rembg.md",
     "Изображения/FastAPI.png",
     "Pandas/Pandas.md",
@@ -189,7 +190,6 @@
     "Встроенные модули/Collections.md",
     "Стиль и оформление",
     "Pandas/DataFrame.md",
-    "Встроенные модули/Os.md",
     "PyTorch",
     "Изображения/SpeechRecognition.png",
     "Асинхронность",
