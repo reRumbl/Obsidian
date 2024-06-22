@@ -24,6 +24,25 @@ pip install fastapi
 import fastapi
 ```
 
+**Для запуска веб-приложений на FastAPI требуется использовать пакет uvicorn:**
+
+```Python
+pip install uvicorn
+```
+
+*Запуск:*
+
+Команда запуска имеет следующий формат: uvicorn {script_name}:{application_name} other_parameters
+
+```Python
+uvicorn main:app --reload
+```
+
+Также можно использовать метод run() из данного пакета
+
+```P
+```
+
 **Простейшее веб-приложение на FastAPI:**
 
 ```Python
@@ -39,18 +58,4 @@ def read_root():
 
 if __name__ == '__main__':
     uvicorn.run(app, host="0.0.0.0", port=8000)
-```
-
-**Для запуска веб-приложений на FastAPI требуется использовать пакет uvicorn:**
-
-```Python
-pip install uvicorn
-```
-
-*Запуск:*
-
-Команда запуска имеет следующий формат: uvicorn {script_name}:{application_name} other_parameters
-
-```Python
-uvicorn main:app --reload
 ```
