@@ -44,7 +44,7 @@ uvicorn main:app --reload
 uvicorn.run(app, host='127.0.0.1', port=8000)
 ```
 
-**Простейшее веб-приложение на FastAPI:**
+**Простое веб-приложение на FastAPI:**
 
 ```Python
 from fastapi import FastAPI
