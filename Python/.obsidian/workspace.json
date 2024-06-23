@@ -154,8 +154,9 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "d719e56e11c0f051",
+  "active": "4620b63e4c4c2bd1",
   "lastOpenFiles": [
+    "Изображения/Документация FastAPI.png",
     "FastAPI/Pydantic.md",
     "FastAPI/Документация FastAPI.md",
     "FastAPI/FastAPI.md",
@@ -189,7 +190,6 @@
     "ООП/Главные принципы ООП.md",
     "ООП/Наследование.md",
     "ООП/Классы.md",
-    "Встроенные модули/Collections.md",
     "Стиль и оформление",
     "PyTorch",
     "Изображения/SpeechRecognition.png",
