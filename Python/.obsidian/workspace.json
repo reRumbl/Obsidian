@@ -154,8 +154,9 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "d719e56e11c0f051",
+  "active": "4620b63e4c4c2bd1",
   "lastOpenFiles": [
+    "Изображения/Pydantic.png",
     "FastAPI/FastAPI.md",
     "FastAPI/Pydantic.md",
     "Git/Gitignore.md",
@@ -189,7 +190,6 @@
     "ООП/Классы.md",
     "Встроенные модули/Collections.md",
     "Стиль и оформление",
-    "Pandas/DataFrame.md",
     "PyTorch",
     "Изображения/SpeechRecognition.png",
     "Асинхронность",
