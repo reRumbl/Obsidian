@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Автоматическая документация FastAPI.md",
+                "file": "FastAPI/Валидация данных в FastAPI.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FastAPI/Автоматическая документация FastAPI.md",
+                "file": "FastAPI/Валидация данных в FastAPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FastAPI/Автоматическая документация FastAPI.md",
+                "file": "FastAPI/Валидация данных в FastAPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FastAPI/Автоматическая документация FastAPI.md"
+                "file": "FastAPI/Валидация данных в FastAPI.md"
               }
             }
           }
@@ -156,15 +156,16 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "FastAPI/Endpoint и Параметры URL в FastAPI.md",
-    "FastAPI/Автоматическая документация FastAPI.md",
+    "Различные полезные модули/Pydantic.md",
+    "FastAPI/Валидация данных в FastAPI.md",
     "FastAPI/FastAPI.md",
+    "FastAPI/Автоматическая документация FastAPI.md",
+    "FastAPI/Endpoint и Параметры URL в FastAPI.md",
     "Асинхронность/Асинхронные функции.md",
     "Flask/Flask.md",
     "F.md",
     "Изображения/ReDoc.png",
     "Изображения/Документация FastAPI.png",
-    "FastAPI/Pydantic.md",
     "Изображения/Pydantic.png",
     "Git/Gitignore.md",
     "Различные полезные модули/Rembg.md",
@@ -191,7 +192,6 @@
     "ООП/Свойства классов (Get и Set).md",
     "Стиль и оформление/PEP8.md",
     "Стиль и оформление/Docstring.md",
-    "Стиль и оформление/Аннотации типов.md",
     "Стиль и оформление",
     "PyTorch",
     "Изображения/SpeechRecognition.png",
