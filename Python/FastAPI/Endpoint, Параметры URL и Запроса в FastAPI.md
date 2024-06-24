@@ -15,4 +15,16 @@ def get_hello():
 
 Для передачи параметров через URL нужно указать название этих параметров в фигурных скобках при создании **endpoint**. А добавить этот параметр в качестве аргумента функции, к которой прилагается соответствующий [[Декораторы|декоратор]].
 
-Пример передачи параметров 
+**Пример передачи параметров через URL:**
+
+```Python
+from fastapi import FastAPI
+
+app = FastAPI()
+
+
+@app.get("/items/{item_id}")
+def get_item_id(item_id: int):  
+    return {'item_id': item_id,  
+            'message': f'Item id is {item_id}'}
+```
