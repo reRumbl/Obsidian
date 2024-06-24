@@ -156,11 +156,11 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "FastAPI/FastAPI.md",
+    "FastAPI/Документация FastAPI.md",
     "Изображения/ReDoc.png",
     "Изображения/Документация FastAPI.png",
     "FastAPI/Pydantic.md",
-    "FastAPI/Документация FastAPI.md",
-    "FastAPI/FastAPI.md",
     "Изображения/Pydantic.png",
     "Git/Gitignore.md",
     "Различные полезные модули/Rembg.md",
@@ -199,7 +199,6 @@
     "Базовые типы",
     "Изображения/Aiogram.png",
     "Изображения/GeoPy.png",
-    "Изображения/Termcolor.png",
     "Различные полезные модули",
     "Aiogram",
     "Без названия.canvas"
