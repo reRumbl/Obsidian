@@ -28,5 +28,3 @@ def get_item_id(item_id: int):
     return {'item_id': item_id,
             'message': f'Item id is {item_id}'}
 ```
-
-Пример
