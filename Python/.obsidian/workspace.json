@@ -156,10 +156,10 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "FastAPI/Автоматическая документация FastAPI.md",
+    "FastAPI/Валидация данных в FastAPI.md",
     "FastAPI/Endpoint и Параметры URL в FastAPI.md",
     "FastAPI/FastAPI.md",
-    "FastAPI/Валидация данных в FastAPI.md",
-    "FastAPI/Автоматическая документация FastAPI.md",
     "Различные полезные модули/Pydantic.md",
     "Асинхронность/Асинхронные функции.md",
     "Flask/Flask.md",
