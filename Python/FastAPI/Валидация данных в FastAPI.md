@@ -1,4 +1,4 @@
-Для валидации данных в [[FastAPI|FastAPI]] обычно используется библиотека [[Pydantic|Pydantic]].
+Для валидации данных в [[FastAPI|FastAPI]] обычно используется библиотека [[Pydantic|Pydantic]]. Чтобы использовать валидацию достаточно создать класс, отвечающий за тип, который будет наследоваться от BaseModel из [[Pydantic|Pydantic]].
 
 **Пример валидации данных в приложении при помощи Pydantic:**
 
@@ -39,5 +39,4 @@ def create_item(item: Item):
 
 if __name__ == '__main__':
     uvicorn.run(app, host='127.0.0.1', port=8000)
-
 ```
