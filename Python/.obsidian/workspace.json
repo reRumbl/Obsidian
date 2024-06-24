@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Валидация данных в FastAPI.md",
+                "file": "FastAPI/Автоматическая документация FastAPI.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FastAPI/Валидация данных в FastAPI.md",
+                "file": "FastAPI/Автоматическая документация FastAPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FastAPI/Валидация данных в FastAPI.md",
+                "file": "FastAPI/Автоматическая документация FastAPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FastAPI/Валидация данных в FastAPI.md"
+                "file": "FastAPI/Автоматическая документация FastAPI.md"
               }
             }
           }
