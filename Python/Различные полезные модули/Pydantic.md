@@ -45,12 +45,29 @@ class People(BaseModel):
 
 **Чтобы задавать ограничения на диапазон значений полей можно использовать встроенные типы Pydantic или Field:**
 
+*С использованием встроенного типа PositiveInt:*
+
 ```Python
-from pydantic import BaseModel, Field, PositiveInt
+from pydantic import BaseModel, PositiveIntm EmailStr
 
 
 class People(BaseModel):
 	name: str
 	surname: str
 	age: PositiveInt
+	title: str | None = None
+	email: EmailStr
+```
+
+*С использованием Field:*
+
+```Python
+from pydantic import BaseModel, Field
+
+
+class People(BaseModel):
+	name: str = Field(max_length=20)
+	surname: str
+	age: int = Field(ge=0)  # Greater than or equal 0
+	title: str | None = None
 ```
