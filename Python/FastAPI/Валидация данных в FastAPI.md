@@ -25,7 +25,7 @@ def create_item(item: Item):
 ```Python
 @app.get('/items/{item_id}', response_model=Item)
 def get_item(item_id: int):
-    return {'item_id': item_id, 'message': f'Item id is {item_id}'}
+    pass
 ```
 
 **Пример валидации входящих данных в приложении при помощи Pydantic:**
