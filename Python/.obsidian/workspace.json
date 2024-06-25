@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Валидация данных в FastAPI.md",
+                "file": "Различные полезные модули/Pydantic.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FastAPI/Валидация данных в FastAPI.md",
+                "file": "Различные полезные модули/Pydantic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FastAPI/Валидация данных в FastAPI.md",
+                "file": "Различные полезные модули/Pydantic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FastAPI/Валидация данных в FastAPI.md"
+                "file": "Различные полезные модули/Pydantic.md"
               }
             }
           }
@@ -156,8 +156,9 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "FastAPI/Endpoint, Параметры URL в FastAPI.md",
+    "Различные полезные модули/PyScript.md",
     "FastAPI/Валидация данных в FastAPI.md",
+    "FastAPI/Endpoint, Параметры URL в FastAPI.md",
     "FastAPI/FastAPI.md",
     "FastAPI/Автоматическая документация FastAPI.md",
     "Различные полезные модули/Pydantic.md",
@@ -184,7 +185,6 @@
     "TensorFlow/GradientTape.md",
     "Изображения/TensorFlow.png",
     "Различные полезные модули/SpeechRecognition.md",
-    "Различные полезные модули/PyScript.md",
     "FastAPI",
     "Flask",
     "Django",
