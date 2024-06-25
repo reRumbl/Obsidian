@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Асинхронность/Асинхронные функции.md",
+                "file": "FastAPI/Аутентификация в FastAPI.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Асинхронность/Асинхронные функции.md",
+                "file": "FastAPI/Аутентификация в FastAPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Асинхронность/Асинхронные функции.md",
+                "file": "FastAPI/Аутентификация в FastAPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Асинхронность/Асинхронные функции.md"
+                "file": "FastAPI/Аутентификация в FastAPI.md"
               }
             }
           }
@@ -156,9 +156,10 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "FastAPI/Аутентификация в FastAPI.md",
+    "Асинхронность/Асинхронные функции.md",
     "Встроенные модули/Typing.md",
     "Изображения/Typing.png",
-    "FastAPI/Аутентификация в FastAPI.md",
     "FastAPI/Автоматическая документация FastAPI.md",
     "FastAPI/Валидация данных в FastAPI.md",
     "FastAPI/Endpoint, Параметры URL в FastAPI.md",
@@ -177,7 +178,6 @@
     "SQL/SQLAlchemy",
     "Различные полезные модули/Pydantic.md",
     "Различные полезные модули/PyScript.md",
-    "Асинхронность/Асинхронные функции.md",
     "F.md",
     "Изображения/ReDoc.png",
     "Изображения/Документация FastAPI.png",
