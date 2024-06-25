@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQLAlchemy.md",
+                "file": "SQL/SQLAlchemy/SQLAlchemy.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQLAlchemy.md",
+                "file": "SQL/SQLAlchemy/SQLAlchemy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQLAlchemy.md",
+                "file": "SQL/SQLAlchemy/SQLAlchemy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQLAlchemy.md"
+                "file": "SQL/SQLAlchemy/SQLAlchemy.md"
               }
             }
           }
@@ -154,10 +154,12 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "d719e56e11c0f051",
+  "active": "4620b63e4c4c2bd1",
   "lastOpenFiles": [
+    "Pasted image 20240625171747.png",
+    "SQL/SQLAlchemy/SQLAlchemy.md",
+    "SQL/SQLAlchemy",
     "FastAPI/Аутентификация в FastAPI.md",
-    "SQL/SQLAlchemy.md",
     "Различные полезные модули/Pydantic.md",
     "FastAPI/Валидация данных в FastAPI.md",
     "Различные полезные модули/PyScript.md",
@@ -191,7 +193,6 @@
     "Flask",
     "Django",
     "Различные полезные модули/Termcolor.md",
-    "ООП/Свойства классов (Get и Set).md",
     "Стиль и оформление",
     "PyTorch",
     "Изображения/SpeechRecognition.png",
@@ -199,9 +200,7 @@
     "PySide",
     "Базовые типы",
     "Изображения/Aiogram.png",
-    "Изображения/GeoPy.png",
     "Различные полезные модули",
-    "Aiogram",
     "Без названия.canvas"
   ]
 }
