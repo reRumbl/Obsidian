@@ -75,6 +75,9 @@ class People(BaseModel):
 **Комбинирование нескольких моделей:**
 
 ```Python
+from 
+
+
 class DegreeType(Enum):
 	
 ```
