@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные модули/Typing.md",
+                "file": "Асинхронность/Асинхронные функции.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные модули/Typing.md",
+                "file": "Асинхронность/Асинхронные функции.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные модули/Typing.md",
+                "file": "Асинхронность/Асинхронные функции.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные модули/Typing.md"
+                "file": "Асинхронность/Асинхронные функции.md"
               }
             }
           }
@@ -156,8 +156,9 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "FastAPI/Аутентификация в FastAPI.md",
     "Встроенные модули/Typing.md",
+    "Изображения/Typing.png",
+    "FastAPI/Аутентификация в FastAPI.md",
     "FastAPI/Автоматическая документация FastAPI.md",
     "FastAPI/Валидация данных в FastAPI.md",
     "FastAPI/Endpoint, Параметры URL в FastAPI.md",
@@ -191,8 +192,6 @@
     "PyTorch/PyTorch.md",
     "NumPy/Ndarray.md",
     "NumPy/NumPy.md",
-    "Встроенные модули/Random.md",
-    "Изображения/PyTorch.png",
     "FastAPI",
     "Flask",
     "Django",
