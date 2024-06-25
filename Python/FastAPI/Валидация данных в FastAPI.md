@@ -12,6 +12,22 @@ class Item(BaseModel):
     price: PositiveFloat
 ```
 
+*Для валидации входящих данных достаточно указать в аннотации типов соответствующую модель:*
+
+```Python
+@app.post('/items/')
+def create_item(item: Item):
+	pass
+```
+
+*Для валидации исходящих данных требуется указать соответствующую модель в параметр response_model:*
+
+```Python
+@app.get('/items/{item_id}', response_model=Item)
+def get_item(item_id: int):
+    return {'item_id': item_id, 'message': f'Item id is {item_id}'}
+```
+
 **Пример валидации входящих данных в приложении при помощи Pydantic:**
 
 ```Python
@@ -78,7 +94,7 @@ class Item(BaseModel):
 id_list = []
 
 
-@app.get('/items/{item_id}')
+@app.get('/items/{item_id}', response_model=Item)
 def get_item(item_id: int):
     return {'item_id': item_id, 'message': f'Item id is {item_id}'}
 
