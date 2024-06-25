@@ -75,9 +75,24 @@ class People(BaseModel):
 **Комбинирование нескольких моделей:**
 
 ```Python
-from 
+from enum import Enum
+from datetime import datetime
 
 
 class DegreeType(Enum):
-	
+	newbie = 'newbie'
+	expert = 'expert'
+
+
+class Degree(BaseModel):
+	id: int
+	created_at: datetime
+	type_degree: DegreeType
+
+
+class User:
+	id: int
+	role: str
+	name: str
+	degree: List[Degree]
 ```
