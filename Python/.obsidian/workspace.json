@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy.md",
+                "file": "FastAPI/Аутентификация в FastAPI.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy.md",
+                "file": "FastAPI/Аутентификация в FastAPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy.md",
+                "file": "FastAPI/Аутентификация в FastAPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy.md"
+                "file": "FastAPI/Аутентификация в FastAPI.md"
               }
             }
           }
@@ -156,10 +156,10 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "SQL/SQLAlchemy/SQLAlchemy.md",
     "SQL/SQLite.md",
     "FastAPI/FastAPI.md",
     "Flask/Flask.md",
-    "SQL/SQLAlchemy/SQLAlchemy.md",
     "SQL/PostgreSQL.md",
     "Pasted image 20240625172207.png",
     "TensorFlow/Tensorflow.md",
