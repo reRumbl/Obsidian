@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Различные полезные модули/Pydantic.md",
+                "file": "FastAPI/Аутентификация в FastAPI.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Различные полезные модули/Pydantic.md",
+                "file": "FastAPI/Аутентификация в FastAPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Различные полезные модули/Pydantic.md",
+                "file": "FastAPI/Аутентификация в FastAPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Различные полезные модули/Pydantic.md"
+                "file": "FastAPI/Аутентификация в FastAPI.md"
               }
             }
           }
@@ -156,8 +156,9 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "FastAPI/Валидация данных в FastAPI.md",
     "Различные полезные модули/Pydantic.md",
+    "FastAPI/Аутентификация в FastAPI.md",
+    "FastAPI/Валидация данных в FastAPI.md",
     "Различные полезные модули/PyScript.md",
     "FastAPI/Endpoint, Параметры URL в FastAPI.md",
     "FastAPI/FastAPI.md",
@@ -191,7 +192,6 @@
     "Различные полезные модули/Termcolor.md",
     "ООП/Свойства классов (Get и Set).md",
     "Стиль и оформление/PEP8.md",
-    "Стиль и оформление/Docstring.md",
     "Стиль и оформление",
     "PyTorch",
     "Изображения/SpeechRecognition.png",
