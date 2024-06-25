@@ -71,3 +71,10 @@ class People(BaseModel):
 	age: int = Field(ge=0)  # Greater than or equal 0
 	title: str | None = None
 ```
+
+**Комбинирование нескольких моделей:**
+
+```Python
+class DegreeType(Enum):
+	
+```
