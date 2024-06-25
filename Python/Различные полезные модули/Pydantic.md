@@ -90,7 +90,7 @@ class Degree(BaseModel):
 	type_degree: DegreeType
 
 
-class User:
+class User(BaseModel):
 	id: int
 	role: str
 	name: str
