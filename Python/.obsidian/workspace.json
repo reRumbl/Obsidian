@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Аутентификация в FastAPI.md",
+                "file": "Встроенные модули/Typing.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FastAPI/Аутентификация в FastAPI.md",
+                "file": "Встроенные модули/Typing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FastAPI/Аутентификация в FastAPI.md",
+                "file": "Встроенные модули/Typing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FastAPI/Аутентификация в FastAPI.md"
+                "file": "Встроенные модули/Typing.md"
               }
             }
           }
@@ -156,10 +156,16 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "FastAPI/Аутентификация в FastAPI.md",
+    "Встроенные модули/Typing.md",
+    "FastAPI/Автоматическая документация FastAPI.md",
+    "FastAPI/Валидация данных в FastAPI.md",
+    "FastAPI/Endpoint, Параметры URL в FastAPI.md",
     "SQL/SQLAlchemy/SQLAlchemy.md",
+    "Flask/Flask.md",
+    "Встроенные модули/Secrets.md",
     "SQL/SQLite.md",
     "FastAPI/FastAPI.md",
-    "Flask/Flask.md",
     "SQL/PostgreSQL.md",
     "Pasted image 20240625172207.png",
     "TensorFlow/Tensorflow.md",
@@ -168,12 +174,8 @@
     "Pasted image 20240625171843.png",
     "Pasted image 20240625171747.png",
     "SQL/SQLAlchemy",
-    "FastAPI/Аутентификация в FastAPI.md",
     "Различные полезные модули/Pydantic.md",
-    "FastAPI/Валидация данных в FastAPI.md",
     "Различные полезные модули/PyScript.md",
-    "FastAPI/Endpoint, Параметры URL в FastAPI.md",
-    "FastAPI/Автоматическая документация FastAPI.md",
     "Асинхронность/Асинхронные функции.md",
     "F.md",
     "Изображения/ReDoc.png",
@@ -191,8 +193,6 @@
     "NumPy/NumPy.md",
     "Встроенные модули/Random.md",
     "Изображения/PyTorch.png",
-    "TensorFlow/GradientTape.md",
-    "Различные полезные модули/SpeechRecognition.md",
     "FastAPI",
     "Flask",
     "Django",
