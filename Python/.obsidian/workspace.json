@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Endpoint, Параметры URL в FastAPI.md",
+                "file": "FastAPI/Валидация данных в FastAPI.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FastAPI/Endpoint, Параметры URL в FastAPI.md",
+                "file": "FastAPI/Валидация данных в FastAPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FastAPI/Endpoint, Параметры URL в FastAPI.md",
+                "file": "FastAPI/Валидация данных в FastAPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FastAPI/Endpoint, Параметры URL в FastAPI.md"
+                "file": "FastAPI/Валидация данных в FastAPI.md"
               }
             }
           }
@@ -156,9 +156,9 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "FastAPI/Endpoint, Параметры URL в FastAPI.md",
     "FastAPI/Валидация данных в FastAPI.md",
     "FastAPI/FastAPI.md",
-    "FastAPI/Endpoint, Параметры URL в FastAPI.md",
     "FastAPI/Автоматическая документация FastAPI.md",
     "Различные полезные модули/Pydantic.md",
     "Асинхронность/Асинхронные функции.md",
