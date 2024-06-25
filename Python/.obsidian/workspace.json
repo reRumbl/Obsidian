@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Аутентификация в FastAPI.md",
+                "file": "SQL/SQLAlchemy.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FastAPI/Аутентификация в FastAPI.md",
+                "file": "SQL/SQLAlchemy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FastAPI/Аутентификация в FastAPI.md",
+                "file": "SQL/SQLAlchemy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FastAPI/Аутентификация в FastAPI.md"
+                "file": "SQL/SQLAlchemy.md"
               }
             }
           }
@@ -156,8 +156,9 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Различные полезные модули/Pydantic.md",
     "FastAPI/Аутентификация в FastAPI.md",
+    "SQL/SQLAlchemy.md",
+    "Различные полезные модули/Pydantic.md",
     "FastAPI/Валидация данных в FastAPI.md",
     "Различные полезные модули/PyScript.md",
     "FastAPI/Endpoint, Параметры URL в FastAPI.md",
@@ -191,7 +192,6 @@
     "Django",
     "Различные полезные модули/Termcolor.md",
     "ООП/Свойства классов (Get и Set).md",
-    "Стиль и оформление/PEP8.md",
     "Стиль и оформление",
     "PyTorch",
     "Изображения/SpeechRecognition.png",
