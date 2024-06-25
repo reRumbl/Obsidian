@@ -3,10 +3,11 @@
 **Пример создания модели:**
 
 ```Python
-from pydantic import BaseModel, Field, PositiveFloat
+from pydantic import BaseModel, PositiveFloat
 
 
 class Item(BaseModel):
+    id: int
     name: str
     description: str | None = None
     price: PositiveFloat
@@ -49,6 +50,7 @@ def get_item_id(item_id: int):
 
 
 class Item(BaseModel):
+    id: int
     name: str
     description: str | None = None
     price: PositiveFloat
