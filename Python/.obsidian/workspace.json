@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Базовые функции/Python.md",
+                "file": "Встроенные модули/Random.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Базовые функции/Python.md",
+                "file": "Встроенные модули/Random.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Базовые функции/Python.md",
+                "file": "Встроенные модули/Random.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Базовые функции/Python.md"
+                "file": "Встроенные модули/Random.md"
               }
             }
           }
@@ -156,8 +156,22 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "FastAPI/FastAPI.md",
+    "Встроенные модули/Os.md",
+    "Встроенные модули/Math.md",
+    "Встроенные модули/Logging.md",
+    "Встроенные модули/Itertools.md",
+    "Встроенные модули/Collections.md",
+    "Базовые функции/F-Строки.md",
+    "Базовые функции/Циклы.md",
+    "Базовые функции/Функции.md",
+    "Базовые функции/Ошибки.md",
+    "Базовые функции/Исключения.md",
+    "Базовые функции/Декораторы.md",
     "Базовые функции/Python.md",
+    "Асинхронность/Asyncio.md",
+    "Асинхронность/Асинхронные функции.md",
+    "Изображения/Python.png",
+    "FastAPI/FastAPI.md",
     "SQL/Alembic.md",
     "SQL/SQLAlchemy/SQLAlchemy.md",
     "Изображения/Alembic.png",
@@ -165,7 +179,6 @@
     "SQL/SQLAlchemy/Создание таблиц в SQLAlchemy.md",
     "FastAPI/Аутентификация в FastAPI.md",
     "FastAPI/Автоматическая документация FastAPI.md",
-    "Асинхронность/Асинхронные функции.md",
     "Встроенные модули/Typing.md",
     "Изображения/Typing.png",
     "FastAPI/Валидация данных в FastAPI.md",
@@ -173,26 +186,13 @@
     "Flask/Flask.md",
     "Встроенные модули/Secrets.md",
     "SQL/SQLite.md",
-    "SQL/PostgreSQL.md",
     "Pasted image 20240625172207.png",
-    "TensorFlow/Tensorflow.md",
     "Изображения/SQLAlchemy.png",
     "Pasted image 20240625171942.png",
     "Pasted image 20240625171843.png",
     "Pasted image 20240625171747.png",
     "SQL/SQLAlchemy",
-    "Различные полезные модули/Pydantic.md",
-    "Различные полезные модули/PyScript.md",
-    "F.md",
     "Изображения/ReDoc.png",
-    "Изображения/Документация FastAPI.png",
-    "Git/Gitignore.md",
-    "Различные полезные модули/Rembg.md",
-    "Pandas/Pandas.md",
-    "PyTorch/Загрузка данных в PyTorch.md",
-    "PyTorch/Нейронные сети в PyTorch.md",
-    "PyTorch/Тензоры в PyTorch.md",
-    "PyTorch/PyTorch.md",
     "FastAPI",
     "Flask",
     "Django",
