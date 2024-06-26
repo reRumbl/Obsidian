@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy.md",
+                "file": "FastAPI/FastAPI.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy.md",
+                "file": "FastAPI/FastAPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy.md",
+                "file": "FastAPI/FastAPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy.md"
+                "file": "FastAPI/FastAPI.md"
               }
             }
           }
@@ -156,6 +156,7 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "SQL/SQLAlchemy/SQLAlchemy.md",
     "FastAPI/Аутентификация в FastAPI.md",
     "FastAPI/Автоматическая документация FastAPI.md",
     "Асинхронность/Асинхронные функции.md",
@@ -163,7 +164,6 @@
     "Изображения/Typing.png",
     "FastAPI/Валидация данных в FastAPI.md",
     "FastAPI/Endpoint, Параметры URL в FastAPI.md",
-    "SQL/SQLAlchemy/SQLAlchemy.md",
     "Flask/Flask.md",
     "Встроенные модули/Secrets.md",
     "SQL/SQLite.md",
