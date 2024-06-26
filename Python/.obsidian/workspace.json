@@ -20,16 +20,6 @@
             }
           },
           {
-            "id": "f19ed4262185b5e3",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.5"
-              }
-            }
-          },
-          {
             "id": "bc210c13d5c5293f",
             "type": "leaf",
             "state": {
@@ -37,8 +27,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,7 +154,7 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "f19ed4262185b5e3",
+  "active": "d719e56e11c0f051",
   "lastOpenFiles": [
     "FastAPI/Аутентификация в FastAPI.md",
     "FastAPI/Автоматическая документация FastAPI.md",
