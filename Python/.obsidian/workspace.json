@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/Alembic.md",
+                "file": "Базовые функции/Python.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/Alembic.md",
+                "file": "Базовые функции/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/Alembic.md",
+                "file": "Базовые функции/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/Alembic.md"
+                "file": "Базовые функции/Python.md"
               }
             }
           }
@@ -156,12 +156,14 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "SQL/SQLAlchemy/SQLAlchemy.md",
+    "FastAPI/FastAPI.md",
+    "Базовые функции/Python.md",
     "SQL/Alembic.md",
+    "SQL/SQLAlchemy/SQLAlchemy.md",
+    "Изображения/Alembic.png",
     "Изображения/Слои SQLAlchemy.png",
     "SQL/SQLAlchemy/Создание таблиц в SQLAlchemy.md",
     "FastAPI/Аутентификация в FastAPI.md",
-    "FastAPI/FastAPI.md",
     "FastAPI/Автоматическая документация FastAPI.md",
     "Асинхронность/Асинхронные функции.md",
     "Встроенные модули/Typing.md",
@@ -184,7 +186,6 @@
     "F.md",
     "Изображения/ReDoc.png",
     "Изображения/Документация FastAPI.png",
-    "Изображения/Pydantic.png",
     "Git/Gitignore.md",
     "Различные полезные модули/Rembg.md",
     "Pandas/Pandas.md",
@@ -192,7 +193,6 @@
     "PyTorch/Нейронные сети в PyTorch.md",
     "PyTorch/Тензоры в PyTorch.md",
     "PyTorch/PyTorch.md",
-    "NumPy/Ndarray.md",
     "FastAPI",
     "Flask",
     "Django",
