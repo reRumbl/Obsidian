@@ -2,6 +2,10 @@
 
 ![[SQLAlchemy.png]]
 
+SQLAlchemy работает при помощи трех слоев функций:
+
+- DBAPI - слой с драй
+
 **Установка через cmd или terminal:**
 
 ```Python
