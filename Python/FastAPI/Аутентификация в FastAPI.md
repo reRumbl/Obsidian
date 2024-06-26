@@ -16,13 +16,27 @@ fake_users_db = {
 
 
 def get_current_username(credentials: HTTPBasicCredentials = Depends(security)):
-for username, hashed_password in fake_users_db.items():
-	if secrets.compare_digest(credentials.username, username) and
-		secrets.compare_digest(credentials.password, passwor)):
-		return credentials.username
-	raise HTTPException(
-		status_code=status.HTTP_401_UNAUTHORIZED,
-		detail='Incorrect username or password',
-		headers={'WWW-Authenticate': 'Basic'},
-	)
+	for username, password in fake_users_db.items():
+		if secrets.compare_digest(credentials.username, username) and
+			secrets.compare_digest(credentials.password, password):
+			return credentials.username
+		raise HTTPException(
+			status_code=status.HTTP_401_UNAUTHORIZED,
+			detail='Incorrect username or password',
+			headers={'WWW-Authenticate': 'Basic'},
+		)
+
+
+@app.get('/items/', response_model=List[Item])  
+def get_all_items(username: str = Depends(get_current_username)):  
+    return items  
+  
+  
+@app.get('/items/{item_id}', response_model=Item)  
+def get_item(item_id: int, username: str = Depends(get_current_username)):  
+    for item in items:  
+        if item.id == item_id:  
+            return item  
+    raise HTTPException(status_code=404, detail="Item not found")
 ```
+
