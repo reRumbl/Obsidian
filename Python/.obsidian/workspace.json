@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные модули/Random.md",
+                "file": "Различные полезные модули/Termcolor.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные модули/Random.md",
+                "file": "Различные полезные модули/Termcolor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные модули/Random.md",
+                "file": "Различные полезные модули/Termcolor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные модули/Random.md"
+                "file": "Различные полезные модули/Termcolor.md"
               }
             }
           }
@@ -156,6 +156,23 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Различные полезные модули/SpeechRecognition.md",
+    "Различные полезные модули/Rembg.md",
+    "Различные полезные модули/PyScript.md",
+    "Различные полезные модули/Pydantic.md",
+    "Различные полезные модули/Geopy.md",
+    "Различные полезные модули/BeautifullSoup.md",
+    "ООП/Dunder-методы.md",
+    "ООП/Свойства классов (Get и Set).md",
+    "ООП/Наследование.md",
+    "ООП/Классы.md",
+    "ООП/Главные принципы ООП.md",
+    "Кастомные классы и функции/Linked List.md",
+    "Кастомные классы и функции/Binar Tree.md",
+    "Встроенные модули/Unittest.md",
+    "Встроенные модули/Typing.md",
+    "Встроенные модули/Secrets.md",
+    "Встроенные модули/Random.md",
     "Встроенные модули/Os.md",
     "Встроенные модули/Math.md",
     "Встроенные модули/Logging.md",
@@ -165,27 +182,10 @@
     "Базовые функции/Циклы.md",
     "Базовые функции/Функции.md",
     "Базовые функции/Ошибки.md",
-    "Базовые функции/Исключения.md",
-    "Базовые функции/Декораторы.md",
-    "Базовые функции/Python.md",
-    "Асинхронность/Asyncio.md",
-    "Асинхронность/Асинхронные функции.md",
     "Изображения/Python.png",
-    "FastAPI/FastAPI.md",
-    "SQL/Alembic.md",
-    "SQL/SQLAlchemy/SQLAlchemy.md",
     "Изображения/Alembic.png",
     "Изображения/Слои SQLAlchemy.png",
-    "SQL/SQLAlchemy/Создание таблиц в SQLAlchemy.md",
-    "FastAPI/Аутентификация в FastAPI.md",
-    "FastAPI/Автоматическая документация FastAPI.md",
-    "Встроенные модули/Typing.md",
     "Изображения/Typing.png",
-    "FastAPI/Валидация данных в FastAPI.md",
-    "FastAPI/Endpoint, Параметры URL в FastAPI.md",
-    "Flask/Flask.md",
-    "Встроенные модули/Secrets.md",
-    "SQL/SQLite.md",
     "Pasted image 20240625172207.png",
     "Изображения/SQLAlchemy.png",
     "Pasted image 20240625171942.png",

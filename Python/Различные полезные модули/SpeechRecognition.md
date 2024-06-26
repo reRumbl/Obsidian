@@ -1,4 +1,4 @@
-**SpeechRecognition** - это библиотека для Python, реализующая возможность распознавания голоса.
+**SpeechRecognition** - это библиотека для [[Python|Python]], реализующая возможность распознавания голоса.
 
 ![[SpeechRecognition.png]]
 
