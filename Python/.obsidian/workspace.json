@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQLAlchemy/Подключение драйвера в SQLAlchemy.md",
+                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQLAlchemy/Подключение драйвера в SQLAlchemy.md",
+                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQLAlchemy/Подключение драйвера в SQLAlchemy.md",
+                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQLAlchemy/Подключение драйвера в SQLAlchemy.md"
+                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md"
               }
             }
           }
@@ -164,7 +164,7 @@
     "SQL/SQLAlchemy/SQLAlchemy.md",
     "Различные полезные модули/Pydantic.md",
     "SQL/SQLAlchemy/Создание таблиц в SQLAlchemy.md",
-    "SQL/SQLAlchemy/Подключение драйвера в SQLAlchemy.md",
+    "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
     "SQL/SQLite.md",
     "SQL/PostgreSQL.md",
     "Базовые функции/Python.md",
