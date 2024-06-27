@@ -23,8 +23,12 @@
             "id": "bc210c13d5c5293f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Различные полезные модули/Pydantic.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -94,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy.md",
+                "file": "Различные полезные модули/Pydantic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy.md",
+                "file": "Различные полезные модули/Pydantic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy.md"
+                "file": "Различные полезные модули/Pydantic.md"
               }
             }
           }

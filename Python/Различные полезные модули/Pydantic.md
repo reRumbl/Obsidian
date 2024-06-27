@@ -96,3 +96,7 @@ class User(BaseModel):
 	name: str
 	degree: List[Degree]
 ```
+
+## Работа с переменным окружением
+
+**Pydantic** позволяет работать с переменным окружением, являясь аналогом [[Dotenv|dotenv]]. Работа с переменным окружением в Pydantic пр
