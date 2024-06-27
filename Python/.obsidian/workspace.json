@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Базовые функции/Python.md",
+                "file": "SQL/SQLAlchemy/SQLAlchemy.md",
                 "mode": "source",
                 "source": false
               }
@@ -27,7 +27,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Базовые функции/Python.md",
+                "file": "SQL/SQLAlchemy/SQLAlchemy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Базовые функции/Python.md",
+                "file": "SQL/SQLAlchemy/SQLAlchemy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Базовые функции/Python.md"
+                "file": "SQL/SQLAlchemy/SQLAlchemy.md"
               }
             }
           }
@@ -154,11 +155,12 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "d719e56e11c0f051",
+  "active": "bc210c13d5c5293f",
   "lastOpenFiles": [
-    "Базовые функции/Python.md",
-    "Изображения/Гвидо ван Россум.png",
     "SQL/SQLAlchemy/SQLAlchemy.md",
+    "Базовые функции/Python.md",
+    "Изображения/Пиктограмма Python файла.png",
+    "Изображения/Гвидо ван Россум.png",
     "Различные полезные модули/SpeechRecognition.md",
     "TensorFlow/Tensorflow.md",
     "TensorFlow/GradientTape.md",
@@ -182,7 +184,6 @@
     "Pandas/Pandas.md",
     "Pandas/DataFrame.md",
     "NumPy/NumPy.md",
-    "NumPy/Ndarray.md",
     "Изображения/Python.png",
     "Изображения/Alembic.png",
     "Изображения/Слои SQLAlchemy.png",
@@ -191,7 +192,6 @@
     "Изображения/SQLAlchemy.png",
     "Pasted image 20240625171942.png",
     "Pasted image 20240625171843.png",
-    "Pasted image 20240625171747.png",
     "SQL/SQLAlchemy",
     "FastAPI",
     "Flask",
