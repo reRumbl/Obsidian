@@ -99,4 +99,21 @@ class User(BaseModel):
 
 ## Работа с переменным окружением
 
-**Pydantic** позволяет работать с переменным окружением, являясь аналогом [[Dotenv|dotenv]]. Работа с переменным окружением в Pydantic пр
+**Pydantic** позволяет работать с переменным окружением, являясь аналогом [[Dotenv|dotenv]]. Работа с переменным окружением в **Pydantic** происходит путем создания [[Классы|класса]], [[Наследование|наследуемого]] от BaseSettings. При этом, в отличие от [[Dotenv|dotenv]], **Pydantic** производит валидацию данных, которые извлекаются из переменного окружения.
+
+**Пример работы с переменным окружением:**
+
+```Python
+from pydantic_settings import BaseSettings, SettingsConfigDict
+from pydantic import PositiveInt
+
+
+class Settings(BaseSettings):
+	BOT_TOKEN: str
+	API_TOKEN: str
+	MAX_USERS: PositiveInt
+
+	model_config = SettingsConfigDict(env_file='.env')
+
+
+```
