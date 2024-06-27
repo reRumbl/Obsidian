@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Различные полезные модули/Pydantic.md",
+                "file": "SQL/SQLAlchemy/Подключение драйвера в SQLAlchemy.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Различные полезные модули/Pydantic.md",
+                "file": "SQL/SQLAlchemy/Подключение драйвера в SQLAlchemy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Различные полезные модули/Pydantic.md",
+                "file": "SQL/SQLAlchemy/Подключение драйвера в SQLAlchemy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Различные полезные модули/Pydantic.md"
+                "file": "SQL/SQLAlchemy/Подключение драйвера в SQLAlchemy.md"
               }
             }
           }
@@ -161,12 +161,12 @@
   },
   "active": "bc210c13d5c5293f",
   "lastOpenFiles": [
-    "SQL/SQLAlchemy/Подключение драйвера в SQLAlchemy.md",
-    "SQL/SQLAlchemy/Создание таблиц в SQLAlchemy.md",
     "SQL/SQLAlchemy/SQLAlchemy.md",
+    "Различные полезные модули/Pydantic.md",
+    "SQL/SQLAlchemy/Создание таблиц в SQLAlchemy.md",
+    "SQL/SQLAlchemy/Подключение драйвера в SQLAlchemy.md",
     "SQL/SQLite.md",
     "SQL/PostgreSQL.md",
-    "Различные полезные модули/Pydantic.md",
     "Базовые функции/Python.md",
     "Изображения/Пиктограмма Python файла.png",
     "Изображения/Гвидо ван Россум.png",
