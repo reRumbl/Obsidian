@@ -17,5 +17,10 @@ engine = create_engine(
 )
 ```
 
+**Создание сырого запроса через движок:**
 
+```Python
+with engine.connect() as conn:
+	res = conn.execute('SELECT VERSION()')
+```
 
