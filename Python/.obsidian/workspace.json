@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Асинхронность/Асинхронность.md",
+                "file": "Асинхронность/Asyncio.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Асинхронность/Асинхронность.md",
+                "file": "Асинхронность/Asyncio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Асинхронность/Асинхронность.md",
+                "file": "Асинхронность/Asyncio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Асинхронность/Асинхронность.md"
+                "file": "Асинхронность/Asyncio.md"
               }
             }
           }
@@ -154,10 +154,14 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "d719e56e11c0f051",
+  "active": "4620b63e4c4c2bd1",
   "lastOpenFiles": [
-    "Изображения/Сравнение синхронного и асинхронного.png",
+    "Изображения/Asyncio.png",
+    "Pasted image 20240628205417.png",
+    "Pasted image 20240628205413.png",
+    "Async.png",
     "Асинхронность/Асинхронность.md",
+    "Изображения/Сравнение синхронного и асинхронного.png",
     "Асинхронность/Asyncio.md",
     "Git/Gitignore.md",
     "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
@@ -188,9 +192,6 @@
     "Изображения/Alembic.png",
     "Изображения/Слои SQLAlchemy.png",
     "Изображения/Typing.png",
-    "Pasted image 20240625172207.png",
-    "Изображения/SQLAlchemy.png",
-    "Pasted image 20240625171942.png",
     "SQL/SQLAlchemy",
     "FastAPI",
     "Flask",
