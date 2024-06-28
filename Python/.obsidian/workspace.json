@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Gitignore.md",
+                "file": "Асинхронность/Asyncio.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Gitignore.md",
+                "file": "Асинхронность/Asyncio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Gitignore.md",
+                "file": "Асинхронность/Asyncio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Gitignore.md"
+                "file": "Асинхронность/Asyncio.md"
               }
             }
           }
@@ -156,6 +156,8 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Асинхронность/Asyncio.md",
+    "Git/Gitignore.md",
     "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
     "SQL/SQLAlchemy/SQLAlchemy.md",
     "Различные полезные модули/Pydantic.md",
@@ -182,8 +184,6 @@
     "Pillow/ImageFilter.md",
     "Pillow/ImageFont.md",
     "Pillow/Pillow.md",
-    "Pandas/Pandas.md",
-    "Pandas/DataFrame.md",
     "Изображения/Python.png",
     "Изображения/Alembic.png",
     "Изображения/Слои SQLAlchemy.png",
