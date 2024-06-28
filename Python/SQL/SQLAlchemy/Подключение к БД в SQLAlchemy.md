@@ -21,9 +21,18 @@ engine = create_engine(
 
 **Создание сырого запроса через движок:**
 
+*Через connect (В конце происходит ROLLBACK):*
+
 ```Python
 with engine.connect() as conn:
 	res = conn.execute(text('SELECT VERSION()'))
-	print(f'{res}')
+	print(f'Result:\n{res}')
 ```
 
+*Через begin (В конце происходит COMMIT):*
+
+```Python
+with engine.begin() as conn:
+	res = conn.execute(text('SELECT VERSION()'))
+	print(f'Result:\n{res}')
+```
