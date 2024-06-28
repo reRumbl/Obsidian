@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Асинхронность/Asyncio.md",
+                "file": "Асинхронность/Асинхронность.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Асинхронность/Asyncio.md",
+                "file": "Асинхронность/Асинхронность.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Асинхронность/Asyncio.md",
+                "file": "Асинхронность/Асинхронность.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Асинхронность/Asyncio.md"
+                "file": "Асинхронность/Асинхронность.md"
               }
             }
           }
@@ -156,6 +156,8 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Изображения/Сравнение синхронного и асинхронного.png",
+    "Асинхронность/Асинхронность.md",
     "Асинхронность/Asyncio.md",
     "Git/Gitignore.md",
     "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
@@ -182,8 +184,6 @@
     "Pillow/Image.md",
     "Pillow/ImageDraw.md",
     "Pillow/ImageFilter.md",
-    "Pillow/ImageFont.md",
-    "Pillow/Pillow.md",
     "Изображения/Python.png",
     "Изображения/Alembic.png",
     "Изображения/Слои SQLAlchemy.png",
@@ -191,7 +191,6 @@
     "Pasted image 20240625172207.png",
     "Изображения/SQLAlchemy.png",
     "Pasted image 20240625171942.png",
-    "Pasted image 20240625171843.png",
     "SQL/SQLAlchemy",
     "FastAPI",
     "Flask",
