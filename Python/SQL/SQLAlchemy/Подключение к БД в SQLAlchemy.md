@@ -26,7 +26,7 @@ engine = create_engine(
 ```Python
 with engine.connect() as conn:
 	res = conn.execute(text('SELECT VERSION()'))
-	print(f'Result:\n{res}')
+	print(f'Result:\n{res.first()}')
 ```
 
 *Через begin (В конце происходит COMMIT):*
@@ -34,5 +34,5 @@ with engine.connect() as conn:
 ```Python
 with engine.begin() as conn:
 	res = conn.execute(text('SELECT VERSION()'))
-	print(f'Result:\n{res}')
+	print(f'Result:\n{res.first()}')
 ```
