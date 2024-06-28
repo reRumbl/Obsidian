@@ -9,6 +9,8 @@
 **Создание движка:**
 
 ```Python
+from sqlalchemy import create_engine, text
+
 engine = create_engine(
 	url='postgresql+psycopg://postgres:postgres@localhost:5432/name',
 	echo=True,  # Вывод запросов в консоль
@@ -21,6 +23,7 @@ engine = create_engine(
 
 ```Python
 with engine.connect() as conn:
-	res = conn.execute('SELECT VERSION()')
+	res = conn.execute(text('SELECT VERSION()'))
+	print(f'{res}')
 ```
 
