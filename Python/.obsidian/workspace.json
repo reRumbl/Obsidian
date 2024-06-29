@@ -154,8 +154,9 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "d719e56e11c0f051",
+  "active": "4620b63e4c4c2bd1",
   "lastOpenFiles": [
+    "Изображения/Cпрайты.png",
     "Pygame/Спрайты в Pygame.md",
     "ООП/Классы.md",
     "Pygame/Pygame.md",
@@ -192,7 +193,6 @@
     "PyTorch/PyTorch.md",
     "PyTorch/Тензоры в PyTorch.md",
     "PyTorch/Нейронные сети в PyTorch.md",
-    "PyTorch/Загрузка данных в PyTorch.md",
     "SQL/SQLAlchemy",
     "FastAPI",
     "Flask",
