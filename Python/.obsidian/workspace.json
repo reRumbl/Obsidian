@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Асинхронность/Asyncio.md",
+                "file": "Pygame/Pygame.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Асинхронность/Asyncio.md",
+                "file": "Pygame/Pygame.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Асинхронность/Asyncio.md",
+                "file": "Pygame/Pygame.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Асинхронность/Asyncio.md"
+                "file": "Pygame/Pygame.md"
               }
             }
           }
@@ -156,6 +156,10 @@
   },
   "active": "4620b63e4c4c2bd1",
   "lastOpenFiles": [
+    "Pygame.png",
+    "Pasted image 20240629151639.png",
+    "Pygame/Pygame.md",
+    "Асинхронность/Asyncio.md",
     "Pygame",
     "Изображения/Asyncio.png",
     "Pasted image 20240628205417.png",
@@ -163,7 +167,6 @@
     "Async.png",
     "Асинхронность/Асинхронность.md",
     "Изображения/Сравнение синхронного и асинхронного.png",
-    "Асинхронность/Asyncio.md",
     "Git/Gitignore.md",
     "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
     "SQL/SQLAlchemy/SQLAlchemy.md",
@@ -188,10 +191,8 @@
     "PySide/Qt.md",
     "Pillow/Image.md",
     "Pillow/ImageDraw.md",
-    "Pillow/ImageFilter.md",
     "Изображения/Python.png",
     "Изображения/Alembic.png",
-    "Изображения/Слои SQLAlchemy.png",
     "SQL/SQLAlchemy",
     "FastAPI",
     "Flask",
@@ -201,7 +202,6 @@
     "Асинхронность",
     "PySide",
     "Базовые типы",
-    "Различные полезные модули",
     "Без названия.canvas"
   ]
 }
