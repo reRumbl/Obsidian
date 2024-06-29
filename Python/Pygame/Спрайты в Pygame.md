@@ -31,7 +31,7 @@ class Player(pygame.sprite.Sprite):
 
 ```Python
 WIDTH = 640
-HEIGHT = 4
+HEIGHT = 480
 self.rect.center = (WIDTH / 2, HEIGHT / 2)
 ```
 
@@ -44,11 +44,15 @@ class Player(pygame.sprite.Sprite):
 		self.image = pygame.Surface((50, 50))
 		self.image.fill((0, 255, 0))
 		self.rect = self.image.get_rect()
+		self.rect.center = (WIDTH / 2, HEIGHT / 2)
 
 	def update(self):
 		self.rect.x += 5
 		if self.rect.x >= WIDTH:
-			
+			self.rect.right = 0
+
+	def draw(self, surface):  
+    surface.blit(self.image, self.rect.topleft)
 ```
 
 ### Наборы спрайтов

@@ -60,17 +60,17 @@ running = True
 while running:
 	clock.tick(FPS)
 	
-    for event in pg.event.get():  
-	    if event.type == pg.QUIT:  # Обработка события выхода
-	        running = False 
-    
-    # TODO: Ввод других процессов (событий)
-
-    # TODO: Обновление
-    
+	for event in pg.event.get():  
+		if event.type == pg.QUIT:  # Обработка события выхода
+			running = False 
+	
+	# TODO: Ввод других процессов (событий)
+	
+	# TODO: Обновление
+	
 	screen.fill((0, 0, 0))
-    # TODO: Визуализация (сборка)
-    pygame.display.flip()
+	# TODO: Визуализация (сборка)
+	pygame.display.flip()
 ```
 
 
