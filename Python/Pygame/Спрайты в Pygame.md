@@ -35,7 +35,7 @@ HEIGHT = 480
 self.rect.center = (WIDTH / 2, HEIGHT / 2)
 ```
 
-**Метод обновления спрайта:**
+**Метод обновления и метод отрисовки спрайта:**
 
 ```Python
 class Player(pygame.sprite.Sprite):
