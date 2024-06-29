@@ -156,6 +156,7 @@
   },
   "active": "4620b63e4c4c2bd1",
   "lastOpenFiles": [
+    "Pygame",
     "Изображения/Asyncio.png",
     "Pasted image 20240628205417.png",
     "Pasted image 20240628205413.png",
@@ -191,7 +192,6 @@
     "Изображения/Python.png",
     "Изображения/Alembic.png",
     "Изображения/Слои SQLAlchemy.png",
-    "Изображения/Typing.png",
     "SQL/SQLAlchemy",
     "FastAPI",
     "Flask",
