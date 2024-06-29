@@ -156,8 +156,9 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Pygame/Pygame.md",
     "Pygame/Спрайты в Pygame.md",
+    "ООП/Классы.md",
+    "Pygame/Pygame.md",
     "Pillow/Pillow.md",
     "Pillow/Image.md",
     "Изображения/Pygame.png",
@@ -192,7 +193,6 @@
     "PyTorch/Тензоры в PyTorch.md",
     "PyTorch/Нейронные сети в PyTorch.md",
     "PyTorch/Загрузка данных в PyTorch.md",
-    "PySide/Qt.md",
     "SQL/SQLAlchemy",
     "FastAPI",
     "Flask",
