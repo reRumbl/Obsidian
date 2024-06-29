@@ -60,10 +60,15 @@ running = True
 while running:
     for event in pg.event.get():  
 	    if event.type == pg.QUIT:  
-	        running = False
-    # Ввод процесса (события)
-    # Обновление
-    # Визуализация (сборка)
+	        running = False 
+    
+    # TODO: Ввод процессов (событий)
+    
+    # TODO: Обновление
+    
+	screen.fill((0, 0, 0))
+    # TODO: Визуализация (сборка)
+    pygame.display.flip()
 ```
 
 
