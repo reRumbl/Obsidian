@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pygame/Pygame.md",
+                "file": "Pygame/Спрайты в Pygame.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pygame/Pygame.md",
+                "file": "Pygame/Спрайты в Pygame.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pygame/Pygame.md",
+                "file": "Pygame/Спрайты в Pygame.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pygame/Pygame.md"
+                "file": "Pygame/Спрайты в Pygame.md"
               }
             }
           }
@@ -156,9 +156,10 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Pygame/Pygame.md",
+    "Pygame/Спрайты в Pygame.md",
     "Pillow/Pillow.md",
     "Pillow/Image.md",
-    "Pygame/Pygame.md",
     "Изображения/Pygame.png",
     "Изображения/Pygame.png",
     "Pasted image 20240629151639.png",
@@ -192,7 +193,6 @@
     "PyTorch/Нейронные сети в PyTorch.md",
     "PyTorch/Загрузка данных в PyTorch.md",
     "PySide/Qt.md",
-    "Pillow/ImageDraw.md",
     "SQL/SQLAlchemy",
     "FastAPI",
     "Flask",

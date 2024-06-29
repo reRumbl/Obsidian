@@ -45,7 +45,7 @@ import pygame
 ```Python
 import pygame
 
-WIDTH = 360  # Ширина окна
+WIDTH = 640  # Ширина окна
 HEIGHT = 480 # Высота окна
 FPS = 60 # Частота кадров в секунду
 
@@ -58,12 +58,14 @@ clock = pygame.time.Clock()
 
 running = True
 while running:
+	clock.tick(FPS)
+	
     for event in pg.event.get():  
-	    if event.type == pg.QUIT:  
+	    if event.type == pg.QUIT:  # Обработка события выхода
 	        running = False 
     
-    # TODO: Ввод процессов (событий)
-    
+    # TODO: Ввод других процессов (событий)
+
     # TODO: Обновление
     
 	screen.fill((0, 0, 0))
