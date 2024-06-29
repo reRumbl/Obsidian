@@ -22,6 +22,7 @@ class Player(pygame.sprite.Sprite):
 **Загрузка изображения в качестве текстуры:**
 
 ```Python
+
 ```
 
 Поле rect используется для перемещения объекта по координатам.
@@ -29,8 +30,27 @@ class Player(pygame.sprite.Sprite):
 **Перемещение объекта в центр:**
 
 ```Python
+WIDTH = 640
+HEIGHT = 4
 self.rect.center = (WIDTH / 2, HEIGHT / 2)
 ```
+
+**Метод обновления спрайта:**
+
+```Python
+class Player(pygame.sprite.Sprite):
+	def __init__(self):
+		pygame.sprite.Sprite.init(self)
+		self.image = pygame.Surface((50, 50))
+		self.image.fill((0, 255, 0))
+		self.rect = self.image.get_rect()
+
+	def update(self):
+		self.rect.x += 5
+		if self.rect.x >= WIDTH:
+			
+```
+
 ### Наборы спрайтов
 
 Несложно представить, что если в игре много **спрайтов**, то цикл довольно быстро станет большим и запутанным. В [[Pygame|Pygame]] для этого есть решение: группировка **спрайтов**.
