@@ -11,7 +11,7 @@
 ```Python
 class Player(pygame.sprite.Sprite):
 	def __init__(self):
-		pygame.sprite.Sprite.init(self)
+		super(Player).__init__()
 		self.image = pygame.Surface((50, 50))
 		self.image.fill((0, 255, 0))
 		self.rect = self.image.get_rect()
@@ -40,7 +40,7 @@ self.rect.center = (WIDTH / 2, HEIGHT / 2)
 ```Python
 class Player(pygame.sprite.Sprite):
 	def __init__(self):
-		pygame.sprite.Sprite.init(self)
+		super(Player).__init__()
 		self.image = pygame.Surface((50, 50))
 		self.image.fill((0, 255, 0))
 		self.rect = self.image.get_rect()
