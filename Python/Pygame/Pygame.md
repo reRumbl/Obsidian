@@ -38,11 +38,33 @@ import pygame
 
 ## Создание программ на Pygame
 
-Исходя из всего вышеперечисленного можно понять, что в коде игры должен быть игровой цикл. Его можно реализовать при помощи стандартного бесконечного цикла while True.
+Исходя из всего вышеперечисленного можно понять, что в коде игры должен быть игровой цикл. Его можно реализовать при помощи стандартного бесконечного цикла while True, заменив простой True на переменную типа bool, чтобы можно было остановить цикл без использования break.
 
-Стандартная программа на Pygame:
+**Стандартная программа на Pygame:**
 
 ```Python
+import pygame
 
+WIDTH = 360  # Ширина окна
+HEIGHT = 480 # Высота окна
+FPS = 60 # Частота кадров в секунду
+
+pygame.init()  # Инициализация Pygame
+pygame.mixer.init()  # Инициализация звука Pygame
+
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
+pygame.display.set_caption('My Game')
+clock = pygame.time.Clock()
+
+running = True
+while running:
+    for event in pg.event.get():  
+	    if event.type == pg.QUIT:  
+	        running = False
+    # Ввод процесса (события)
+    # Обновление
+    # Визуализация (сборка)
 ```
+
+
 
