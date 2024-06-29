@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pygame/Спрайты в Pygame.md",
+                "file": "Pygame/Объект Rect в Pygame.md",
                 "mode": "source",
                 "source": false
               }
@@ -27,7 +27,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pygame/Спрайты в Pygame.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pygame/Спрайты в Pygame.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Pygame/Спрайты в Pygame.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -154,10 +151,12 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "4620b63e4c4c2bd1",
+  "active": "bc210c13d5c5293f",
   "lastOpenFiles": [
-    "Изображения/Cпрайты.png",
+    "Pygame/Объект Rect в Pygame.md",
+    "Изображения/Координаты Rect в Pygame.png",
     "Pygame/Спрайты в Pygame.md",
+    "Изображения/Cпрайты.png",
     "ООП/Классы.md",
     "Pygame/Pygame.md",
     "Pillow/Pillow.md",
@@ -181,8 +180,6 @@
     "SQL/SQLite.md",
     "SQL/PostgreSQL.md",
     "Базовые функции/Python.md",
-    "Изображения/Пиктограмма Python файла.png",
-    "Изображения/Гвидо ван Россум.png",
     "Различные полезные модули/SpeechRecognition.md",
     "TensorFlow/Tensorflow.md",
     "TensorFlow/GradientTape.md",
@@ -192,7 +189,6 @@
     "Requests/Requests.md",
     "PyTorch/PyTorch.md",
     "PyTorch/Тензоры в PyTorch.md",
-    "PyTorch/Нейронные сети в PyTorch.md",
     "SQL/SQLAlchemy",
     "FastAPI",
     "Flask",

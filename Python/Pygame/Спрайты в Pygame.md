@@ -46,10 +46,13 @@ all_sprites = pygame.sprite.Group()
 **Добавление спрайта в набор:**
 
 ```Python
-
+player = Player()
+all_sprites.add(player)
 ```
 
 **Обновление набора спрайтов:**
+
+Функция update ищет в каждом **спрайте** из набора свой метод update и запускает его, то есть это тоже самое, что запускать у всех **спрайтов** из набора метод update.
 
 ```Python
 all_sprites.update()
