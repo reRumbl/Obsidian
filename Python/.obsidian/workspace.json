@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pygame/Спрайты в Pygame.md",
+                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pygame/Спрайты в Pygame.md",
+                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pygame/Спрайты в Pygame.md",
+                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pygame/Спрайты в Pygame.md"
+                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md"
               }
             }
           }
@@ -156,9 +156,12 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "SQL/SQLAlchemy/Создание таблиц в SQLAlchemy.md",
+    "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
+    "SQL/SQLAlchemy/SQLAlchemy.md",
+    "Pygame/Спрайты в Pygame.md",
     "Pygame/Объект Rect в Pygame.md",
     "Pygame/Pygame.md",
-    "Pygame/Спрайты в Pygame.md",
     "Изображения/Координаты Rect в Pygame.png",
     "Изображения/Cпрайты.png",
     "ООП/Классы.md",
@@ -176,10 +179,7 @@
     "Асинхронность/Асинхронность.md",
     "Изображения/Сравнение синхронного и асинхронного.png",
     "Git/Gitignore.md",
-    "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
-    "SQL/SQLAlchemy/SQLAlchemy.md",
     "Различные полезные модули/Pydantic.md",
-    "SQL/SQLAlchemy/Создание таблиц в SQLAlchemy.md",
     "SQL/SQLite.md",
     "SQL/PostgreSQL.md",
     "Базовые функции/Python.md",
