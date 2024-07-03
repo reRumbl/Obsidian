@@ -23,6 +23,8 @@ metadata.create_all(engine)
 
 **Пример внесения данных в таблицу:**
 
+*Через сырой запрос:*
+
 ```Python
 from sqlalchemy import text
 
@@ -32,4 +34,27 @@ def insert_data():
 		statement = 'INSERT INTO users (username) VALUES ("User1"), ("User2")'
 		conn.exec(text(statement))
 		conn.commit()
+
+
+insert_data()
+```
+
+*Через построитель запросов:*
+
+```Python
+from sqlalchemy import insert
+
+def insert_data():
+	with engine.connect() as conn:
+		statement = insert(users_table).values(
+			[
+				{'username': 'User1'},
+				{'username': 'User2'}
+			]
+		)
+		conn.exec(statement)
+		conn.commit()
+
+
+insert_data()
 ```
