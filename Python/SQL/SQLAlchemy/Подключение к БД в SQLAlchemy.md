@@ -72,10 +72,31 @@ import asyncio
 
 
 async def get_version():
-	async with engine.connect() as conn:
+	async with async_engine.connect() as conn:
 		res = await conn.execute(text('SELECT VERSION()'))
 		print(f'Result:\n{res.first()}') 
 
 
 asyncio.run(get_version())
 ```
+
+**Создание сессии при помощи Session:**
+
+```Python
+from sqlalchemy.orm import Session
+
+with Session(engine) as session:
+	pass
+```
+
+**Создание сессии при помощи sessionmaker:**
+
+```Python
+from sqlalchemy.orm import sessionmaker
+
+session = sessionmaker(engine)
+
+with session() as session:
+	pass
+```
+

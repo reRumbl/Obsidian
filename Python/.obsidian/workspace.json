@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
+                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
+                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
+                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md"
+                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md"
               }
             }
           }
@@ -156,8 +156,9 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
     "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
+    "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
+    "SQL/SQLAlchemy/Без названия.md",
     "SQL/SQLAlchemy/SQLAlchemy.md",
     "SQL/SQL.md",
     "Изображения/SQL.png",
