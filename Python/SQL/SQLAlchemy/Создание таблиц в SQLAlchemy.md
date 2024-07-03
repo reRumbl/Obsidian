@@ -3,6 +3,7 @@
 **Пример создания таблицы:**
 
 ```Python
-from sqlalchemy import Table, Column, Integer, String
+from sqlalchemy import Table, Column, Integer, String, MetaData
 
+metadata_obj = MetaData()
 ```
