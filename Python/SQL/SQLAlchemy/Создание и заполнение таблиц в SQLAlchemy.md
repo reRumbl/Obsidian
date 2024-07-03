@@ -9,8 +9,8 @@ from engines import engine  # Движок БД
 metadata = MetaData()
 
 
-workers_table = Table(
-	'workers',
+users_table = Table(
+	'users',
 	metadata,
 	Column('id', Integer, primary_key=True)
 	Column('username', String)
@@ -24,7 +24,12 @@ metadata.create_all(engine)
 **Пример внесения данных в таблицу:**
 
 ```Python
+from sqlalchemy import text
+
+
 def insert_data():
 	with engine.connect() as conn:
-		statement = """INSERT INTO users (username) VALUES ()"""
+		statement = 'INSERT INTO users (username) VALUES ("User1"), ("User2")'
+		conn.exec(text(statement))
+		conn.commit()
 ```
