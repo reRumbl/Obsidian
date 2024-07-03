@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQLAlchemy/Создание таблиц в SQLAlchemy.md",
+                "file": "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQLAlchemy/Создание таблиц в SQLAlchemy.md",
+                "file": "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQLAlchemy/Создание таблиц в SQLAlchemy.md",
+                "file": "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQLAlchemy/Создание таблиц в SQLAlchemy.md"
+                "file": "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md"
               }
             }
           }
@@ -160,7 +160,7 @@
     "SQL/SQLAlchemy/SQLAlchemy.md",
     "SQL/SQL.md",
     "Изображения/SQL.png",
-    "SQL/SQLAlchemy/Создание таблиц в SQLAlchemy.md",
+    "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
     "Различные полезные модули/Dotenv.md",
     "Различные полезные модули/Pydantic.md",
     "Pygame/Спрайты в Pygame.md",

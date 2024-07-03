@@ -20,3 +20,11 @@ workers_table = Table(
 metadata.drop_all(engine)
 metadata.create_all(engine)
 ```
+
+**Пример внесения данных в таблицу:**
+
+```Python
+def insert_data():
+	with engine.connect() as conn:
+		statement = """INSERT INTO users (username) VALUES ()"""
+```
