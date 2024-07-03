@@ -8,11 +8,25 @@
 
 - Создание в базе данных новой таблицы.
 
-
+	```SQL
+	CREATE TABLE users (
+		id INT NOT NULL,
+		username VARCHAR,
+		PRIMARY KEY (id)
+	)
+	```
 
 - Добавление в таблицу новых записей. 
 
+	```SQL
+	INSERT INTO users (id, username) VALUES (123, 'Username123')
+	```
+
 - Изменение записей.
+
+	```SQL
+	UPDATE users SET username = 'SuperUsername' WHERE id = 123
+	```
 
 - Удаление записей.
 
