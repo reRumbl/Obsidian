@@ -49,7 +49,7 @@ SELECT username FROM users WHERE id = 123
 - Изменение структур таблиц.
 
 ```SQL
-SELECT username FROM users WHERE id = 123
+ALTER TABLE users ADD role VARCHAR
 ```
 
 Со временем **SQL** усложнился и стал приобретать черты, свойственные языкам программирования.
