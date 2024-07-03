@@ -6,6 +6,12 @@
 {СУБД}+{Драйвер}://{Пользователь}:{Пароль}@{Адрес}:{Порт}/{Название}
 ```
 
+*Удобное форматирование ссылок при помощи класса, используя [[Dotenv|переменное окружение]] и [[Pydantic|Pydantic]]:*
+
+```Python
+
+```
+
 **Создание движка:**
 
 ```Python
@@ -35,4 +41,19 @@ with engine.connect() as conn:
 with engine.begin() as conn:
 	res = conn.execute(text('SELECT VERSION()'))
 	print(f'Result:\n{res.first()}')
+```
+
+*В случае асинхронного движка:*
+
+```Python
+import asyncio
+
+
+async def get_version():
+	async with engine.connect() as conn:
+		res = await conn.execute(text('SELECT VERSION()'))
+		print(f'Result:\n{res.first()}') 
+
+
+asyncio.run(get_version())
 ```
