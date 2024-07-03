@@ -100,3 +100,13 @@ with session() as session:
 	pass
 ```
 
+**Создание при помощи sessionmaker:**
+
+```Python
+from sqlalchemy.ext.asyncio import async_sessionmaker
+
+session = sessionmaker(engine)
+
+with session() as session:
+	pass
+```
