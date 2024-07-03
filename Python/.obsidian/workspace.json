@@ -154,8 +154,9 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "d719e56e11c0f051",
+  "active": "4620b63e4c4c2bd1",
   "lastOpenFiles": [
+    "Изображения/SQL.png",
     "SQL/SQLAlchemy/Создание таблиц в SQLAlchemy.md",
     "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
     "Различные полезные модули/Dotenv.md",
@@ -192,7 +193,6 @@
     "FastAPI/FastAPI.md",
     "Requests/Requests.md",
     "PyTorch/PyTorch.md",
-    "PyTorch/Тензоры в PyTorch.md",
     "SQL/SQLAlchemy",
     "FastAPI",
     "Flask",
