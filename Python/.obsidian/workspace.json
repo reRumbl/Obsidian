@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pygame/Объект Rect в Pygame.md",
+                "file": "Pygame/Pygame.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pygame/Объект Rect в Pygame.md",
+                "file": "Pygame/Pygame.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pygame/Объект Rect в Pygame.md",
+                "file": "Pygame/Pygame.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pygame/Объект Rect в Pygame.md"
+                "file": "Pygame/Pygame.md"
               }
             }
           }
@@ -156,6 +156,8 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Pygame/Спрайты в Pygame.md",
+    "Pygame/Объект Rect в Pygame.md",
     "Pygame/Pygame.md",
     "Git/Gitignore.md",
     "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
@@ -166,8 +168,6 @@
     "Изображения/SQL.png",
     "Различные полезные модули/Dotenv.md",
     "Различные полезные модули/Pydantic.md",
-    "Pygame/Спрайты в Pygame.md",
-    "Pygame/Объект Rect в Pygame.md",
     "Изображения/Координаты Rect в Pygame.png",
     "Изображения/Cпрайты.png",
     "ООП/Классы.md",
