@@ -46,8 +46,8 @@ import pygame
 import pygame
 
 WIDTH = 640  # Ширина окна
-HEIGHT = 480 # Высота окна
-FPS = 60 # Частота кадров в секунду
+HEIGHT = 480  # Высота окна
+FPS = 60  # Частота кадров в секунду
 
 pygame.init()  # Инициализация Pygame
 pygame.mixer.init()  # Инициализация звука Pygame
