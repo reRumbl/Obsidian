@@ -86,7 +86,7 @@ asyncio.run(get_version())
 from sqlalchemy.orm import Session
 
 with Session(engine) as session:
-	pass
+	session.exec(text('SELECT VERSION()'))
 ```
 
 **Создание сессии при помощи sessionmaker:**
@@ -97,7 +97,7 @@ from sqlalchemy.orm import sessionmaker
 session = sessionmaker(engine)
 
 with session() as session:
-	pass
+	session.exec(text('SELECT VERSION()'))
 ```
 
 **Создание асинхронной сессии при помощи async_sessionmaker:**
@@ -108,5 +108,5 @@ from sqlalchemy.ext.asyncio import async_sessionmaker
 async_session = async_sessionmaker(async_engine)
 
 async with async_session() as session:
-	pass
+	await session.exec(text('SELECT VERSION()'))
 ```
