@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Встроенные модули/Random.md",
+                "file": "Scikit Learn/Scikit Learn.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Встроенные модули/Random.md",
+                "file": "Scikit Learn/Scikit Learn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Встроенные модули/Random.md",
+                "file": "Scikit Learn/Scikit Learn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Встроенные модули/Random.md"
+                "file": "Scikit Learn/Scikit Learn.md"
               }
             }
           }
@@ -154,8 +154,12 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "d719e56e11c0f051",
+  "active": "4620b63e4c4c2bd1",
   "lastOpenFiles": [
+    "Изображения/Scikit Learn.png",
+    "Встроенные модули/Random.md",
+    "Scikit Learn/Scikit Learn.md",
+    "Scikit Learn",
     "Pygame/Pygame.md",
     "Pygame/Спрайты в Pygame.md",
     "Pygame/Объект Rect в Pygame.md",
@@ -190,9 +194,6 @@
     "TensorFlow/Tensorflow.md",
     "TensorFlow/GradientTape.md",
     "SQL/Alembic.md",
-    "FastAPI/FastAPI.md",
-    "Requests/Requests.md",
-    "PyTorch/PyTorch.md",
     "SQL/SQLAlchemy",
     "FastAPI",
     "Flask",
@@ -201,7 +202,6 @@
     "PyTorch",
     "Асинхронность",
     "PySide",
-    "Базовые типы",
     "Без названия.canvas"
   ]
 }
