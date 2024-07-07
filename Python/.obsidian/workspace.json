@@ -154,13 +154,13 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "4620b63e4c4c2bd1",
+  "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Pygame/Pygame.md",
+    "Scikit Learn/Scikit Learn.md",
     "Изображения/Scikit Learn.png",
     "Встроенные модули/Random.md",
-    "Scikit Learn/Scikit Learn.md",
     "Scikit Learn",
-    "Pygame/Pygame.md",
     "Pygame/Спрайты в Pygame.md",
     "Pygame/Объект Rect в Pygame.md",
     "Git/Gitignore.md",
@@ -185,7 +185,6 @@
     "Изображения/Asyncio.png",
     "Pasted image 20240628205417.png",
     "Pasted image 20240628205413.png",
-    "Async.png",
     "Асинхронность/Асинхронность.md",
     "SQL/SQLite.md",
     "SQL/PostgreSQL.md",
