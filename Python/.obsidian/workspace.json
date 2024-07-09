@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Алгоритмы классификации.md",
+                "file": "Машинное обучение/Алгоритмы классификации.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Алгоритмы классификации.md",
+                "file": "Машинное обучение/Алгоритмы классификации.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Алгоритмы классификации.md",
+                "file": "Машинное обучение/Алгоритмы классификации.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Алгоритмы классификации.md"
+                "file": "Машинное обучение/Алгоритмы классификации.md"
               }
             }
           }
@@ -156,17 +156,26 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "ML/Sklearn/Обработка данных в sklearn.md",
-    "ML/Алгоритмы классификации.md",
-    "ML",
-    "ML/Sklearn/Sklearn.md",
+    "Инструменты разработки/Jupyter Notebook.md",
+    "Инструменты разработки/Git/GitHub.md",
+    "Инструменты разработки/PyCharm",
+    "Инструменты разработки/Docker",
+    "Инструменты разработки/Git/Git.md",
+    "Инструменты разработки/PyCharm/PyCharm.md",
+    "Инструменты разработки/Docker/Docker.md",
+    "Машинное обучение/Алгоритмы классификации.md",
+    "Инструменты разработки",
+    "Backend",
+    "Машинное обучение/Sklearn/Обработка данных в sklearn.md",
+    "Машинное обучение",
+    "Машинное обучение/Sklearn/Sklearn.md",
     "Pygame/Pygame.md",
     "Изображения/Scikit Learn.png",
     "Встроенные модули/Random.md",
-    "ML/Sklearn",
+    "Машинное обучение/Sklearn",
     "Pygame/Спрайты в Pygame.md",
     "Pygame/Объект Rect в Pygame.md",
-    "Git/Gitignore.md",
+    "Инструменты разработки/Git/Gitignore.md",
     "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
     "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
     "SQL/SQLAlchemy/Без названия.md",
@@ -190,18 +199,9 @@
     "Pasted image 20240628205413.png",
     "Асинхронность/Асинхронность.md",
     "SQL/SQLite.md",
-    "SQL/PostgreSQL.md",
-    "Базовые функции/Python.md",
-    "Различные полезные модули/SpeechRecognition.md",
-    "ML/TensorFlow/Tensorflow.md",
-    "ML/TensorFlow/GradientTape.md",
     "SQL/SQLAlchemy",
-    "FastAPI",
-    "Flask",
-    "Django",
-    "Стиль и оформление",
-    "ML/PyTorch",
-    "Асинхронность",
+    "Backend/FastAPI",
+    "Backend/Flask",
     "Без названия.canvas"
   ]
 }
