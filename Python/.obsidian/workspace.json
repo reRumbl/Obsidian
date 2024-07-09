@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sklearn/Обработка данных в sklearn.md",
+                "file": "ML/Алгоритмы классификации.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sklearn/Обработка данных в sklearn.md",
+                "file": "ML/Алгоритмы классификации.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sklearn/Обработка данных в sklearn.md",
+                "file": "ML/Алгоритмы классификации.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sklearn/Обработка данных в sklearn.md"
+                "file": "ML/Алгоритмы классификации.md"
               }
             }
           }
@@ -156,12 +156,14 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Sklearn/Sklearn.md",
-    "Sklearn/Обработка данных в sklearn.md",
+    "ML/Sklearn/Обработка данных в sklearn.md",
+    "ML/Алгоритмы классификации.md",
+    "ML",
+    "ML/Sklearn/Sklearn.md",
     "Pygame/Pygame.md",
     "Изображения/Scikit Learn.png",
     "Встроенные модули/Random.md",
-    "Sklearn",
+    "ML/Sklearn",
     "Pygame/Спрайты в Pygame.md",
     "Pygame/Объект Rect в Pygame.md",
     "Git/Gitignore.md",
@@ -191,17 +193,15 @@
     "SQL/PostgreSQL.md",
     "Базовые функции/Python.md",
     "Различные полезные модули/SpeechRecognition.md",
-    "TensorFlow/Tensorflow.md",
-    "TensorFlow/GradientTape.md",
-    "SQL/Alembic.md",
+    "ML/TensorFlow/Tensorflow.md",
+    "ML/TensorFlow/GradientTape.md",
     "SQL/SQLAlchemy",
     "FastAPI",
     "Flask",
     "Django",
     "Стиль и оформление",
-    "PyTorch",
+    "ML/PyTorch",
     "Асинхронность",
-    "PySide",
     "Без названия.canvas"
   ]
 }

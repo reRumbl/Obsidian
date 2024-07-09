@@ -8,17 +8,15 @@
 
 ```Python
 from sklearn import datasets  
-from sklearn.model_selection import train_test_split  
-from sklearn.neighbors import KNeighborsClassifier  
-from sklearn.metrics import accuracy_score  
+from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-# Загрузка наб
+# Загрузка набора данных
 wine = datasets.load_wine()  
 X, y = wine.data, wine.target  
   
 # Разделение данных  
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=52)  
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=52)
   
 # Масштабирование данных  
 scaler = StandardScaler()  
