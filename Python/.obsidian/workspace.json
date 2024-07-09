@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Машинное обучение/Sklearn/Sklearn.md",
+                "file": "Машинное обучение/Алгоритмы кластеризации.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Машинное обучение/Sklearn/Sklearn.md",
+                "file": "Машинное обучение/Алгоритмы кластеризации.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Машинное обучение/Sklearn/Sklearn.md",
+                "file": "Машинное обучение/Алгоритмы кластеризации.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Машинное обучение/Sklearn/Sklearn.md"
+                "file": "Машинное обучение/Алгоритмы кластеризации.md"
               }
             }
           }
@@ -156,6 +156,8 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Машинное обучение/Sklearn/Sklearn.md",
+    "Машинное обучение/Алгоритмы кластеризации.md",
     "Машинное обучение/Алгоритмы классификации.md",
     "Изображения/SVM.png",
     "Изображения/LR.png",
@@ -171,7 +173,6 @@
     "Инструменты разработки",
     "Backend",
     "Машинное обучение",
-    "Машинное обучение/Sklearn/Sklearn.md",
     "Pygame/Pygame.md",
     "Изображения/Scikit Learn.png",
     "Встроенные модули/Random.md",
