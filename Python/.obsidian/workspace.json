@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scikit Learn/Scikit Learn.md",
+                "file": "Sklearn/Обработка данных в sklearn.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Scikit Learn/Scikit Learn.md",
+                "file": "Sklearn/Обработка данных в sklearn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scikit Learn/Scikit Learn.md",
+                "file": "Sklearn/Обработка данных в sklearn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scikit Learn/Scikit Learn.md"
+                "file": "Sklearn/Обработка данных в sklearn.md"
               }
             }
           }
@@ -156,11 +156,12 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Sklearn/Sklearn.md",
+    "Sklearn/Обработка данных в sklearn.md",
     "Pygame/Pygame.md",
-    "Scikit Learn/Scikit Learn.md",
     "Изображения/Scikit Learn.png",
     "Встроенные модули/Random.md",
-    "Scikit Learn",
+    "Sklearn",
     "Pygame/Спрайты в Pygame.md",
     "Pygame/Объект Rect в Pygame.md",
     "Git/Gitignore.md",
