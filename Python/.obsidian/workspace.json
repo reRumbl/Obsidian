@@ -156,6 +156,7 @@
   },
   "active": "4620b63e4c4c2bd1",
   "lastOpenFiles": [
+    "Машинное обучение/SVM.png",
     "Изображения/LR.png",
     "Машинное обучение/Алгоритмы классификации.md",
     "Машинное обучение/Sklearn/Обработка данных в sklearn.md",
@@ -197,7 +198,6 @@
     "Асинхронность/Asyncio.md",
     "Pygame",
     "Изображения/Asyncio.png",
-    "Pasted image 20240628205417.png",
     "Асинхронность/Асинхронность.md",
     "SQL/SQLAlchemy",
     "Backend/FastAPI",
