@@ -14,15 +14,20 @@ class Database(DeclarativeBase):
 
 ```Python
 from sqlalchemy.orm import Mapped, mapped_column
-from ... import session
+from database import session_factory
 
 
 class WorkersORM(Database):
+	__table
+	
 	id: Mapped[int] = mapped_column(primary_key=True)
 	username: Mapped[str]
 
 
-new_worker = WorkersORM(username='Andrew')
-with session() as session:
-	session.add(new_worker)
+
+with session_factory() as session:
+	new_worker1 = WorkersORM(username='Andrew')
+	new_worker2 = WorkersORM(username='Victor')
+	session.add_all([new_worker1, new_worker2])
+	session.commit()
 ```

@@ -94,9 +94,9 @@ with Session(engine) as session:
 ```Python
 from sqlalchemy.orm import sessionmaker
 
-session = sessionmaker(engine)
+session_factory = sessionmaker(engine)
 
-with session() as session:
+with session_factory() as session:
 	session.exec(text('SELECT VERSION()'))
 ```
 
@@ -105,8 +105,8 @@ with session() as session:
 ```Python
 from sqlalchemy.ext.asyncio import async_sessionmaker
 
-async_session = async_sessionmaker(async_engine)
+async_session_factory = async_sessionmaker(async_engine)
 
-async with async_session() as session:
+async with async_session_factory() as session:
 	await session.exec(text('SELECT VERSION()'))
 ```
