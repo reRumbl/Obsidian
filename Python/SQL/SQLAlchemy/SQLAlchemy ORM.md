@@ -1,1 +1,6 @@
-В SQLAlchemy ORM
+В SQLAlchemy ORM 
+
+Создание декларативной базы данных:
+
+```
+```
