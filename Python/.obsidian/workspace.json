@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQLAlchemy/Декларативные базы данных в SQLAlchemy.md",
+                "file": "SQL/ORM.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQLAlchemy/Декларативные базы данных в SQLAlchemy.md",
+                "file": "SQL/ORM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQLAlchemy/Декларативные базы данных в SQLAlchemy.md",
+                "file": "SQL/ORM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQLAlchemy/Декларативные базы данных в SQLAlchemy.md"
+                "file": "SQL/ORM.md"
               }
             }
           }
@@ -156,6 +156,9 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "SQL/SQLAlchemy/SQLAlchemy.md",
+    "SQL/ORM.md",
+    "SQL/SQLAlchemy/SQLAlchemy ORM.md",
     "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
     "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
     "Различные полезные модули/Pydantic.md",
@@ -189,8 +192,6 @@
     "Pygame/Спрайты в Pygame.md",
     "Pygame/Объект Rect в Pygame.md",
     "Инструменты разработки/Git/Gitignore.md",
-    "SQL/SQLAlchemy/Декларативные базы данных в SQLAlchemy.md",
-    "SQL/SQLAlchemy/SQLAlchemy.md",
     "SQL/SQL.md",
     "Изображения/SQL.png",
     "Различные полезные модули/Dotenv.md",
@@ -198,7 +199,6 @@
     "Изображения/Cпрайты.png",
     "ООП/Классы.md",
     "Pillow/Pillow.md",
-    "Pillow/Image.md",
     "Изображения/Pygame.png",
     "Pygame",
     "SQL/SQLAlchemy",
