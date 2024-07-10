@@ -11,14 +11,11 @@
             "id": "d719e56e11c0f051",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Идеи/Russian Genius.canvas",
-                "viewState": {
-                  "x": 241.90484157981558,
-                  "y": -107.42946953147549,
-                  "zoom": -0.3333333333333333
-                }
+                "file": "Различные полезные модули/Pydantic.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -96,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Идеи/Russian Genius.canvas",
+                "file": "Различные полезные модули/Pydantic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Идеи/Russian Genius.canvas",
+                "file": "Различные полезные модули/Pydantic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Идеи/Russian Genius.canvas"
+                "file": "Различные полезные модули/Pydantic.md"
               }
             }
           }
@@ -159,10 +156,11 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Backend/FastAPI/Валидация данных в FastAPI.md",
+    "Идеи/Russian Genius.canvas",
     "SQL/SQLite.md",
     "Идеи",
     "Изображения/SQLite.png",
-    "Идеи/Russian Genius.canvas",
     "Машинное обучение/Алгоритмы кластеризации.md",
     "Изображения/K-means.png",
     "Машинное обучение/Sklearn/Sklearn.md",
@@ -202,7 +200,6 @@
     "Pillow/Pillow.md",
     "Pillow/Image.md",
     "Изображения/Pygame.png",
-    "Асинхронность/Asyncio.md",
     "Pygame",
     "SQL/SQLAlchemy",
     "Backend/FastAPI"
