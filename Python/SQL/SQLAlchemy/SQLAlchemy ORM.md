@@ -14,9 +14,12 @@ class Database(DeclarativeBase):
 
 ```Python
 from enum import Enum
+from typing import Annotated
 from sqlalchemy.orm import Base, Mapped, mapped_column
 from sqlalchemy import ForeignKey, text
 import datetime
+
+intpk = Annotated[int, ]
 
 
 class Workers(Base):
@@ -38,7 +41,8 @@ class Resumes(Base):
 	title: Mapped[str]
 	compensation: Mapped[int | None]
 	worker_id: Mapped[int] = mapped_column(ForeignKey('workers.id', ondelete='CASCADE'))  # Можно Workers.id
-	created_at: Mapped[datetime.datetime] = mapped_column(server_default=text('TIMEZONE("utc", now())'))  # Можно использовать default=datetime.utcnow()
+	created_at: Mapped[datetime.datetime] = mapped_column(server_default=text('TIMEZONE("utc", now())'))
+	updated_at: Mapped[datetime.datetime] = mapped_column(default=datetime.utcnow(), onupdate=datetime.utcnow())
 
 
 with session_factory() as session:
