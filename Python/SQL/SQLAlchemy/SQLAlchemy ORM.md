@@ -30,3 +30,28 @@ with session_factory() as session:
 	session.add_all([new_worker1, new_worker2])
 	session.commit()
 ```
+
+```Python
+from enum import Enum
+from sqlalchemy.orm import Base, Mapped, mapped_column
+
+
+class WorkersOrm(Base):
+	__tablename__ = 'workers'
+
+	id: Mapped[int] = mapped_column(primary_key=True)
+	username: Mapped[str]
+
+
+class Workload(enum.Enum):
+	parttime = 'parttime'
+	fulltime = 'fulltime'
+
+
+class ResumesOrm(Base):
+	__tablename__ = 'resumes'
+
+	id: Mapped[int] = mapped_column(primary_key=True)
+	title: Mapped[str]
+	compensation: Mapped[int | None]
+```

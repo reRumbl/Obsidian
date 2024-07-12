@@ -69,10 +69,22 @@ insert_data()
 **Пример создания таблицы при помощи ORM:**
 
 ```Python
-class ResumesOrm(Base):
-	__tablename__ = 'resumes'
+from sqlalchemy.orm import Mapped, mapped_column
+from sessions import session_factory  # Фабрика сессий
 
+
+class WorkersORM(Database):
+	__tablename__ = 'workers'
+	
 	id: Mapped[int] = mapped_column(primary_key=True)
-	title: Mapped[str]
-	compensation: Mapped[int | None]
+	username: Mapped[str]
+
+
+with session_factory() as session:
+	new_worker1 = WorkersORM(username='Andrew')
+	new_worker2 = WorkersORM(username='Victor')
+	session.add_all([new_worker1, new_worker2])
+	session.commit()
 ```
+
+Пример заполнения таблицы
