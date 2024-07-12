@@ -7,7 +7,7 @@ from sqlalchemy.orm import DeclarativeBase
 
 
 class Database(DeclarativeBase):
-	pass
+	# Можно
 ```
 
 **Создание таблиц и запросов в декларативной базе данных:**
@@ -19,13 +19,21 @@ from sqlalchemy.orm import Base, Mapped, mapped_column
 from sqlalchemy import ForeignKey, text
 import datetime
 
-intpk = Annotated[int, ]
+intpk = Annotated[int, mapped_column(primary_key=True)]
+created_at = Annotated[
+	datetime.datetime,
+	mapped_column(server_default=text('TIMEZONE("utc", now())'))
+]
+updated_at = Annotated[
+	datetime.datetime, 
+	mapped_column(default=datetime.utcnow(), onupdate=datetime.utcnow())
+]
 
 
 class Workers(Base):
 	__tablename__ = 'workers'
 
-	id: Mapped[int] = mapped_column(primary_key=True)
+	id: Mapped[intpk]
 	username: Mapped[str]
 
 
@@ -37,12 +45,12 @@ class Workload(enum.Enum):
 class Resumes(Base):
 	__tablename__ = 'resumes'
 
-	id: Mapped[int] = mapped_column(primary_key=True)
+	id: Mapped[intpk]
 	title: Mapped[str]
 	compensation: Mapped[int | None]
 	worker_id: Mapped[int] = mapped_column(ForeignKey('workers.id', ondelete='CASCADE'))  # Можно Workers.id
-	created_at: Mapped[datetime.datetime] = mapped_column(server_default=text('TIMEZONE("utc", now())'))
-	updated_at: Mapped[datetime.datetime] = mapped_column(default=datetime.utcnow(), onupdate=datetime.utcnow())
+	created_at: Mapped[created_at]
+	updated_at: Mapped[updated_at]
 
 
 with session_factory() as session:
