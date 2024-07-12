@@ -7,7 +7,10 @@ from sqlalchemy.orm import DeclarativeBase
 
 
 class Database(DeclarativeBase):
-	# Можно
+	# Можно задать параметры, например:
+	type_annotation_map = {
+		str_200: String(200)
+	}
 ```
 
 **Создание таблиц и запросов в декларативной базе данных:**
