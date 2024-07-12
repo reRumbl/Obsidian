@@ -4,12 +4,15 @@
 
 ```Python
 from sqlalchemy.orm import DeclarativeBase
+from sqlalchemy import String
+
+	str_200 = Annotated[str, 256]
 
 
 class Database(DeclarativeBase):
 	# Можно задать параметры, например:
 	type_annotation_map = {
-		str_200: String(200)
+		str_256: String(256)
 	}
 ```
 
@@ -20,6 +23,7 @@ from enum import Enum
 from typing import Annotated
 from sqlalchemy.orm import Base, Mapped, mapped_column
 from sqlalchemy import ForeignKey, text
+from engines import engine  # Движок БД
 import datetime
 
 intpk = Annotated[int, mapped_column(primary_key=True)]
@@ -55,6 +59,8 @@ class Resumes(Base):
 	created_at: Mapped[created_at]
 	updated_at: Mapped[updated_at]
 
+
+Database.metadata.create_all(engine)
 
 with session_factory() as session:
 	new_worker1 = WorkersORM(username='Andrew')
