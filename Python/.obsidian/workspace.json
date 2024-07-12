@@ -156,8 +156,9 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "SQL/SQLAlchemy/SQLAlchemy ORM.md",
     "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
+    "ООП/Наследование.md",
+    "SQL/SQLAlchemy/SQLAlchemy ORM.md",
     "SQL/SQLAlchemy/SQLAlchemy.md",
     "ООП/Классы.md",
     "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
@@ -198,7 +199,6 @@
     "Различные полезные модули/Dotenv.md",
     "Изображения/Координаты Rect в Pygame.png",
     "Изображения/Cпрайты.png",
-    "Pillow/Pillow.md",
     "Изображения/Pygame.png",
     "Pygame",
     "SQL/SQLAlchemy",

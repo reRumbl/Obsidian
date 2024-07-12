@@ -64,4 +64,15 @@ insert_data()
 
 ## Создание и заполнение таблицы при помощи ORM
 
-Создание таблиц данным способом в [[SQLAlchemy|SQLAlchemy]] происходит при помощи [[Классы|класcа]] Base. Для этого следует [[Наследование|наследовать]] данный [[Классы|класс]]  и создать поля при помощи Mapped и mapped_column().
+Создание таблиц данным способом в [[SQLAlchemy|SQLAlchemy]] происходит при помощи [[Классы|класcа]] Base. Для этого следует [[Наследование|наследовать]] данный [[Классы|класс]]  и создать поля при помощи Mapped и mapped_column.
+
+**Пример создания таблицы при помощи ORM:**
+
+```Python
+class ResumesOrm(Base):
+	__tablename__ = 'resumes'
+
+	id: Mapped[int] = mapped_column(primary_key=True)
+	title: Mapped[str]
+	compensation: Mapped[int | None]
+```
