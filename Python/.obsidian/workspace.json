@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
+                "file": "SQL/SQLAlchemy/SQLAlchemy ORM.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
+                "file": "SQL/SQLAlchemy/SQLAlchemy ORM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
+                "file": "SQL/SQLAlchemy/SQLAlchemy ORM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md"
+                "file": "SQL/SQLAlchemy/SQLAlchemy ORM.md"
               }
             }
           }
@@ -156,14 +156,14 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
+    "Различные полезные модули/Pydantic.md",
     "SQL/SQLAlchemy/SQLAlchemy ORM.md",
     "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
     "SQL/SQLAlchemy/SQLAlchemy.md",
-    "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
     "ООП/Наследование.md",
     "ООП/Классы.md",
     "SQL/ORM.md",
-    "Различные полезные модули/Pydantic.md",
     "Backend/FastAPI/Валидация данных в FastAPI.md",
     "Идеи/Russian Genius.canvas",
     "SQL/SQLite.md",

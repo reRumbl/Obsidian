@@ -36,7 +36,8 @@ class Resumes(Base):
 	id: Mapped[int] = mapped_column(primary_key=True)
 	title: Mapped[str]
 	compensation: Mapped[int | None]
-	worker_id: Mapped[int] = mapped_column(ForeignKey('workers.id'))  # Можно Workers.id
+	worker_id: Mapped[int] = mapped_column(ForeignKey('workers.id', ondelete='CASCADE'))  # Можно Workers.id
+	created_at: Mapped[datetime.]
 
 
 with session_factory() as session:
