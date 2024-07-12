@@ -70,7 +70,6 @@ insert_data()
 
 ```Python
 from sqlalchemy.orm import Mapped, mapped_column
-from sessions import session_factory  # Фабрика сессий
 
 
 class WorkersORM(Database):
@@ -78,7 +77,12 @@ class WorkersORM(Database):
 	
 	id: Mapped[int] = mapped_column(primary_key=True)
 	username: Mapped[str]
+```
 
+**Пример заполнения ORM таблицы:**
+
+```Python
+from sessions import session_factory  # Фабрика сессий
 
 with session_factory() as session:
 	new_worker1 = WorkersORM(username='Andrew')
@@ -86,5 +90,3 @@ with session_factory() as session:
 	session.add_all([new_worker1, new_worker2])
 	session.commit()
 ```
-
-Пример заполнения таблицы

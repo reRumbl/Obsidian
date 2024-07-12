@@ -13,30 +13,12 @@ class Database(DeclarativeBase):
 **Создание таблиц и запросов в декларативной базе данных:**
 
 ```Python
-from sqlalchemy.orm import Mapped, mapped_column
-from sessions import session_factory  # Фабрика сессий
-
-
-class WorkersORM(Database):
-	__tablename__ = 'workers'
-	
-	id: Mapped[int] = mapped_column(primary_key=True)
-	username: Mapped[str]
-
-
-with session_factory() as session:
-	new_worker1 = WorkersORM(username='Andrew')
-	new_worker2 = WorkersORM(username='Victor')
-	session.add_all([new_worker1, new_worker2])
-	session.commit()
-```
-
-```Python
 from enum import Enum
 from sqlalchemy.orm import Base, Mapped, mapped_column
+from sqlalchemy import ForeignKey
 
 
-class WorkersOrm(Base):
+class Workers(Base):
 	__tablename__ = 'workers'
 
 	id: Mapped[int] = mapped_column(primary_key=True)
@@ -48,10 +30,18 @@ class Workload(enum.Enum):
 	fulltime = 'fulltime'
 
 
-class ResumesOrm(Base):
+class Resumes(Base):
 	__tablename__ = 'resumes'
 
 	id: Mapped[int] = mapped_column(primary_key=True)
 	title: Mapped[str]
 	compensation: Mapped[int | None]
+	worker_id: Mapped[int] = mapped_column(ForeignKey('workers.id'))  # Можно Workers.id
+
+
+with session_factory() as session:
+	new_worker1 = WorkersORM(username='Andrew')
+	new_worker2 = WorkersORM(username='Victor')
+	session.add_all([new_worker1, new_worker2])
+	session.commit()
 ```
