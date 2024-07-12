@@ -14,7 +14,7 @@ class Database(DeclarativeBase):
 
 ```Python
 from sqlalchemy.orm import Mapped, mapped_column
-from database import session_factory
+from sessions import session_factory  # Фабрика сессий
 
 
 class WorkersORM(Database):
