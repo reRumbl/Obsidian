@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy ORM.md",
+                "file": "Машинное обучение/Слои нейронных сетей.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy ORM.md",
+                "file": "Машинное обучение/Слои нейронных сетей.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy ORM.md",
+                "file": "Машинное обучение/Слои нейронных сетей.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy ORM.md"
+                "file": "Машинное обучение/Слои нейронных сетей.md"
               }
             }
           }
@@ -156,8 +156,10 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
+    "Изображения/Слои нейронных сетей.png",
     "SQL/SQLAlchemy/SQLAlchemy ORM.md",
+    "Машинное обучение/Слои нейронных сетей.md",
+    "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
     "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
     "SQL/SQLAlchemy/SQLAlchemy.md",
     "Идеи/Russian Genius.canvas",
@@ -194,7 +196,6 @@
     "Pygame/Спрайты в Pygame.md",
     "Pygame/Объект Rect в Pygame.md",
     "Инструменты разработки/Git/Gitignore.md",
-    "SQL/SQL.md",
     "Изображения/SQL.png",
     "Изображения/Координаты Rect в Pygame.png",
     "Изображения/Cпрайты.png",
