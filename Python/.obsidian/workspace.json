@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Машинное обучение/Слои нейронных сетей.md",
+                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Машинное обучение/Слои нейронных сетей.md",
+                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Машинное обучение/Слои нейронных сетей.md",
+                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Машинное обучение/Слои нейронных сетей.md"
+                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md"
               }
             }
           }
@@ -156,12 +156,12 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "SQL/SQLAlchemy/SQLAlchemy.md",
+    "Машинное обучение/Слои нейронных сетей.md",
     "Изображения/Слои нейронных сетей.png",
     "SQL/SQLAlchemy/SQLAlchemy ORM.md",
-    "Машинное обучение/Слои нейронных сетей.md",
     "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
     "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
-    "SQL/SQLAlchemy/SQLAlchemy.md",
     "Идеи/Russian Genius.canvas",
     "Различные полезные модули/Pydantic.md",
     "ООП/Наследование.md",
@@ -199,7 +199,6 @@
     "Изображения/SQL.png",
     "Изображения/Координаты Rect в Pygame.png",
     "Изображения/Cпрайты.png",
-    "Изображения/Pygame.png",
     "Pygame",
     "SQL/SQLAlchemy",
     "Backend/FastAPI"
