@@ -22,17 +22,17 @@ class Settings(BaseSettings):
     @property  
     def DATABASE_URL_asyncpg(self):  
         # postgresql+asyncpg://postgres:postgres@localhost:5432/name  
-        return f'postgresql+asyncpg://{self.DB_USER}:{self.DB_PASS}@{self.DB_HOST}:{self.DB+PORT}/{self.DB_NAME}'
+        return f'postgresql+asyncpg://{self.DB_USER}:{self.DB_PASS}@{self.DB_HOST}:{self.DB_PORT}/{self.DB_NAME}'
           
     @property  
     def DATABASE_URL_psycopg(self):  
         # postgresql+psycopg://postgres:postgres@localhost:5432/name  
-        return f'postgresql+psycopg://{self.DB_USER}:{self.DB_PASS}@{self.DB_HOST}:{self.DB+PORT}/{self.DB_NAME}'
+        return f'postgresql+psycopg://{self.DB_USER}:{self.DB_PASS}@{self.DB_HOST}:{self.DB_PORT}/{self.DB_NAME}'
           
     model_config = SettingsConfigDict(env_file='.env')  
   
   
-setting = Settings()
+settings = Settings()
 ```
 
 **Создание движка:**

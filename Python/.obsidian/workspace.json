@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/FastAPI/FastAPI.md",
+                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend/FastAPI/FastAPI.md",
+                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend/FastAPI/FastAPI.md",
+                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/FastAPI/FastAPI.md"
+                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md"
               }
             }
           }
@@ -156,6 +156,8 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Различные полезные модули/Pydantic.md",
+    "Backend/FastAPI/FastAPI.md",
     "Инструменты разработки/Git/Gitignore.md",
     "Инструменты разработки/Git/Git.md",
     "SQL/SQLAlchemy/SQLAlchemy ORM.md",
@@ -165,7 +167,6 @@
     "Изображения/Слои нейронных сетей.png",
     "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
     "Идеи/Russian Genius.canvas",
-    "Различные полезные модули/Pydantic.md",
     "ООП/Наследование.md",
     "ООП/Классы.md",
     "SQL/ORM.md",
