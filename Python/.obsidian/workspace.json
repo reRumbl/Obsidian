@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy ORM.md",
+                "file": "Backend/FastAPI/FastAPI.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy ORM.md",
+                "file": "Backend/FastAPI/FastAPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy ORM.md",
+                "file": "Backend/FastAPI/FastAPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy ORM.md"
+                "file": "Backend/FastAPI/FastAPI.md"
               }
             }
           }
@@ -156,11 +156,13 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Инструменты разработки/Git/Gitignore.md",
+    "Инструменты разработки/Git/Git.md",
+    "SQL/SQLAlchemy/SQLAlchemy ORM.md",
     "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
     "SQL/SQLAlchemy/SQLAlchemy.md",
     "Машинное обучение/Слои нейронных сетей.md",
     "Изображения/Слои нейронных сетей.png",
-    "SQL/SQLAlchemy/SQLAlchemy ORM.md",
     "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
     "Идеи/Russian Genius.canvas",
     "Различные полезные модули/Pydantic.md",
@@ -183,7 +185,6 @@
     "Инструменты разработки/Git/GitHub.md",
     "Инструменты разработки/PyCharm",
     "Инструменты разработки/Docker",
-    "Инструменты разработки/Git/Git.md",
     "Инструменты разработки/PyCharm/PyCharm.md",
     "Инструменты разработки/Docker/Docker.md",
     "Инструменты разработки",
@@ -195,7 +196,6 @@
     "Машинное обучение/Sklearn",
     "Pygame/Спрайты в Pygame.md",
     "Pygame/Объект Rect в Pygame.md",
-    "Инструменты разработки/Git/Gitignore.md",
     "Изображения/SQL.png",
     "Изображения/Координаты Rect в Pygame.png",
     "Изображения/Cпрайты.png",
