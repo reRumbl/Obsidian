@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy ORM.md",
+                "file": "Базовые функции/Встроенные функции.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy ORM.md",
+                "file": "Базовые функции/Встроенные функции.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy ORM.md",
+                "file": "Базовые функции/Встроенные функции.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQLAlchemy/SQLAlchemy ORM.md"
+                "file": "Базовые функции/Встроенные функции.md"
               }
             }
           }
@@ -156,17 +156,18 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Идеи/Russian Genius.canvas",
+    "Базовые функции/Встроенные функции.md",
+    "SQL/SQLAlchemy/SQLAlchemy ORM.md",
     "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
     "Различные полезные модули/Pydantic.md",
     "Backend/FastAPI/FastAPI.md",
     "Инструменты разработки/Git/Gitignore.md",
     "Инструменты разработки/Git/Git.md",
-    "SQL/SQLAlchemy/SQLAlchemy ORM.md",
     "SQL/SQLAlchemy/SQLAlchemy.md",
     "Машинное обучение/Слои нейронных сетей.md",
     "Изображения/Слои нейронных сетей.png",
     "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
-    "Идеи/Russian Genius.canvas",
     "ООП/Наследование.md",
     "ООП/Классы.md",
     "SQL/ORM.md",
@@ -195,8 +196,6 @@
     "Изображения/Scikit Learn.png",
     "Встроенные модули/Random.md",
     "Машинное обучение/Sklearn",
-    "Pygame/Спрайты в Pygame.md",
-    "Pygame/Объект Rect в Pygame.md",
     "Изображения/SQL.png",
     "Изображения/Координаты Rect в Pygame.png",
     "Изображения/Cпрайты.png",
