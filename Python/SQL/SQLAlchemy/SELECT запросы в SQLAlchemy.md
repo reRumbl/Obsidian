@@ -4,11 +4,16 @@
 
 ## Запросы с фильтрами
 
-**Выражение с like:**
+**Пример выражения с like:**
 
-```
-
-posts = Post.query.filter(Post.tags.like(search)).all()
+```Python
+prompt = 'Master of Puppets'
+result = db.execute(  
+	select(models.Track)  
+	.filter(models.Track.name.like(f'%{prompt}%'))
+)
 ```
 
 ## Запросы с Join
+
+При
