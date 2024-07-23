@@ -1,4 +1,4 @@
-Аутентификация в [[FastAPI|FastAPI]] происходит при помощи специальных классов из fastapi.security, которые задают входные данные.
+Аутентификация в [[FastAPI|FastAPI]] происходит при помощи специальных [[Классы|классов]] из fastapi.security, которые задают входные данные.
 
 **Пример аутентификации с использованием HTTP Basic Auth:**
 
@@ -40,3 +40,19 @@ def get_item(item_id: int, username: str = Depends(get_current_username)):
     raise HTTPException(status_code=404, detail="Item not found")
 ```
 
+## Аутентификация при помощи FastAPI Users
+
+**FastAPI Users** - это библиотека, разработанная для создания аутентификации в [[FastAPI|FastAPI]].
+
+**Установка через cmd или terminal:**
+
+```Python
+pip install fastapi-users[sqlalchemy]  # С поддержкой SQLAlchemy
+pip install fastapi-users[beanie]  # С поддержкой Beanie
+```
+
+**Подключение в проект:**
+
+```Python
+import fastapi
+```

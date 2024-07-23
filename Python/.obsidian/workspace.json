@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQLAlchemy/SELECT запросы в SQLAlchemy.md",
+                "file": "Backend/FastAPI/Аутентификация в FastAPI.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQLAlchemy/SELECT запросы в SQLAlchemy.md",
+                "file": "Backend/FastAPI/Аутентификация в FastAPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQLAlchemy/SELECT запросы в SQLAlchemy.md",
+                "file": "Backend/FastAPI/Аутентификация в FastAPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQLAlchemy/SELECT запросы в SQLAlchemy.md"
+                "file": "Backend/FastAPI/Аутентификация в FastAPI.md"
               }
             }
           }
@@ -156,8 +156,11 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "SQL/SQLAlchemy/SQLAlchemy ORM.md",
+    "Backend/FastAPI/FastAPI.md",
+    "Backend/FastAPI/Аутентификация в FastAPI.md",
     "SQL/SQLAlchemy/SELECT запросы в SQLAlchemy.md",
+    "Backend/FastAPI/Без названия.md",
+    "SQL/SQLAlchemy/SQLAlchemy ORM.md",
     "SQL/SQL.md",
     "Машинное обучение/TensorFlow/Тензоры в TensorFlow.md",
     "Базовые функции/Встроенные функции.md",
@@ -165,7 +168,6 @@
     "Идеи/Russian Genius.canvas",
     "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
     "Различные полезные модули/Pydantic.md",
-    "Backend/FastAPI/FastAPI.md",
     "Инструменты разработки/Git/Gitignore.md",
     "Инструменты разработки/Git/Git.md",
     "SQL/SQLAlchemy/SQLAlchemy.md",
@@ -188,10 +190,8 @@
     "Машинное обучение/Sklearn/Обработка данных в sklearn.md",
     "Изображения/KNN.png",
     "Инструменты разработки/Jupyter Notebook.md",
-    "Инструменты разработки/Git/GitHub.md",
     "Инструменты разработки/PyCharm",
     "Инструменты разработки/Docker",
-    "Инструменты разработки/PyCharm/PyCharm.md",
     "Инструменты разработки",
     "Backend",
     "Машинное обучение",
