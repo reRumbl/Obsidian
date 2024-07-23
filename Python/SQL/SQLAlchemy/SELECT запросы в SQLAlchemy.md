@@ -5,12 +5,17 @@
 **Простой запрос всех столбцов таблицы при помощи SQL:**
 
 ```Python
+from sqlalchemy import text
+from database import db  # Сессия
 
+result = db.execute(text('SELECT * FROM tracks'))
 ```
 
 **Простой запрос всех столбцов таблицы при помощи ORM:**
 
 ```Python
+import models  # ORM модели
+
 result = db.execute(select(models.Track))
 ```
 
