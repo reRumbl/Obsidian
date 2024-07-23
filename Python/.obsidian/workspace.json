@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Базовые функции/Встроенные функции.md",
+                "file": "SQL/SQLAlchemy/Без названия.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Базовые функции/Встроенные функции.md",
+                "file": "SQL/SQLAlchemy/Без названия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Базовые функции/Встроенные функции.md",
+                "file": "SQL/SQLAlchemy/Без названия.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Базовые функции/Встроенные функции.md"
+                "file": "SQL/SQLAlchemy/Без названия.md"
               }
             }
           }
@@ -156,8 +156,10 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Встроенные модули/Functools.md",
+    "Машинное обучение/TensorFlow/Тензоры в TensorFlow.md",
     "Базовые функции/Встроенные функции.md",
+    "SQL/SQLAlchemy/Без названия.md",
+    "Встроенные модули/Functools.md",
     "Идеи/Russian Genius.canvas",
     "SQL/SQLAlchemy/SQLAlchemy ORM.md",
     "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
@@ -193,9 +195,7 @@
     "Инструменты разработки",
     "Backend",
     "Машинное обучение",
-    "Pygame/Pygame.md",
     "Изображения/Scikit Learn.png",
-    "Встроенные модули/Random.md",
     "Машинное обучение/Sklearn",
     "Изображения/SQL.png",
     "Изображения/Координаты Rect в Pygame.png",
