@@ -15,3 +15,6 @@ pip install fastapi-users[beanie]  # С поддержкой Beanie
 import fastapi_users
 ```
 
+## Подключение к БД
+
+
