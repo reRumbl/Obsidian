@@ -18,7 +18,7 @@ import alembic
 
 Инициализация **Alembic** происходит при помощи специальной консольной команды в определенной директории.
 
-**Инициализация Alembic:**
+**Инициализация Alembic через cmd или terminal:**
 
 ```Python
 alembic init database\migrations
@@ -57,7 +57,7 @@ section = config.config_ini_section
 config.set_section_option(section, 'DB_URL', settings.database_url_asyncpg)
 ```
 
-3. Передача метаданных в env.py:
+3. **Передача метаданных в env.py:**
 
 ```Python
 from app.database import Base
@@ -66,6 +66,13 @@ from app.database import Base
 # for 'autogenerate' support  
 # from myapp import mymodel  
 # target_metadata = mymodel.Base.metadata  
-target_metadata = Base.metadata  # Изначально записано как None
+target_metadata = Base.metadata  # Изначально записано, как None
 ```
 
+**Создание ревизии через cmd или terminal:**
+
+```Python
+alembic 
+```
+
+## 
