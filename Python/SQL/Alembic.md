@@ -14,3 +14,12 @@ pip install alembic
 import alembic
 ```
 
+## Инициализация и конфигурация Alembic
+
+Инициализация **Alembic** происходит при помощи специальной консольной команды в определенной директории.
+
+**Инициализация Alembic:**
+
+```Python
+alembic init {directory
+```

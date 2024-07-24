@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/FastAPI/FastAPI-Users.md",
+                "file": "SQL/Alembic.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend/FastAPI/FastAPI-Users.md",
+                "file": "SQL/Alembic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend/FastAPI/FastAPI-Users.md",
+                "file": "SQL/Alembic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/FastAPI/FastAPI-Users.md"
+                "file": "SQL/Alembic.md"
               }
             }
           }
@@ -154,11 +154,11 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "4620b63e4c4c2bd1",
+  "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Backend/FastAPI/FastAPI-Users.md",
     "Изображения/FastAPI-Users.png",
     "Backend/FastAPI/Аутентификация в FastAPI.md",
-    "Backend/FastAPI/FastAPI-Users.md",
     "Backend/FastAPI/FastAPI.md",
     "Различные полезные модули/Jose.md",
     "SQL/SQLAlchemy/SELECT запросы в SQLAlchemy.md",
@@ -199,7 +199,6 @@
     "Машинное обучение/Sklearn",
     "Изображения/SQL.png",
     "Изображения/Координаты Rect в Pygame.png",
-    "Изображения/Cпрайты.png",
     "Pygame",
     "SQL/SQLAlchemy",
     "Backend/FastAPI"
