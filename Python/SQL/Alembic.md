@@ -21,5 +21,15 @@ import alembic
 **Инициализация Alembic:**
 
 ```Python
-alembic init {directory
+alembic init database\migrations
 ```
+
+После инициализации появляется набор файлов:
+
+- **alembic.ini** - В директории вызова команды.
+
+- env.py - В выбранной директории.
+
+- Readme - В выбранной директории.
+
+- env.py - В выбранной директории.
