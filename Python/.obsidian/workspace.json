@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Различные полезные модули/Jose.md",
+                "file": "Backend/FastAPI/FastAPI-Users.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Различные полезные модули/Jose.md",
+                "file": "Backend/FastAPI/FastAPI-Users.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Различные полезные модули/Jose.md",
+                "file": "Backend/FastAPI/FastAPI-Users.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Различные полезные модули/Jose.md"
+                "file": "Backend/FastAPI/FastAPI-Users.md"
               }
             }
           }
@@ -157,10 +157,10 @@
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
     "Backend/FastAPI/Аутентификация в FastAPI.md",
-    "Различные полезные модули/Jose.md",
+    "Backend/FastAPI/FastAPI-Users.md",
     "Backend/FastAPI/FastAPI.md",
+    "Различные полезные модули/Jose.md",
     "SQL/SQLAlchemy/SELECT запросы в SQLAlchemy.md",
-    "Backend/FastAPI/Без названия.md",
     "SQL/SQLAlchemy/SQLAlchemy ORM.md",
     "SQL/SQL.md",
     "Машинное обучение/TensorFlow/Тензоры в TensorFlow.md",

@@ -42,17 +42,4 @@ def get_item(item_id: int, username: str = Depends(get_current_username)):
 
 ## Аутентификация при помощи FastAPI Users
 
-**FastAPI Users** - это библиотека, разработанная для создания аутентификации в [[FastAPI|FastAPI]].
-
-**Установка через cmd или terminal:**
-
-```Python
-pip install fastapi-users[sqlalchemy]  # С поддержкой SQLAlchemy
-pip install fastapi-users[beanie]  # С поддержкой Beanie
-```
-
-**Подключение в проект:**
-
-```Python
-import fastapi_users
-```
+Для создания аутентификации можно использовать готовый инструмент - [[FastAPI-Users|FastAPI-Users]].
