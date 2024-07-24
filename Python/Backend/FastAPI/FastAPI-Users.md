@@ -1,6 +1,6 @@
 **FastAPI Users** - это мощная библиотека, разработанная для создания аутентификации в [[FastAPI|FastAPI]].
 
-
+![[FastAPI-Users.png]]
 
 **Установка через cmd или terminal:**
 
@@ -14,3 +14,4 @@ pip install fastapi-users[beanie]  # С поддержкой Beanie
 ```Python
 import fastapi_users
 ```
+

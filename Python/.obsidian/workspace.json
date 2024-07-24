@@ -154,8 +154,9 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "d719e56e11c0f051",
+  "active": "4620b63e4c4c2bd1",
   "lastOpenFiles": [
+    "Изображения/FastAPI-Users.png",
     "Backend/FastAPI/Аутентификация в FastAPI.md",
     "Backend/FastAPI/FastAPI-Users.md",
     "Backend/FastAPI/FastAPI.md",
@@ -188,7 +189,6 @@
     "Машинное обучение/Алгоритмы классификации.md",
     "Изображения/SVM.png",
     "Изображения/LR.png",
-    "Машинное обучение/Sklearn/Обработка данных в sklearn.md",
     "Изображения/KNN.png",
     "Инструменты разработки/PyCharm",
     "Инструменты разработки/Docker",
