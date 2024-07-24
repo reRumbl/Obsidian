@@ -54,5 +54,5 @@ pip install fastapi-users[beanie]  # С поддержкой Beanie
 **Подключение в проект:**
 
 ```Python
-import fastapi
+import fastapi_users
 ```
