@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/FastAPI/Аутентификация в FastAPI.md",
+                "file": "Различные полезные модули/Jose.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend/FastAPI/Аутентификация в FastAPI.md",
+                "file": "Различные полезные модули/Jose.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend/FastAPI/Аутентификация в FastAPI.md",
+                "file": "Различные полезные модули/Jose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/FastAPI/Аутентификация в FastAPI.md"
+                "file": "Различные полезные модули/Jose.md"
               }
             }
           }
@@ -156,8 +156,9 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Backend/FastAPI/FastAPI.md",
     "Backend/FastAPI/Аутентификация в FastAPI.md",
+    "Различные полезные модули/Jose.md",
+    "Backend/FastAPI/FastAPI.md",
     "SQL/SQLAlchemy/SELECT запросы в SQLAlchemy.md",
     "Backend/FastAPI/Без названия.md",
     "SQL/SQLAlchemy/SQLAlchemy ORM.md",
@@ -189,7 +190,6 @@
     "Изображения/LR.png",
     "Машинное обучение/Sklearn/Обработка данных в sklearn.md",
     "Изображения/KNN.png",
-    "Инструменты разработки/Jupyter Notebook.md",
     "Инструменты разработки/PyCharm",
     "Инструменты разработки/Docker",
     "Инструменты разработки",
