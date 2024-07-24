@@ -47,7 +47,25 @@ sqlalchemy.url = %(DB_URL)s
 2. **Передача переменных для подстановки через env.py:**
 
 ```Python
-from app.config import settings
+from config import settings
 
+# this is the Alembic Config object, which provides  
+# access to the values within the .ini file in use.  
+config = context.config  # Сгенерировано автоматически, остальное добавлено
 
+section = config.config_ini_section  
+config.set_section_option(section, 'DB_URL', settings.database_url_asyncpg)
 ```
+
+3. Передача метаданных в env.py:
+
+```Python
+from app.database import Base
+
+# add your model's MetaData object here  
+# for 'autogenerate' support  
+# from myapp import mymodel  
+# target_metadata = mymodel.Base.metadata  
+target_metadata = Base.metadata  # Изначально записано как None
+```
+
