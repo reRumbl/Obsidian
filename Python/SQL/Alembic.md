@@ -69,10 +69,12 @@ from app.database import Base
 target_metadata = Base.metadata  # Изначально записано, как None
 ```
 
+После инициализации и конфигурации происходит создание ревизии.
+
 **Создание ревизии через cmd или terminal:**
 
 ```Python
-alembic 
+alembic revision --autogenerate -m "Database creation"
 ```
 
 ## 
