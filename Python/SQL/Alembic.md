@@ -77,4 +77,5 @@ target_metadata = Base.metadata  # Изначально записано, как
 alembic revision --autogenerate -m "Database creation"
 ```
 
-## 
+## Работа с версиями в Alembic
+
