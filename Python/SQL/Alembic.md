@@ -79,3 +79,10 @@ alembic revision --autogenerate -m "Database creation"
 
 ## Работа с версиями в Alembic
 
+Для обновления до каких-либо версий используется команда upgrade.
+
+**Обновление до последней версии через cmd или terminal:**
+
+```Python
+alembic upgrade head
+```
