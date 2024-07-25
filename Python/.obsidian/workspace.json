@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Машинное обучение/TensorFlow/Тензоры в TensorFlow.md",
+                "file": "SQL/Alembic.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Машинное обучение/TensorFlow/Тензоры в TensorFlow.md",
+                "file": "SQL/Alembic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Машинное обучение/TensorFlow/Тензоры в TensorFlow.md",
+                "file": "SQL/Alembic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Машинное обучение/TensorFlow/Тензоры в TensorFlow.md"
+                "file": "SQL/Alembic.md"
               }
             }
           }
@@ -156,6 +156,7 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Машинное обучение/TensorFlow/Тензоры в TensorFlow.md",
     "SQL/Alembic.md",
     "Backend/FastAPI/FastAPI-Users.md",
     "Изображения/FastAPI-Users.png",
@@ -165,7 +166,6 @@
     "SQL/SQLAlchemy/SELECT запросы в SQLAlchemy.md",
     "SQL/SQLAlchemy/SQLAlchemy ORM.md",
     "SQL/SQL.md",
-    "Машинное обучение/TensorFlow/Тензоры в TensorFlow.md",
     "Базовые функции/Встроенные функции.md",
     "Встроенные модули/Functools.md",
     "Идеи/Russian Genius.canvas",
