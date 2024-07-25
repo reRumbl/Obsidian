@@ -72,7 +72,7 @@ async def get_user_db(session: AsyncSession = Depends(get_async_session)):
 
 После подключения к БД следует задать конфигурацию транспортировки в отдельном файле.
 
-Конфигурация транспортировки (cookie + jwt):
+**Конфигурация транспортировки (cookie + jwt):**
 
 ```Python
 from fastapi_users.authentication import CookieTransport, JWTStrategy, AuthenticationBackend  
@@ -94,4 +94,47 @@ auth_backend = AuthenticationBackend(
 )
 ```
 
-## 
+## Создание UserManager
+
+Далее требуется создать менеджера, который позволит работать с данными пользователей.
+
+**Создание менеджера:**
+
+```Python
+from typing import Optional  
+  
+from fastapi import Depends, Request  
+from fastapi_users import BaseUserManager, IntegerIDMixin  
+  
+from .database import User, get_user_db  
+from src.config import settings  
+  
+SECRET = settings.JWT_KEY  
+  
+  
+class UserManager(IntegerIDMixin, BaseUserManager[User, int]):  
+    reset_password_token_secret = SECRET  
+    verification_token_secret = SECRET  
+  
+    async def on_after_register(self, user: User, request: Optional[Request] = None):  
+        print(f"User {user.id} has registered.")  
+  
+    async def on_after_forgot_password(  
+        self, user: User, token: str, request: Optional[Request] = None  
+    ):  
+        print(f"User {user.id} has forgot their password. Reset token: {token}")  
+  
+    async def on_after_request_verify(  
+        self, user: User, token: str, request: Optional[Request] = None  
+    ):  
+        print(f"Verification requested for user {user.id}. Verification token: {token}")  
+  
+  
+async def get_user_manager(user_db=Depends(get_user_db)):  
+    yield UserManager(user_db)
+```
+
+## Создание схем Pydantic
+
+После всех вышеперечисленных шагов требуется создать схемы Pydantic
+
