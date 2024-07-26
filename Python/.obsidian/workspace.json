@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/FastAPI/Роутеры в FastAPI.md",
+                "file": "Backend/FastAPI/Обработка ошибок в FastAPI.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend/FastAPI/Роутеры в FastAPI.md",
+                "file": "Backend/FastAPI/Обработка ошибок в FastAPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend/FastAPI/Роутеры в FastAPI.md",
+                "file": "Backend/FastAPI/Обработка ошибок в FastAPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/FastAPI/Роутеры в FastAPI.md"
+                "file": "Backend/FastAPI/Обработка ошибок в FastAPI.md"
               }
             }
           }
@@ -156,8 +156,9 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Backend/FastAPI/Endpoint, Параметры URL в FastAPI.md",
     "Backend/FastAPI/Роутеры в FastAPI.md",
+    "Backend/FastAPI/Обработка ошибок в FastAPI.md",
+    "Backend/FastAPI/Endpoint, Параметры URL в FastAPI.md",
     "SQL/Alembic.md",
     "Машинное обучение/TensorFlow/GradientTape.md",
     "Машинное обучение/TensorFlow/Тензоры в TensorFlow.md",
@@ -184,7 +185,6 @@
     "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
     "ООП/Наследование.md",
     "ООП/Классы.md",
-    "SQL/ORM.md",
     "Идеи",
     "Изображения/SQLite.png",
     "Изображения/K-means.png",
