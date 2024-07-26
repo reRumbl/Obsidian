@@ -21,7 +21,7 @@ import alembic
 **Инициализация Alembic через cmd или terminal:**
 
 ```Python
-alembic init database\migrations
+alembic init alembic  # Название новой директории
 ```
 
 **После инициализации появляется набор файлов:**
@@ -41,7 +41,7 @@ alembic init database\migrations
 1. **Изменение ссылки на БД в alembic.ini:** 
 
 ```Python
-sqlalchemy.url = %(DB_URL)s
+sqlalchemy.url = %(DB_URL)s?async_fallback=True
 ```
 
 2. **Передача переменных для подстановки через env.py:**
@@ -69,7 +69,9 @@ from app.database import Base
 target_metadata = Base.metadata  # Изначально записано, как None
 ```
 
-После инициализации и конфигурации происходит создание ревизии.
+## Работа с версиями в Alembic
+
+После инициализации и конфигурации требуется создать ревизию. **Ревизия** - разница между текущим состоянием базы данных и ее состоянием в коде.
 
 **Создание ревизии через cmd или terminal:**
 
@@ -77,7 +79,6 @@ target_metadata = Base.metadata  # Изначально записано, как
 alembic revision --autogenerate -m "Database creation"
 ```
 
-## Работа с версиями в Alembic
 
 Для обновления до каких-либо версий используется команда upgrade.
 
