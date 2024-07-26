@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Машинное обучение/TensorFlow/Тензоры в TensorFlow.md",
+                "file": "Машинное обучение/TensorFlow/Переменные в TensorFlow.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,11 +23,19 @@
             "id": "bc210c13d5c5293f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "Идеи/Russian Genius.canvas",
+                "viewState": {
+                  "x": -85,
+                  "y": 2.721413721413711,
+                  "zoom": -0.2774589894304546
+                }
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Машинное обучение/TensorFlow/Тензоры в TensorFlow.md",
+                "file": "Идеи/Russian Genius.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Машинное обучение/TensorFlow/Тензоры в TensorFlow.md",
+                "file": "Идеи/Russian Genius.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Машинное обучение/TensorFlow/Тензоры в TensorFlow.md"
+                "file": "Идеи/Russian Genius.canvas"
               }
             }
           }
@@ -154,17 +162,17 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "d719e56e11c0f051",
+  "active": "bc210c13d5c5293f",
   "lastOpenFiles": [
+    "Машинное обучение/TensorFlow/GradientTape.md",
+    "Машинное обучение/TensorFlow/TensorFlow.md",
     "Машинное обучение/TensorFlow/Переменные в TensorFlow.md",
     "Машинное обучение/TensorFlow/Тензоры в TensorFlow.md",
-    "Машинное обучение/TensorFlow/TensorFlow.md",
     "Машинное обучение/TensorFlow/Логирование в TensorFlow.md",
     "Backend/FastAPI/Проектирование RestAPI в FastAPI.md",
     "Backend/FastAPI/Роутеры в FastAPI.md",
     "Backend/FastAPI/Endpoint, Параметры URL в FastAPI.md",
     "SQL/Alembic.md",
-    "Машинное обучение/TensorFlow/GradientTape.md",
     "Backend/FastAPI/FastAPI-Users.md",
     "Backend/FastAPI/Аутентификация в FastAPI.md",
     "Изображения/FastAPI-Users.png",
