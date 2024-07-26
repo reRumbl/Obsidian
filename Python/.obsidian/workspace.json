@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/FastAPI/Endpoint, Параметры URL в FastAPI.md",
+                "file": "Backend/FastAPI/Роутеры в FastAPI.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend/FastAPI/Endpoint, Параметры URL в FastAPI.md",
+                "file": "Backend/FastAPI/Роутеры в FastAPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend/FastAPI/Endpoint, Параметры URL в FastAPI.md",
+                "file": "Backend/FastAPI/Роутеры в FastAPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/FastAPI/Endpoint, Параметры URL в FastAPI.md"
+                "file": "Backend/FastAPI/Роутеры в FastAPI.md"
               }
             }
           }
@@ -156,6 +156,8 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Backend/FastAPI/Endpoint, Параметры URL в FastAPI.md",
+    "Backend/FastAPI/Роутеры в FastAPI.md",
     "SQL/Alembic.md",
     "Машинное обучение/TensorFlow/GradientTape.md",
     "Машинное обучение/TensorFlow/Тензоры в TensorFlow.md",
@@ -183,8 +185,6 @@
     "ООП/Наследование.md",
     "ООП/Классы.md",
     "SQL/ORM.md",
-    "Backend/FastAPI/Валидация данных в FastAPI.md",
-    "SQL/SQLite.md",
     "Идеи",
     "Изображения/SQLite.png",
     "Изображения/K-means.png",
