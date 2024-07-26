@@ -3,9 +3,11 @@
 **Пример создания роутера:**
 
 ```Python
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
+from sqlalchemy import AsyncSession
 
-from src import models, schemas, crud, database
+from src import models, schemas, crud
+from src.database import get_db
 
 track_router = APIRouter(
 	prefix='/track',
@@ -13,8 +15,8 @@ track_router = APIRouter(
 )
 
 router.get('/{track_id}', response_model=schemas.Track)
-async def get_track(track_id):
-	return crud.get_track(database.get_db(), track_id)
+async def get_track(track_id, db: AsyncSession = Depends(get_db)):
+	return crud.get_track(db, track_id)
 ```
 
 **Подключение роутера к основному приложению:**
