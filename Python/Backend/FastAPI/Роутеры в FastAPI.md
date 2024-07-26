@@ -14,6 +14,7 @@ track_router = APIRouter(
 	tags=['Track']
 )
 
+
 router.get('/{track_id}', response_model=schemas.Track)
 async def get_track(track_id, db: AsyncSession = Depends(get_db)):
 	return crud.get_track(db, track_id)
