@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Машинное обучение/TensorFlow/Логирование в TensorFlow.md",
+                "file": "Машинное обучение/TensorFlow/TensorFlow.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Машинное обучение/TensorFlow/Логирование в TensorFlow.md",
+                "file": "Машинное обучение/TensorFlow/TensorFlow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Машинное обучение/TensorFlow/Логирование в TensorFlow.md",
+                "file": "Машинное обучение/TensorFlow/TensorFlow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Машинное обучение/TensorFlow/Логирование в TensorFlow.md"
+                "file": "Машинное обучение/TensorFlow/TensorFlow.md"
               }
             }
           }
@@ -156,8 +156,8 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Машинное обучение/TensorFlow/TensorFlow.md",
     "Машинное обучение/TensorFlow/Логирование в TensorFlow.md",
+    "Машинное обучение/TensorFlow/TensorFlow.md",
     "Backend/FastAPI/Проектирование RestAPI в FastAPI.md",
     "Backend/FastAPI/Роутеры в FastAPI.md",
     "Backend/FastAPI/Endpoint, Параметры URL в FastAPI.md",
