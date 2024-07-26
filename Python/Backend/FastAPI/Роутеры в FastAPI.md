@@ -7,7 +7,7 @@ from fastapi import APIRouter
 
 from src import models, schemas, crud, database
 
-router = APIRouter(
+track_router = APIRouter(
 	prefix='/track',
 	tags=['Track']
 )
@@ -17,7 +17,14 @@ async def get_track(track_id):
 	return crud.get_track(database.get_db(), track_id)
 ```
 
-Подключение роутера к основному приложению:
+**Подключение роутера к основному приложению:**
 
-```Pyt
+```Python
+from fastapi import FastAPI
+
+from src.routers import track_router
+
+app = FastAPI()
+
+app.include_router(track_router)
 ```
