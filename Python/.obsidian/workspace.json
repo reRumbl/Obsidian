@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Машинное обучение/TensorFlow/Переменные в TensorFlow.md",
+                "file": "Машинное обучение/TensorFlow/TensorFlow.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,19 +23,11 @@
             "id": "bc210c13d5c5293f",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Идеи/Russian Genius.canvas",
-                "viewState": {
-                  "x": -85,
-                  "y": 2.721413721413711,
-                  "zoom": -0.2774589894304546
-                }
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Идеи/Russian Genius.canvas",
+                "file": "Машинное обучение/TensorFlow/TensorFlow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Идеи/Russian Genius.canvas",
+                "file": "Машинное обучение/TensorFlow/TensorFlow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Идеи/Russian Genius.canvas"
+                "file": "Машинное обучение/TensorFlow/TensorFlow.md"
               }
             }
           }
@@ -162,11 +154,12 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "bc210c13d5c5293f",
+  "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Машинное обучение/TensorFlow/Переменные в TensorFlow.md",
+    "Идеи/Russian Genius.canvas",
     "Машинное обучение/TensorFlow/GradientTape.md",
     "Машинное обучение/TensorFlow/TensorFlow.md",
-    "Машинное обучение/TensorFlow/Переменные в TensorFlow.md",
     "Машинное обучение/TensorFlow/Тензоры в TensorFlow.md",
     "Машинное обучение/TensorFlow/Логирование в TensorFlow.md",
     "Backend/FastAPI/Проектирование RestAPI в FastAPI.md",
@@ -183,7 +176,6 @@
     "SQL/SQL.md",
     "Базовые функции/Встроенные функции.md",
     "Встроенные модули/Functools.md",
-    "Идеи/Russian Genius.canvas",
     "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
     "Различные полезные модули/Pydantic.md",
     "Инструменты разработки/Git/Gitignore.md",
@@ -192,7 +184,6 @@
     "Машинное обучение/Слои нейронных сетей.md",
     "Изображения/Слои нейронных сетей.png",
     "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
-    "ООП/Наследование.md",
     "Идеи",
     "Изображения/SQLite.png",
     "Изображения/K-means.png",
