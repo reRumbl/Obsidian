@@ -7,3 +7,35 @@
 ## Базовый класс Layer в TensorFlow.Keras
 
 Простой прикладной интерфейс (API) должен иметь единую абстракцию, лежащую в основе всего. В [[TensorFlow#^8b88d6|Keras]] такой абстракцией служит класс слоев **Layer**. Все в [[TensorFlow#^8b88d6|Keras]] является либо слоем **Layer**, либо чем-то еще, что тесно взаимодействует со слоем **Layer**.
+
+**Слой (Layer)** — это объект, инкапсулирующий некоторое состояние (веса) и некоторые вычисления (прямой проход). Веса обычно определяются с помощью метода build() (но также могут инициализироваться в конструкторе __init__()), а вычисления определяются в методе call().
+
+**Слой Dense, реализованный как подкласс класса Layer:**
+
+```Python
+from tensorflow import keras
+
+
+class SimpleDense(keras.layers.Layer):
+	def __init__(self, units, activation=None):
+		super().__init__()
+		self.units = units
+		self.activation = activation
+		
+	def build(self, input_shape):
+		input_dim = input_shape[-1]
+		self.W = self.add_weight(
+			shape=(input_dim, self.units),
+			initializer="random_normal"
+		)
+		self.b = self.add_weight(
+			shape=(self.units,),
+			initializer="zeros"
+		)
+								
+	def call(self, inputs):
+		y = tf.matmul(inputs, self.W) + self.b
+		if self.activation is not None: 
+			y = self.activation(y)
+		return y
+```
