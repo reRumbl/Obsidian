@@ -20,9 +20,9 @@
 
 После выбора функции потерь, оптимизатора и метрик можно использовать встроенные методы compile() и fit(), чтобы начать обучение модели. При желании можно также реализовать собственные циклы обучения.
 
-В общем случае нет необходимости прописывать функции потерь, метрики или оптимизаторы с нуля, поскольку Keras предлагает широкий спектр встроенных опций, среди которых наверняка найдется то, что нужно для конкретной ситуации: 
+В общем случае нет необходимости прописывать функции потерь, метрики или оптимизаторы с нуля, поскольку Keras предлагает широкий спектр встроенных опций, среди которых наверняка найдется то, что нужно для конкретной ситуации:
 
-- Оптимизаторы: 
+- **Оптимизаторы:** 
 
 	- SGD (с импульсом или без). 
 	
@@ -32,8 +32,30 @@
 	
 	- Adagrad и др.
 
-- Функции потерь:
+- **Функции потерь:**
 
 	- CategoricalCrossentropy.
 	
-	- SparseCategoricalCrossentropy; • BinaryCrossentropy; • MeanSquaredError; • KLDivergence; • CosineSimilarity и др.; метрики: • CategoricalAccuracy; • SparseCategoricalAccuracy; • BinaryAccuracy; 130 Глава 3. Введение в Keras и TensorFlow • AUC; • Precision; • Recall и др.
+	- SparseCategoricalCrossentropy.
+	
+	- BinaryCrossentropy.
+	
+	- MeanSquaredError.
+	
+	- KLDivergence.
+	
+	- CosineSimilarity и др.
+
+- **Метрики:** 
+	
+	- CategoricalAccuracy.
+	
+	- SparseCategoricalAccuracy.
+	
+	- BinaryAccuracy. 
+	
+	- AUC.
+	
+	- Precision.
+	
+	- Recall и др.
