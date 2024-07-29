@@ -44,5 +44,8 @@ my_dense = SimpleDense(units=32, activation=tf.nn.relu)
 input_tensor = tf.ones(shape=(2, 784))
 
 output_tensor = my_dense(input_tensor)
-print(output_tensor.shape)
+print(output_tensor.shape)  # --> (2, 32)
 ```
+
+## Автоматическое определение формы: построение слоев на лету
+
