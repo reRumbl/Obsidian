@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Машинное обучение/TensorFlow/Модели в TensorFlow.md",
+                "file": "Машинное обучение/Основные понятия.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Машинное обучение/TensorFlow/Модели в TensorFlow.md",
+                "file": "Машинное обучение/Основные понятия.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Машинное обучение/TensorFlow/Модели в TensorFlow.md",
+                "file": "Машинное обучение/Основные понятия.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Машинное обучение/TensorFlow/Модели в TensorFlow.md"
+                "file": "Машинное обучение/Основные понятия.md"
               }
             }
           }
@@ -157,6 +157,7 @@
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
     "Машинное обучение/TensorFlow/Модели в TensorFlow.md",
+    "Машинное обучение/Основные понятия.md",
     "Машинное обучение/TensorFlow/Слои в TensorFlow.md",
     "Машинное обучение/TensorFlow/Переменные в TensorFlow.md",
     "Машинное обучение/Алгоритмы кластеризации.md",
@@ -183,7 +184,6 @@
     "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
     "Различные полезные модули/Pydantic.md",
     "Инструменты разработки/Git/Gitignore.md",
-    "Инструменты разработки/Git/Git.md",
     "Изображения/Слои нейронных сетей.png",
     "Идеи",
     "Изображения/SQLite.png",
