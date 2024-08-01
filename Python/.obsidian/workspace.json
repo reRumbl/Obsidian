@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Базовые функции/F-Строки.md",
+                "file": "Pandas/DataFrame.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Базовые функции/F-Строки.md",
+                "file": "Pandas/DataFrame.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Базовые функции/F-Строки.md",
+                "file": "Pandas/DataFrame.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Базовые функции/F-Строки.md"
+                "file": "Pandas/DataFrame.md"
               }
             }
           }
@@ -156,6 +156,9 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Pandas/Pandas.md",
+    "Pandas/DataFrame.md",
+    "Базовые функции/F-Строки.md",
     "Машинное обучение/Основные понятия.md",
     "Машинное обучение/TensorFlow/Модели в TensorFlow.md",
     "Машинное обучение/TensorFlow/Слои в TensorFlow.md",
@@ -181,9 +184,6 @@
     "SQL/SQL.md",
     "Базовые функции/Встроенные функции.md",
     "Встроенные модули/Functools.md",
-    "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
-    "Различные полезные модули/Pydantic.md",
-    "Инструменты разработки/Git/Gitignore.md",
     "Изображения/Слои нейронных сетей.png",
     "Идеи",
     "Изображения/SQLite.png",

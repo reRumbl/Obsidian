@@ -119,3 +119,6 @@ anime_modified.index.tolist()
 ```Python
 anime.columns.tolist()
 ```
+
+## Слияние DataFrame
+
