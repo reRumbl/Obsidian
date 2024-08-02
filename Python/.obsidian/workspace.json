@@ -156,6 +156,8 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Aiogram/Aiogram.md",
+    "Встроенные модули/Logging.md",
     "Различные полезные модули/Pydantic.md",
     "Backend/FastAPI/Валидация данных в FastAPI.md",
     "Backend/FastAPI/Проектирование RestAPI в FastAPI.md",
@@ -182,8 +184,6 @@
     "Backend/FastAPI/Аутентификация в FastAPI.md",
     "Изображения/FastAPI-Users.png",
     "Backend/FastAPI/FastAPI.md",
-    "Различные полезные модули/Jose.md",
-    "SQL/SQLAlchemy/SELECT запросы в SQLAlchemy.md",
     "Изображения/Слои нейронных сетей.png",
     "Идеи",
     "Изображения/SQLite.png",

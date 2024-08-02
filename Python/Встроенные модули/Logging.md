@@ -35,5 +35,5 @@ Cообщения, выведенные с уровнями логировани
 **Логирование в файл:**
 
 ```Python
-logging.basicConfig(level=logging.INFO, filename="program_log.log", filemode="w")
+logging.basicConfig(level=logging.INFO, filename='program_log.log', filemode='w')
 ```
