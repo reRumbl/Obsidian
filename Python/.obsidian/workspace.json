@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/FastAPI/Проектирование RestAPI в FastAPI.md",
+                "file": "Различные полезные модули/Pydantic.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend/FastAPI/Проектирование RestAPI в FastAPI.md",
+                "file": "Различные полезные модули/Pydantic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend/FastAPI/Проектирование RestAPI в FastAPI.md",
+                "file": "Различные полезные модули/Pydantic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/FastAPI/Проектирование RestAPI в FastAPI.md"
+                "file": "Различные полезные модули/Pydantic.md"
               }
             }
           }
@@ -156,6 +156,8 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Backend/FastAPI/Валидация данных в FastAPI.md",
+    "Backend/FastAPI/Проектирование RestAPI в FastAPI.md",
     "Инструменты разработки/Git/Gitignore.md",
     "Инструменты разработки/Git/Git.md",
     "Pandas/DataFrame.md",
@@ -172,7 +174,6 @@
     "Машинное обучение/TensorFlow/GradientTape.md",
     "Машинное обучение/TensorFlow/Тензоры в TensorFlow.md",
     "Машинное обучение/TensorFlow/Логирование в TensorFlow.md",
-    "Backend/FastAPI/Проектирование RestAPI в FastAPI.md",
     "Backend/FastAPI/Роутеры в FastAPI.md",
     "Backend/FastAPI/Endpoint, Параметры URL в FastAPI.md",
     "SQL/Alembic.md",
@@ -183,7 +184,6 @@
     "Различные полезные модули/Jose.md",
     "SQL/SQLAlchemy/SELECT запросы в SQLAlchemy.md",
     "SQL/SQLAlchemy/SQLAlchemy ORM.md",
-    "SQL/SQL.md",
     "Изображения/Слои нейронных сетей.png",
     "Идеи",
     "Изображения/SQLite.png",
