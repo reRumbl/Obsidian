@@ -31,7 +31,7 @@ async def get_track(track_id, db: AsyncSession = Depends(get_db)):
 		return {
 			'status': 'error',
 			'data': None,
-			'details': None
+			'details': exc
 		}
 ```
 
@@ -68,16 +68,16 @@ router.get('/{track_id}')
 async def get_track(track_id, db: AsyncSession = Depends(get_db)):
 	try:
 		return {
-			'status': 'error',
+			'status': 'success',
 			'data': crud.get_track(db, track_id),
 			'details': None
 		}
-	except Exception as e:
+	except Exception as exc:
 		raise HTTPException(status_code=400, detail={
 			'status': 'error',
 			'data': None,
-			'details': None
-		}
+			'details': exc
+		})
 ```
 ## Структура
 
