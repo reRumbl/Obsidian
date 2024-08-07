@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/FastAPI/Проектирование RestAPI в FastAPI.md",
+                "file": "Backend/FastAPI/Аутентификация в FastAPI.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend/FastAPI/Проектирование RestAPI в FastAPI.md",
+                "file": "Backend/FastAPI/Аутентификация в FastAPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend/FastAPI/Проектирование RestAPI в FastAPI.md",
+                "file": "Backend/FastAPI/Аутентификация в FastAPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/FastAPI/Проектирование RestAPI в FastAPI.md"
+                "file": "Backend/FastAPI/Аутентификация в FastAPI.md"
               }
             }
           }
@@ -156,8 +156,8 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Backend/FastAPI/Роутеры в FastAPI.md",
     "Backend/FastAPI/Проектирование RestAPI в FastAPI.md",
+    "Backend/FastAPI/Роутеры в FastAPI.md",
     "Встроенные модули/Logging.md",
     "Aiogram/Aiogram.md",
     "Различные полезные модули/Pydantic.md",
