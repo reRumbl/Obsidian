@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/FastAPI/Аутентификация в FastAPI.md",
+                "file": "SQL/Alembic.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend/FastAPI/Аутентификация в FastAPI.md",
+                "file": "SQL/Alembic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend/FastAPI/Аутентификация в FastAPI.md",
+                "file": "SQL/Alembic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/FastAPI/Аутентификация в FastAPI.md"
+                "file": "SQL/Alembic.md"
               }
             }
           }
@@ -156,6 +156,7 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Backend/FastAPI/Аутентификация в FastAPI.md",
     "Backend/FastAPI/Проектирование RestAPI в FastAPI.md",
     "Backend/FastAPI/Роутеры в FastAPI.md",
     "Встроенные модули/Logging.md",
@@ -181,7 +182,6 @@
     "Backend/FastAPI/Endpoint, Параметры URL в FastAPI.md",
     "SQL/Alembic.md",
     "Backend/FastAPI/FastAPI-Users.md",
-    "Backend/FastAPI/Аутентификация в FastAPI.md",
     "Изображения/FastAPI-Users.png",
     "Backend/FastAPI/FastAPI.md",
     "Изображения/Слои нейронных сетей.png",
