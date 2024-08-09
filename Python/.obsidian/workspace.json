@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
+                "file": "SQL/SQLAlchemy/SQLAlchemy ORM.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
+                "file": "SQL/SQLAlchemy/SQLAlchemy ORM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
+                "file": "SQL/SQLAlchemy/SQLAlchemy ORM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md"
+                "file": "SQL/SQLAlchemy/SQLAlchemy ORM.md"
               }
             }
           }
@@ -156,6 +156,8 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
+    "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
     "Инструменты разработки/Git/Gitignore.md",
     "SQL/PostgreSQL.md",
     "SQL/Alembic.md",
@@ -181,8 +183,6 @@
     "Машинное обучение/TensorFlow/GradientTape.md",
     "Машинное обучение/TensorFlow/Тензоры в TensorFlow.md",
     "Машинное обучение/TensorFlow/Логирование в TensorFlow.md",
-    "Backend/FastAPI/Endpoint, Параметры URL в FastAPI.md",
-    "Backend/FastAPI/FastAPI-Users.md",
     "Изображения/FastAPI-Users.png",
     "Изображения/Слои нейронных сетей.png",
     "Идеи",
