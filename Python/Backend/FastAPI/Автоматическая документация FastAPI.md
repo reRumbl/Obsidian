@@ -13,5 +13,5 @@
 **Изменение или отключение адреса документации:**
 
 ```Python
-app = FastAPI(docs_url="/new_address", redoc_url=None)
+app = FastAPI(docs_url='/new_address', redoc_url=None)
 ```
