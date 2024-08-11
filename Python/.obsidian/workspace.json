@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Различные полезные модули/Aiobotocore.md",
+                "file": "Backend/S3 Хранилище.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Различные полезные модули/Aiobotocore.md",
+                "file": "Backend/S3 Хранилище.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Различные полезные модули/Aiobotocore.md",
+                "file": "Backend/S3 Хранилище.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Различные полезные модули/Aiobotocore.md"
+                "file": "Backend/S3 Хранилище.md"
               }
             }
           }
@@ -156,8 +156,8 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Backend/S3 Хранилище.md",
     "Различные полезные модули/Aiobotocore.md",
+    "Backend/S3 Хранилище.md",
     "Изображения/S3.png",
     "Backend/FastAPI/Автоматическая документация FastAPI.md",
     "SQL/SQLAlchemy/SQLAlchemy ORM.md",
