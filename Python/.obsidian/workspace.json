@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/FastAPI/Автоматическая документация FastAPI.md",
+                "file": "Различные полезные модули/Aiobotocore.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend/FastAPI/Автоматическая документация FastAPI.md",
+                "file": "Различные полезные модули/Aiobotocore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend/FastAPI/Автоматическая документация FastAPI.md",
+                "file": "Различные полезные модули/Aiobotocore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/FastAPI/Автоматическая документация FastAPI.md"
+                "file": "Различные полезные модули/Aiobotocore.md"
               }
             }
           }
@@ -156,6 +156,10 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Backend/S3 Хранилище.md",
+    "Различные полезные модули/Aiobotocore.md",
+    "Изображения/S3.png",
+    "Backend/FastAPI/Автоматическая документация FastAPI.md",
     "SQL/SQLAlchemy/SQLAlchemy ORM.md",
     "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
     "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
@@ -179,10 +183,7 @@
     "Машинное обучение/TensorFlow/Переменные в TensorFlow.md",
     "Машинное обучение/Алгоритмы кластеризации.md",
     "Машинное обучение/Слои нейронных сетей.md",
-    "Машинное обучение/TensorFlow/TensorFlow.md",
     "Идеи/Russian Genius.canvas",
-    "Машинное обучение/TensorFlow/GradientTape.md",
-    "Машинное обучение/TensorFlow/Тензоры в TensorFlow.md",
     "Изображения/FastAPI-Users.png",
     "Изображения/Слои нейронных сетей.png",
     "Идеи",
@@ -199,7 +200,6 @@
     "Изображения/Scikit Learn.png",
     "Машинное обучение/Sklearn",
     "Изображения/SQL.png",
-    "Изображения/Координаты Rect в Pygame.png",
     "Pygame",
     "SQL/SQLAlchemy",
     "Backend/FastAPI"
