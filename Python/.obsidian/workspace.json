@@ -156,7 +156,8 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Различные полезные модули/Aiobotocore.md",
+    "Различные полезные модули/Botocore.md",
+    "Изображения/Botocore.png",
     "Backend/S3 Хранилище.md",
     "Изображения/S3.png",
     "Backend/FastAPI/Автоматическая документация FastAPI.md",
@@ -182,7 +183,6 @@
     "Машинное обучение/TensorFlow/Слои в TensorFlow.md",
     "Машинное обучение/TensorFlow/Переменные в TensorFlow.md",
     "Машинное обучение/Алгоритмы кластеризации.md",
-    "Машинное обучение/Слои нейронных сетей.md",
     "Идеи/Russian Genius.canvas",
     "Изображения/FastAPI-Users.png",
     "Изображения/Слои нейронных сетей.png",
@@ -199,7 +199,6 @@
     "Машинное обучение",
     "Изображения/Scikit Learn.png",
     "Машинное обучение/Sklearn",
-    "Изображения/SQL.png",
     "Pygame",
     "SQL/SQLAlchemy",
     "Backend/FastAPI"

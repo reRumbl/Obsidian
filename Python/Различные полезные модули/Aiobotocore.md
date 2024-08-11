@@ -1,1 +1,0 @@
-**Aiobotocore** - это асинхронная библиотека для [[Python|Python]].
