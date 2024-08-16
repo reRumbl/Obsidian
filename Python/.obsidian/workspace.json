@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Инструменты разработки/Git/Git.md",
+                "file": "Инструменты разработки/PyCharm/Работа с ветками Git в PyCharm.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Инструменты разработки/Git/Git.md",
+                "file": "Инструменты разработки/PyCharm/Работа с ветками Git в PyCharm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Инструменты разработки/Git/Git.md",
+                "file": "Инструменты разработки/PyCharm/Работа с ветками Git в PyCharm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Инструменты разработки/Git/Git.md"
+                "file": "Инструменты разработки/PyCharm/Работа с ветками Git в PyCharm.md"
               }
             }
           }
@@ -156,6 +156,7 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
+    "Инструменты разработки/Git/Git.md",
     "Инструменты разработки/Git/Работа с ветками в Git.md",
     "Инструменты разработки/PyCharm/Работа с ветками Git в PyCharm.md",
     "Backend/S3 Хранилище.md",
@@ -176,7 +177,6 @@
     "Aiogram/Aiogram.md",
     "Различные полезные модули/Pydantic.md",
     "Backend/FastAPI/Валидация данных в FastAPI.md",
-    "Инструменты разработки/Git/Git.md",
     "Pandas/DataFrame.md",
     "Pandas/Pandas.md",
     "Базовые функции/F-Строки.md",
