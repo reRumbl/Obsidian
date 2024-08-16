@@ -23,3 +23,11 @@ git branch <name of new branch>
 ```Shell
 git checkout <name of branch>
 ```
+
+**Создание и переключение к новой ветке при помощи одной команды:**
+
+```Shell
+git checkout branch <name of new branch>
+```
+
+Другой
