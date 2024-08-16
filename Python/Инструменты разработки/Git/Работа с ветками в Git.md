@@ -30,4 +30,12 @@ git checkout <name of branch>
 git checkout branch <name of new branch>
 ```
 
-Другой
+*Другой  способ:*
+
+```Shell
+git checkout -b <name of branch>
+```
+
+Получение списков веток:
+
+Получение с
