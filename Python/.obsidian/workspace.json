@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Инструменты разработки/Git/Работа с ветками в Git.md",
+                "file": "Инструменты разработки/Git/Git.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Инструменты разработки/Git/Работа с ветками в Git.md",
+                "file": "Инструменты разработки/Git/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Инструменты разработки/Git/Работа с ветками в Git.md",
+                "file": "Инструменты разработки/Git/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Инструменты разработки/Git/Работа с ветками в Git.md"
+                "file": "Инструменты разработки/Git/Git.md"
               }
             }
           }
@@ -156,8 +156,9 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Backend/S3 Хранилище.md",
     "Инструменты разработки/Git/Работа с ветками в Git.md",
+    "Инструменты разработки/PyCharm/Работа с ветками Git в PyCharm.md",
+    "Backend/S3 Хранилище.md",
     "Различные полезные модули/Botocore.md",
     "Изображения/Botocore.png",
     "Изображения/S3.png",
@@ -183,7 +184,6 @@
     "Машинное обучение/TensorFlow/Модели в TensorFlow.md",
     "Машинное обучение/TensorFlow/Слои в TensorFlow.md",
     "Машинное обучение/TensorFlow/Переменные в TensorFlow.md",
-    "Машинное обучение/Алгоритмы кластеризации.md",
     "Идеи/Russian Genius.canvas",
     "Изображения/FastAPI-Users.png",
     "Изображения/Слои нейронных сетей.png",
