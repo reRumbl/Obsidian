@@ -36,6 +36,24 @@ git checkout branch <name of new branch>
 git checkout -b <name of branch>
 ```
 
-Получение списков веток:
+**Получение списков веток:**
 
-Получение с
+*Все ветки:*
+
+```Shell
+git checkout -a
+```
+
+*Удаленные ветки:*
+
+```Shell
+git checkout -r
+```
+
+**Слияние веток:**
+
+```Shell
+git merge <name of merged branch>
+```
+
+УВ д
