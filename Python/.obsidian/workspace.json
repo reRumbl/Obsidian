@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Инструменты разработки/PyCharm/Работа с ветками Git в PyCharm.md",
+                "file": "Базовые функции/F-Строки.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Инструменты разработки/PyCharm/Работа с ветками Git в PyCharm.md",
+                "file": "Базовые функции/F-Строки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Инструменты разработки/PyCharm/Работа с ветками Git в PyCharm.md",
+                "file": "Базовые функции/F-Строки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Инструменты разработки/PyCharm/Работа с ветками Git в PyCharm.md"
+                "file": "Базовые функции/F-Строки.md"
               }
             }
           }
@@ -156,8 +156,8 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Изображения/Git ветки в PyCharm.png",
     "Инструменты разработки/PyCharm/Работа с ветками Git в PyCharm.md",
+    "Изображения/Git ветки в PyCharm.png",
     "Инструменты разработки/Git/Git.md",
     "Инструменты разработки/Git/Работа с ветками в Git.md",
     "Backend/S3 Хранилище.md",
