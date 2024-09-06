@@ -37,6 +37,5 @@ model.compile(optimizer="rmsprop", loss="sparse_categorical_crossentropy", metri
 model.fit(train_images, train_labels, epochs=5, batch_size=128)
 ```
 
-## Простейший линейный классификатор на TensorFlow
 
 

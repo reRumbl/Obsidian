@@ -4,7 +4,7 @@
 
 **Установка через cmd или terminal:**
 
-```Python
+```Shell
 pip install alembic
 ```
 
@@ -20,7 +20,7 @@ import alembic
 
 **Инициализация Alembic через cmd или terminal:**
 
-```Python
+```Shell
 alembic init alembic  # Название новой директории
 ```
 
@@ -75,7 +75,7 @@ target_metadata = Base.metadata  # Изначально записано, как
 
 **Создание ревизии через cmd или terminal:**
 
-```Python
+```Shell
 alembic revision --autogenerate -m "Database creation"
 ```
 
@@ -84,6 +84,18 @@ alembic revision --autogenerate -m "Database creation"
 
 **Обновление до последней версии через cmd или terminal:**
 
-```Python
+```Shell
 alembic upgrade head
+```
+
+**Откат миграции через cmd или terminal:**
+
+```Shell
+alembic downgrade -1
+```
+
+**Откат всех миграций через cmd или terminal:**
+
+```Shell
+alembic downgrade base
 ```

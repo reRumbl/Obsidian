@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Базовые функции/F-Строки.md",
+                "file": "Машинное обучение/TensorFlow/Использование предварительно обученной модели в TensorFlow.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Базовые функции/F-Строки.md",
+                "file": "Машинное обучение/TensorFlow/Использование предварительно обученной модели в TensorFlow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Базовые функции/F-Строки.md",
+                "file": "Машинное обучение/TensorFlow/Использование предварительно обученной модели в TensorFlow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Базовые функции/F-Строки.md"
+                "file": "Машинное обучение/TensorFlow/Использование предварительно обученной модели в TensorFlow.md"
               }
             }
           }
@@ -156,51 +156,52 @@
   },
   "active": "d719e56e11c0f051",
   "lastOpenFiles": [
-    "Инструменты разработки/PyCharm/Работа с ветками Git в PyCharm.md",
-    "Изображения/Git ветки в PyCharm.png",
-    "Инструменты разработки/Git/Git.md",
-    "Инструменты разработки/Git/Работа с ветками в Git.md",
-    "Backend/S3 Хранилище.md",
-    "Различные полезные модули/Botocore.md",
-    "Изображения/Botocore.png",
-    "Изображения/S3.png",
-    "Backend/FastAPI/Автоматическая документация FastAPI.md",
-    "SQL/SQLAlchemy/SQLAlchemy ORM.md",
-    "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
-    "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
-    "Инструменты разработки/Git/Gitignore.md",
-    "SQL/PostgreSQL.md",
-    "SQL/Alembic.md",
-    "Backend/FastAPI/Аутентификация в FastAPI.md",
-    "Backend/FastAPI/Проектирование RestAPI в FastAPI.md",
-    "Backend/FastAPI/Роутеры в FastAPI.md",
-    "Встроенные модули/Logging.md",
-    "Aiogram/Aiogram.md",
-    "Различные полезные модули/Pydantic.md",
-    "Backend/FastAPI/Валидация данных в FastAPI.md",
-    "Pandas/DataFrame.md",
-    "Pandas/Pandas.md",
-    "Базовые функции/F-Строки.md",
-    "Машинное обучение/Основные понятия.md",
+    "Frontend/JavaScript/JavaScript.md",
+    "Frontend/CSS/Css.md",
+    "Frontend/HTML/Html.md",
+    "Frontend/Frontend.md",
+    "Frontend/CSS",
+    "Frontend/HTML",
+    "Frontend/JavaScript",
+    "Машинное обучение/TensorFlow/Использование предварительно обученной модели в TensorFlow.md",
+    "Frontend",
+    "Машинное обучение/TensorFlow/Сверточные нейронные сети в TensorFlow.md",
+    "Машинное обучение/Переобучение, способы борьбы с ним.md",
+    "Машинное обучение/TensorFlow/Обратные вызовы в TensorFlow.md",
+    "Машинное обучение/Сверточные нейронные сети.md",
+    "Изображения/Шаблоны 3x3 с шагом 2x2.png",
+    "Изображения/Перестановки 3x3 на дополненной области 5x5.png",
+    "Изображения/Перестановки 3x3 на области 5x5.png",
+    "Изображения/Принцип действия свертки.png",
+    "Машинное обучение/TensorFlow/Тензоры в TensorFlow.md",
     "Машинное обучение/TensorFlow/Модели в TensorFlow.md",
+    "Машинное обучение/TensorFlow/Собственные циклы обучения в TensorFlow.md",
     "Машинное обучение/TensorFlow/Слои в TensorFlow.md",
+    "Машинное обучение/TensorFlow/Логирование в TensorFlow.md",
+    "Машинное обучение/TensorFlow/TensorBoard.md",
+    "Изображения/TensorBoard.png",
+    "Изображения/Вид TensorBoard.png",
+    "www.tensorflow.org/tensorboard.md",
+    "www.tensorflow.org",
+    "Инструменты разработки/Git/Git.md",
+    "Инструменты разработки/Git/Gitignore.md",
+    "Изображения/Граф модели, сгенерированный при помощи plot_model().png",
+    "SQL/SQLAlchemy/Подключение к БД в SQLAlchemy.md",
+    "SQL/SQLAlchemy/Создание и заполнение таблиц в SQLAlchemy.md",
+    "Базовые функции/F-Строки.md",
+    "Базовые функции/Python.md",
+    "Инструменты разработки/Git/Работа с ветками в Git.md",
+    "Инструменты разработки/Git/GitHub.md",
+    "Инструменты разработки/PyCharm/Работа с ветками Git в PyCharm.md",
+    "Инструменты разработки/PyCharm/PyCharm.md",
+    "Изображения/FastAPI-Cache.png",
+    "NoSQL/MongoDB",
+    "NoSQL/Redis",
+    "NoSQL",
+    "Изображения/Git ветки в PyCharm.png",
+    "Изображения/Botocore.png",
     "Идеи/Russian Genius.canvas",
-    "Изображения/FastAPI-Users.png",
-    "Изображения/Слои нейронных сетей.png",
     "Идеи",
-    "Изображения/SQLite.png",
-    "Изображения/K-means.png",
-    "Изображения/SVM.png",
-    "Изображения/LR.png",
-    "Изображения/KNN.png",
-    "Инструменты разработки/PyCharm",
-    "Инструменты разработки/Docker",
-    "Инструменты разработки",
-    "Backend",
-    "Машинное обучение",
-    "Машинное обучение/Sklearn",
-    "Pygame",
-    "SQL/SQLAlchemy",
-    "Backend/FastAPI"
+    "Инструменты разработки/PyCharm"
   ]
 }

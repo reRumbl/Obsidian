@@ -4,7 +4,7 @@
 
 **Установка через cmd или terminal:**
 
-```Python
+```Shell
 pip install fastapi-users[sqlalchemy]  # С поддержкой SQLAlchemy
 pip install fastapi-users[beanie]  # С поддержкой Beanie
 ```
