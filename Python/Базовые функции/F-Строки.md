@@ -40,3 +40,36 @@ bg_color = 42
 
 print(f'\033[{text_code}m\033[{bg_color}m {text_code} {text_name} \033[0m')
 ```
+
+**Разделение чисел:**
+
+```Python
+num = 1000000
+print(f'{num:_}')  # 1_000_000
+print(f'{num:,}')  # 1,000,000
+```
+
+**Применение str/repr/ascii:**
+
+```Python
+value = 'a'
+print(f'{value=!s}')  # str()
+print(f'{value=!r}')  # repr()
+print(f'{value=!a}')  # ascii()
+```
+
+**Наглядный вывод функции:**
+
+```Python
+def fit(x, y, change=0.1):
+	for _ in range(1000):
+		if x ** 2 - y > 0:
+			x -= change * x ** 2
+		elif x ** 2 - y < 0:
+			x += change * x ** 2
+	return x
+
+
+print(f'{fit(5, 21)=}')  # fit(5, 21)=result
+print(f'{fit(3, 56) = }')  # fit(3, 56) = result
+```
