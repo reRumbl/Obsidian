@@ -93,19 +93,19 @@ history = model.fit(
 conv_base.trainable = False  # Заморозка ранее обученных весов
 
 data_augmentation = keras.Sequential([  
-    layers.RandomFlip('horizontal'),  
-    layers.RandomRotation(0.1),  
-    layers.RandomZoom(0.2)  
+    keras.layers.RandomFlip('horizontal'),  
+    keras.layers.RandomRotation(0.1),  
+    keras.layers.RandomZoom(0.2)  
 ])  
   
 inputs = keras.Input(shape=(180, 180, 3))  
 x = data_augmentation(inputs)  
 x = keras.applications.vgg16.preprocess_input(x)  
 x = conv_base(x)  
-x = layers.Flatten()(x)  
-x = layers.Dense(256)(x)  
-x = layers.Dropout(0.5)(x)  
-outputs = layers.Dense(1, activation='sigmoid')(x)  
+x = keras.layers.Flatten()(x)  
+x = keras.layers.Dense(256)(x)  
+x = keras.layers.Dropout(0.5)(x)  
+outputs = keras.layers.Dense(1, activation='sigmoid')(x)  
 model = keras.Model(inputs, outputs)  
   
 model.compile(  
