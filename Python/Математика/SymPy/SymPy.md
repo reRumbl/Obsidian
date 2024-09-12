@@ -55,3 +55,21 @@ from sympy import diff
 
 derivative = diff(expr, x)
 ```
+
+## Построение графиков
+
+**Преобразование выражений SymPy в числовые функции**: **SymPy** позволяет преобразовывать символические выражения в числовые функции с помощью метода `lambdify()`. Это удобно для создания графиков в [[Matplotlib|Matplotlib]], так как [[Matplotlib|Matplotlib]] работает с числовыми данными.
+
+**Пример комбинации SymPy и Matplolib:**
+
+```Python
+from sympy import symbols, lambdify
+import numpy as np 
+import matplotlib.pyplot as plt 
+
+# Определяем символы и выражение 
+x = symbols('x') 
+expr = x**2 + 2*x + 1 
+
+# Преобразуем выражение в функцию для вычисления чисел f_numeric = lambdify(x, expr, 'numpy') # Создаем массив числовых значений для x x_vals = np.linspace(-10, 10, 100) # Вычисляем значения функции для этих x y_vals = f_numeric(x_vals) # Строим график plt.plot(x_vals, y_vals) plt.title('График функции, полученной из SymPy') plt.xlabel('x') plt.ylabel('f(x)') plt.grid(True) plt.show()
+```
