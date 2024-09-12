@@ -71,5 +71,41 @@ import matplotlib.pyplot as plt
 x = symbols('x') 
 expr = x**2 + 2*x + 1 
 
-# Преобразуем выражение в функцию для вычисления чисел f_numeric = lambdify(x, expr, 'numpy') # Создаем массив числовых значений для x x_vals = np.linspace(-10, 10, 100) # Вычисляем значения функции для этих x y_vals = f_numeric(x_vals) # Строим график plt.plot(x_vals, y_vals) plt.title('График функции, полученной из SymPy') plt.xlabel('x') plt.ylabel('f(x)') plt.grid(True) plt.show()
+# Преобразуем выражение в функцию для вычисления чисел
+f_numeric = lambdify(x, expr, 'numpy') 
+
+# Создаем массив числовых значений для x 
+x_vals = np.linspace(-10, 10, 100) 
+
+# Вычисляем значения функции для этих x 
+y_vals = f_numeric(x_vals) 
+
+# Строим график 
+plt.plot(x_vals, y_vals) 
+plt.title('График функции, полученной из SymPy') 
+plt.xlabel('x') plt.ylabel('f(x)') 
+plt.grid(True) 
+plt.show()
+```
+
+**Построение графиков производных**: Можно найти производные с помощью **SymPy**, а затем также использовать их для визуализации в [[Matplotlib|Matplotlib]].
+
+**Построение графика производной с SymPy:**
+
+```Python
+# Производная от выражения
+derivative_expr = expr.diff(x)
+
+# Преобразуем производную в числовую функцию 
+f_derivative_numeric = lambdify(x, derivative_expr, 'numpy')
+
+# Вычисляем значения производной 
+y_derivative_vals = f_derivative_numeric(x_vals)
+
+# Строим графики 
+plt.plot(x_vals, y_vals, label='f(x)') 
+plt.plot(x_vals, y_derivative_vals, label="f'(x)", linestyle='--') 
+plt.legend() 
+plt.grid(True) 
+plt.show()
 ```
