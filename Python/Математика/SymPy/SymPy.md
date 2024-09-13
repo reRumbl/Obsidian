@@ -83,7 +83,8 @@ y_vals = f_numeric(x_vals)
 # Строим график 
 plt.plot(x_vals, y_vals) 
 plt.title('График функции, полученной из SymPy') 
-plt.xlabel('x') plt.ylabel('f(x)') 
+plt.xlabel('x') 
+plt.ylabel('f(x)') 
 plt.grid(True) 
 plt.show()
 ```
