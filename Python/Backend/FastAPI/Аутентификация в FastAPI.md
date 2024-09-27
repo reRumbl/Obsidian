@@ -37,7 +37,7 @@ def get_item(item_id: int, username: str = Depends(get_current_username)):
     for item in items:  
         if item.id == item_id:  
             return item  
-    raise HTTPException(status_code=404, detail="Item not found")
+    raise HTTPException(status_code=404, detail='Item not found')
 ```
 
 ## Аутентификация при помощи FastAPI Users
