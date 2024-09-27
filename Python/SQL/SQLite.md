@@ -21,7 +21,7 @@ connection = sqlite3.connect('path_to_database.db')
 ```Python
 from sqlalchemy import create_engine
 
-engine = create_engine('sqlite:///data.db')
+engine = create_engine('sqlite:///path_to_database.db')
 ```
 
 **Для выполнения запросов требуется указатель на базу данных:**
