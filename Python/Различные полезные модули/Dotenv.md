@@ -39,3 +39,15 @@ token = os.getenv('BOT_TOKEN')
 os.putenv('KEY', 'VERYSECRETKEY')
 os.putenv('BOT_TOKEN', 'VERYSECRETTOKEN')
 ```
+
+**Удобная вспомогательная функция для поиска .env файла в проекте:**
+
+```Python
+import os
+
+
+def get_env_file_path():  
+    for root, _, files in os.walk('.'):  
+        if '.env' in files:  
+            return os.path.join(root, '.env')
+```
