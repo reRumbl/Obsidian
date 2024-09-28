@@ -44,6 +44,12 @@ alembic init alembic  # Название новой директории
 sqlalchemy.url = %(DB_URL)s?async_fallback=True
 ```
 
+*Примечание: Можно также поменять формат названия миграций в alembic.ini*
+
+```Python
+file_template = %%(year)d-%%(month).2d-%%(day).2d_%%(slug)s
+```
+
 2. **Передача переменных для подстановки через env.py:**
 
 ```Python
