@@ -21,7 +21,7 @@ from httpx import AsyncClient
 from backend.main import app
 
 
-def async_client():  
+def async_client():   
     with AsyncClient(app=app, base_url='http://testserver') as client:  
         yield client
 ```
