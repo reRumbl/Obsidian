@@ -2,3 +2,16 @@
 
 ![[Httpx.png]]
 
+**Создание HTTP клиента:**
+
+```Python
+from httpx import Client
+
+
+def client():  
+    with Client(app=app, base_url='http://testserver') as client:  
+        yield client
+
+
+def async_c
+```
