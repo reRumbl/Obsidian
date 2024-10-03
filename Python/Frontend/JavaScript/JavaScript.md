@@ -86,3 +86,13 @@ function sayHello(name) {
 
 sayHello("Alex"); // Вызов функции
 ```
+
+В функциях можно возвращать результат с помощью `return`:
+
+```JavaScript
+function add(a, b) {
+  return a + b;
+}
+
+let sum = add(5, 3); // sum = 8
+```
