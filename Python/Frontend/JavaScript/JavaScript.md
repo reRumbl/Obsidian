@@ -41,6 +41,29 @@ let array = [1, 2, 3]; // array
 let person = { name: "Alex", age: 25 }; // object
 ```
 
+Массивы позволяют хранить несколько элементов в одной переменной.
+
+```JavaScript
+let fruits = ["apple", "banana", "orange"];
+
+console.log(fruits[0]); // "apple"
+console.log(fruits.length); // 3
+```
+
+Добавить элемент в массив можно с помощью метода `push()`:
+
+```JavaScript
+fruits.push("grape"); // Добавит "grape" в конец массива
+```
+
+Пройтись по элементам массива можно с помощью цикла `for`:
+
+```JavaScript
+for (let i = 0; i < fruits.length; i++) {
+  console.log(fruits[i]);
+}
+```
+
 ### Операторы
 
 **JavaScript** имеет несколько базовых операторов:
@@ -96,3 +119,4 @@ function add(a, b) {
 
 let sum = add(5, 3); // sum = 8
 ```
+
