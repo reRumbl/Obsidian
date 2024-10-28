@@ -13,6 +13,10 @@ SCREEN_TITLE = 'My Game'
 # Константы для игрока
 PLAYER_SPEED = 5
 
+
+class Player:
+
+
 class MyGame(arcade.Window):
     def __init__(self):
         super().__init__(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
