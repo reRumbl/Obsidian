@@ -6,12 +6,12 @@ import arcade
 # Константы для окна
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
-SCREEN_TITLE = э
+SCREEN_TITLE = 'My Game'
 
 # Константы для игрока
 PLAYER_SPEED = 5
 
-class SpaceAdventure(arcade.Window):
+class MyGame(arcade.Window):
     def __init__(self):
         super().__init__(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
         arcade.set_background_color(arcade.color.BLACK)
@@ -57,7 +57,7 @@ class SpaceAdventure(arcade.Window):
             self.player_dx = 0
 
 def main():
-    window = SpaceAdventure()
+    window = MyGame()
     window.setup()
     arcade.run()
 
