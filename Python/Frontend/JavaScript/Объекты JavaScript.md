@@ -26,7 +26,7 @@ person = {
     age: 19,  
     city: 'Kursk',  
     introduce: function () {  
-        return `Привет! Меня зовут ${this.name}, мне ${this.age} лет и я из города ${this.city}`;  
+		return `Привет! Меня зовут ${this.name}, мне ${this.age} лет и я из города ${this.city}`;  
     },  
     incrementAge: function () {  
         this.age += 1;  
