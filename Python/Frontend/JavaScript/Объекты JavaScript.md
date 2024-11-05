@@ -21,14 +21,22 @@ person.age = 26; // Изменяем существующее свойство
 Объекты могут содержать функции в качестве свойств, которые называются методами.
 
 ```JavaScript
-let person = {
-  name: 'Bob',
-  greet: function() {
-    console.log('Hello, ' + this.name);
-  }
-};
-
-person.greet(); // "Hello, Bob"
+person = {  
+    name: 'Dmitry',  
+    age: 19,  
+    city: 'Kursk',  
+    introduce: function () {  
+        return `Привет! Меня зовут ${this.name}, мне ${this.age} лет и я из города ${this.city}`;  
+    },  
+    incrementAge: function () {  
+        this.age += 1;  
+        return this.age;  
+    },  
+    updateCity: function  (newCity) {  
+        this.city = newCity;  
+        return this.city;  
+    }  
+}
 ```
 
 *Примечание: Ключевое слово `this` ссылается на сам объект, в котором находится.*
