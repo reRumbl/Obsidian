@@ -83,7 +83,6 @@ async function fetchData() {
 }
 
 fetchData().then(result => console.log(result)); // 'Данные получены!'
-
 ```
 
 **Асинхронное ожидание (`await`):** Ключевое слово `await` заставляет функцию ждать выполнения `Promise`, прежде чем перейти к следующей строке. Это позволяет писать асинхронный код в линейном стиле, что улучшает читаемость.
@@ -97,7 +96,19 @@ async function fetchData() {
 }
 
 fetchData();
+```
 
+**Обработка ошибок:** Ошибки в `async`-функциях можно перехватывать с помощью `try...catch`.
+
+```JavaScript
+async function fetchData() {
+	try {
+		let result = await somePromiseFunction();
+		console.log(result);
+	} catch (error) {
+		console.log('Ошибка:', error);
+	}
+}
 ```
 
 
