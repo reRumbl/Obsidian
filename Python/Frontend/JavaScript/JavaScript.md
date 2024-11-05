@@ -16,7 +16,7 @@
 
 ```JavaScript
 let age = 25; // Переменная может меняться
-const name = "Alex"; // Константа
+const name = 'Alex'; // Константа
 ```
 
 ### Типы данных
@@ -39,39 +39,6 @@ let text = 'Hello'; // string
 let isTrue = true; // boolean
 let array = [1, 2, 3]; // array
 let person = { name: 'Alex', age: 25 }; // object
-```
-
-Массивы позволяют хранить несколько элементов в одной переменной.
-
-```JavaScript
-let fruits = ['apple', 'banana', 'orange'];
-
-console.log(fruits[0]); // 'apple'
-console.log(fruits.length); // 3
-```
-
-Добавить элемент в массив можно с помощью метода `push()`:
-
-```JavaScript
-fruits.push('grape'); // Добавит 'grape' в конец массива
-```
-
-Пройтись по элементам массива можно с помощью цикла `for`:
-
-```JavaScript
-for (let i = 0; i < fruits.length; i++) {
-  console.log(fruits[i]);
-}
-```
-
-Массивы можно деструктуризировать:
-
-```JavaScript
-let colors = ['red', 'green', 'blue'];
-let [firstColor, secondColor] = colors;
-
-console.log(firstColor); // 'red'
-console.log(secondColor); // 'green'
 ```
 
 ### Операторы
