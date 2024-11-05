@@ -14,7 +14,7 @@ console.log('Конец');
 
 ## Promise
 
-**Promise** — это объект, представляющий результат асинхронной операции. Промис может быть выполнен успешно (resolved) или завершиться с ошибкой (rejected).
+**Promise** — это объект, представляющий результат асинхронной операции. **Promise** может быть выполнен успешно (resolved) или завершиться с ошибкой (rejected).
 
 ```JavaScript
 let promise = new Promise(function(resolve, reject) {
@@ -36,9 +36,9 @@ promise
 
 ```
 
-**Пример асинхронной операции проверки подписки пользователя:**
+**Пример асинхронной операции проверки подписки пользователя на основе Promise:**
 
-```Python
+```JavaScript
 let user = {  
     name: 'John',  
     age: 18,  
@@ -72,3 +72,32 @@ checkSubscription(user)
         console.log(error);  
     });
 ```
+
+## Async / Await
+
+**Асинхронные функции (`async`):** Ключевое слово `async` перед функцией делает её асинхронной, позволяя использовать внутри неё `await` для ожидания выполнения `Promise`. Асинхронная функция всегда возвращает `Promise`.
+
+```JavaScript
+async function fetchData() {
+	return 'Данные получены!';
+}
+
+fetchData().then(result => console.log(result)); // 'Данные получены!'
+
+```
+
+**Асинхронное ожидание (`await`):** Ключевое слово `await` заставляет функцию ждать выполнения `Promise`, прежде чем перейти к следующей строке. Это позволяет писать асинхронный код в линейном стиле, что улучшает читаемость.
+
+```JavaScript
+async function fetchData() {
+	let data = await new Promise((resolve) => {
+		setTimeout(() => resolve('Данные получены!'), 2000);
+	});
+	console.log(data); // 'Данные получены!' через 2 секунды
+}
+
+fetchData();
+
+```
+
+
