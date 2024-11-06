@@ -95,6 +95,20 @@ Promise.race([promise1, promise2, promise3])
     .catch((error) => console.error(error));
 ```
 
+**Promise.allSettled** — возвращает результаты всех **Promise**, вне зависимости от того, завершились они успешно или с ошибкой. Полезно, если нужно обработать результат каждого **Promise**, даже если некоторые из них завершились с ошибкой.
+
+```JavaScript
+Promise.allSettled([promise1, promise2, promise3])
+    .then((results) => console.log(results)); // Все результаты в любом случае
+```
+
+**Promise.any** — ждет первый успешно завершенный **Promise**. Если все **Promise** завершаются с ошибкой, тогда возвращает `reject` с `AggregateError`.
+
+```JavaScript
+Promise.any([promise1, promise2, promise3])
+    .then((results) => console.log(results)); // Результат самого быстрого успешного
+```
+
 ## Async / Await
 
 **Асинхронные функции (`async`):** Ключевое слово `async` перед функцией делает её асинхронной, позволяя использовать внутри неё `await` для ожидания выполнения `Promise`. Асинхронная функция всегда возвращает `Promise`.
