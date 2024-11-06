@@ -73,6 +73,28 @@ checkSubscription(user)
     });
 ```
 
+## Работа с несколькими Promise
+
+**Promise.all** — позволяет запускать несколько **Promise** одновременно и ждать их завершения. Возвращает массив с результатами всех **Promise**, если они завершились успешно. Если хотя бы один завершился с ошибкой, весь `Promise.all` завершится с `reject`.
+
+```JavaScript
+let promise1 = Promise.resolve('Результат 1');
+let promise2 = Promise.resolve('Результат 2');
+let promise3 = Promise.resolve('Результат 3');
+
+Promise.all([promise1, promise2, promise3])
+    .then((results) => console.log(results)) // ['Результат 1', 'Результат 2', 'Результат 3']
+    .catch((error) => console.error(error));
+```
+
+**Promise.race** — возвращает результат самого быстрого из **Promise**, будь то успешное завершение или ошибка.
+
+```JavaScript
+Promise.race([promise1, promise2, promise3])
+    .then((result) => console.log(result)) // Выведет результат самого быстрого
+    .catch((error) => console.error(error));
+```
+
 ## Async / Await
 
 **Асинхронные функции (`async`):** Ключевое слово `async` перед функцией делает её асинхронной, позволяя использовать внутри неё `await` для ожидания выполнения `Promise`. Асинхронная функция всегда возвращает `Promise`.
@@ -110,5 +132,6 @@ async function fetchData() {
 	}
 }
 ```
+
 
 
