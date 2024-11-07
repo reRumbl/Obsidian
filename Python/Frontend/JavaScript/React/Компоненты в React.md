@@ -25,7 +25,7 @@ import Welcome from './Welcome';
 function App() {
     return (
         <div>
-            <Welcome name='Dmitry' />
+            <Welcome name="Dmitry" />
         </div>
     );
 }
