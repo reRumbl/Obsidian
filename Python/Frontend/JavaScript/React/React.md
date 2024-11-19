@@ -8,6 +8,11 @@
 npm install react react-dom
 ```
 
+**Установка необходимых инструментов разработки:**
+
+```Shell
+npm install --save-dev webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env @babel/preset-react html-webpack-plugin
+```
 ## Создание проекта
 
 Для начала нужно установить `create-react-app`, если он не установлен, чтобы создать новый проект:
