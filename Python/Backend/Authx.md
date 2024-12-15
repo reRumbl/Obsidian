@@ -37,4 +37,31 @@ config.JWT_TOKEN_LOCATION = ['cookies']
 security = AuthX(config=config)
 ```
 
-### 2. 
+### 2. Подключение аутентификации к маршрутам
+
+На примере [[FastAPI|FastAPI]]:
+
+*Схема пользователя:*
+
+```Python
+from pydantic import BaseModel
+
+
+class UserLoginSchema(BaseModel):
+	username: str
+	password: str
+```
+
+```Python
+from fastapi import FastAPI
+from auth import security
+from schemas import UserLoginSchema
+
+app = FastAPI()
+
+
+@app.post('/login')
+async def login():
+	
+```
+
