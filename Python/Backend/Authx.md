@@ -53,7 +53,7 @@ class UserLoginSchema(BaseModel):
 ```
 
 ```Python
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from auth import security
 from schemas import UserLoginSchema
 
@@ -61,7 +61,11 @@ app = FastAPI()
 
 
 @app.post('/login')
-async def login():
-	
+async def login(credentials: UserLoginSchema):
+	# Сравниваем полученные данные с тем, что содержится в базе данных
+	if creds.username == 'cool_username' and creds.password == 'strong_password':
+		token = security.create_access_token(uid=)
+		return {'access_token': token}
+	raise HTTPException(status_code=401)
 ```
 
