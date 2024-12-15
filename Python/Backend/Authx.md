@@ -18,6 +18,14 @@ import authx
 
 ### 1. Импорт и Конфигурация
 
+В **AuthX** существует множество настроек конфигурации. Основные параметры:
+
+- `JWT_SECRET_KEY` - Секретный ключ JWT токенов.
+
+- `JWT_TOKEN_LOCATION` - Локация хранения токенов JWT (Cookie .
+
+- `JWT_ACCESS_COOKIE_NAME` - Имя доступа для Cookie с JWT.
+
 ```Python
 from authx import AuthX, AuthXConfig
 
