@@ -78,7 +78,7 @@ async def protected():
 	try:
 		return {'data': 'TOP_SECRET_DATA'}
 	except MissingTokenError:
-		raise HTTPException(status_code=403)
+		raise HTTPException(status_code=403 )
 ```
 
 
