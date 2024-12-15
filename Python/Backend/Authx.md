@@ -56,6 +56,7 @@ class UserLoginSchema(BaseModel):
 
 ```Python
 from fastapi import FastAPI, HTTPException, Response, Depends
+from authx.exceptions import MissingTokenError
 from auth import security
 from schemas import UserLoginSchema
 
@@ -74,7 +75,10 @@ async def login(credentials: UserLoginSchema, response: Response):
 
 @app.get('/protected', dependencies=[Depends(security.access_token_required)])
 async def protected():
-	return {'data': 'TOP_SECRET_DATA'}
+	try:
+		return {'data': 'TOP_SECRET_DATA'}
+	except MissingTokenError:
+		raise HTTPException(status_code=403)
 ```
 
 
