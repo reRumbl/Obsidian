@@ -64,7 +64,7 @@ app = FastAPI()
 async def login(credentials: UserLoginSchema):
 	# Сравниваем полученные данные с тем, что содержится в базе данных
 	if creds.username == 'cool_username' and creds.password == 'strong_password':
-		token = security.create_access_token(uid=)
+		token = security.create_access_token(user_id='1234567890')
 		return {'access_token': token}
 	raise HTTPException(status_code=401)
 ```
