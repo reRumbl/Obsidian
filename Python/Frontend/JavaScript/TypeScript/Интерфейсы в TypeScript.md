@@ -14,6 +14,8 @@
 
 - **Интерфейсы массивов**. Позволяют описывать структуру массивов, предоставляя явные правила по типам элементов и их порядку.
 
+## Интерфейсы на практике
+
 **Пример определения интерфейса:**
 
 ```TypeScript
@@ -34,10 +36,7 @@ interface IUser {
 const user: IUser = {
 	id: 123,
 	name: 'Чак Норрис',
-	size: {
-		width: 20,
-		height: 30
-	}
+	size: {width: 20, height: 30}
 };
 ```
 
@@ -47,7 +46,7 @@ const user: IUser = {
 user.color = '#ccc'; // Валидно, так как color необязательное свойство
 ```
 
-Пример использования интерфейсов с классами:
+**Пример использования интерфейсов с классами:**
 
 ```TypeScript
 interface IClock {
@@ -56,6 +55,26 @@ interface IClock {
 }
 
 class Clock implements IClock {
-	time: Date = new Da
+	time: Date = new Date();
+	setTime(date: Date): void {
+		this.time = date;
+	}
+}
+```
+
+Наследование интерфейсов:
+
+```TypeScript
+interface IUserWidthArea extends IUser {
+	getArea(): number;
+}
+
+const user2: IUserWidthArea = {
+	id: 123,
+	name: 'Чак Норрис',
+	size: {width: 20, height: 30},
+	getArea() {
+		return this.size.width * this.size.height;
+	}
 }
 ```
