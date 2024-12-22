@@ -21,7 +21,7 @@ bigNum = '14882281337093';
 
 **Особенности Intersection типов:**
 
-- Объединяют несколько типов в один более специфичный тип.
+- Объединяют несколько [[Интерфейсы в TypeScript|интерфейсов]] в один более специфичный тип.
 
 - Используется амперсанд & для объединения типов.
 
@@ -29,11 +29,11 @@ bigNum = '14882281337093';
 
 ```TypeScript
 interface Animal {
-  name: string;
+	name: string;
 }
 
 interface Dog {
-  breed: string;
+	breed: string;
 }
 
 type DogWithName = Animal & Dog; // { name: string; breed: string; }
