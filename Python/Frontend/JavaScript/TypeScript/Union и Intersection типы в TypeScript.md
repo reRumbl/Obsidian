@@ -13,10 +13,33 @@
 ```TypeScript
 type StringOrNumber = string | number;
 
-let bigNum = 1234567890;
+let bigNum: StringOrNumber = 1234567890;
 bigNum = '14882281337093';
 ```
 
 ## Intersection типы
 
-Особенности Intersection типов
+**Особенности Intersection типов:**
+
+- Объединяют несколько типов в один более специфичный тип.
+
+- Используется амперсанд & для объединения типов.
+
+- Создает новый тип, который включает все свойства всех объединяемых типов.
+
+```TypeScript
+interface Animal = {
+  name: string;
+};
+
+interface Dog = {
+  breed: string;
+};
+
+interface DogWithName = Animal & Dog; // { name: string; breed: string; }
+
+let dog: DogWithName = {
+	name: 'Шарик',
+	breed: 'Немецкая овчарка'
+}
+```
