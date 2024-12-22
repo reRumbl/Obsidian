@@ -28,15 +28,15 @@ bigNum = '14882281337093';
 - Создает новый тип, который включает все свойства всех объединяемых типов.
 
 ```TypeScript
-interface Animal = {
+interface Animal {
   name: string;
-};
+}
 
-interface Dog = {
+interface Dog {
   breed: string;
-};
+}
 
-interface DogWithName = Animal & Dog; // { name: string; breed: string; }
+type DogWithName = Animal & Dog; // { name: string; breed: string; }
 
 let dog: DogWithName = {
 	name: 'Шарик',
