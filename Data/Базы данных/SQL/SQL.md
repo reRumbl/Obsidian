@@ -16,9 +16,8 @@ SELECT * FROM users
 
 ```SQL
 	CREATE TABLE users (
-		id INT NOT NULL,
-		username VARCHAR,
-		PRIMARY KEY (id)
+		id SERIAL PRIMARY KEY,
+		username VARCHAR
 	)
 ```
 
@@ -58,7 +57,7 @@ ALTER TABLE users ADD role VARCHAR
 
 ### Последовательности
 
-При помощи SQL можно взаимодействовать с последовательностями, например менять их текущее значение:
+При помощи **SQL** можно взаимодействовать с последовательностями, например менять их текущее значение:
 
 ```SQL
 SELECT setval('users_id_seq', 1000, TRUE)
@@ -66,7 +65,7 @@ SELECT setval('users_id_seq', 1000, TRUE)
 
 ### Временные таблицы
 
-При помощи SQL можно создавать временные таблицы:
+При помощи **SQL** можно создавать временные таблицы, которые исчезают при обновлении схемы:
 
 ```SQL
 CREATE TEMP TABLE temp_1 (
