@@ -10,7 +10,7 @@
 
 ![[TensorBoard.png]]
 
-Самый простой способ использовать [TensorBoard](https:/www.tensorflow.org/tensorboard) с [[Модели в TensorFlow|моделью]] [[TensorFlow#^8b88d6|Keras]] и методом `fit()` — определить [[Обратные вызовы в TensorFlow|обратный вызов]] `keras.callbacks.TensorBoard`. В простейшем случае достаточно указать, куда должна записываться информация этим [[Обратные вызовы в TensorFlow|обратным вызовом]], и все.
+Самый простой способ использовать [TensorBoard](https:/www.tensorflow.org/tensorboard) с [[Модели в TensorFlow|моделью]] [[Tensorflow#^8b88d6|Keras]] и методом `fit()` — определить [[Обратные вызовы в TensorFlow|обратный вызов]] `keras.callbacks.TensorBoard`. В простейшем случае достаточно указать, куда должна записываться информация этим [[Обратные вызовы в TensorFlow|обратным вызовом]], и все.
 
 **Пример использования TensorBoard:**
 
