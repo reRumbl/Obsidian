@@ -55,6 +55,7 @@ class Resumes(Base):
 	id: Mapped[intpk]
 	title: Mapped[str]
 	compensation: Mapped[int | None]
+	workload: Mapped[Workload]
 	worker_id: Mapped[int] = mapped_column(ForeignKey('workers.id', ondelete='CASCADE'))  # Можно Workers.id
 	created_at: Mapped[created_at]
 	updated_at: Mapped[updated_at]
