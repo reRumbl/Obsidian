@@ -67,6 +67,7 @@ config.set_section_option(section, 'DB_URL', settings.database_url_asyncpg)
 
 ```Python
 from app.database import Base
+# Необходимо импортировать файл с моделями, если они не в database
 
 # add your model's MetaData object here  
 # for 'autogenerate' support  
