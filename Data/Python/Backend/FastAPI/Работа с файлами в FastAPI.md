@@ -19,6 +19,7 @@ from fastapi import FastAPI, File, UploadFile
 ```Python
 app = FastAPI()
 
+
 @app.post('/files')
 async def upload_file(uploaded_file: UploadFile):
 	file = uploaded_file.file
@@ -41,3 +42,13 @@ async def upload_multiple_files(uploaded_files: list[UploadFile]):
 			f.write(file.read())
 ```
 
+## Скачивание файлов с сервера
+
+Чтобы скачать файл с сервера используются [[Классы|классы]] `File` и `FileResnonse` (`StreamResponse` в случае транслирования файла из другого сервиса, например [[S3 Хранилище|S3 хранилища]]). Основные атрибуты данного [[Классы|класса]]:
+
+```Python
+from fastapi.responses import FileResponse
+
+
+@app.get('files')
+```
