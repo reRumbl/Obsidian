@@ -6,10 +6,13 @@ from fastapi import FastAPI, File, UploadFile
 
 ## Загрузка файла на сервер
 
-Чтобы загрузить файл на сервер используется [[Классы|класс]] `UploadFile`. Он содержит такие атрибуты, как:
+Чтобы загрузить файл на сервер используется [[Классы|класс]] `UploadFile`. Основные атрибуты данного [[Классы|класса]]:
 
 - `file` - Сам файл.
--  (.)
+
+- `filename` - Имя файла.
+
+- `size` - Размер файла (в байтах).
 
 **Пример endpoint для загрузки файла:**
 
@@ -19,5 +22,8 @@ app = FastAPI()
 @app.post('/files')
 async def upload_file(uploaded_file: UploadFile):
 	file = uploaded_file.file
-	filename = 
+	filename = uploaded_file.filename
+	
+	with open(filename, 'wb', ) as f:
+		f.write(file.read())
 ```
