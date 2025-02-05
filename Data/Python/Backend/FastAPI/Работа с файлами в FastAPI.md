@@ -1,8 +1,4 @@
-Работа с файлами в [[FastAPI|FastAPI]] осуществляется через специальные [[Классы|классы]] `File` и `UploadFile`.
-
-```Python
-from fastapi import FastAPI, File, UploadFile
-```
+Работа с файлами в [[FastAPI|FastAPI]] осуществляется через специальные [[Классы|классы]], связанные с загрузкой и обработкой файлов.
 
 ## Загрузка файла на сервер
 
@@ -14,9 +10,11 @@ from fastapi import FastAPI, File, UploadFile
 
 - `size` - Размер файла (в байтах).
 
-**Пример endpoint для загрузки одного файла:**
+**Пример [[Endpoint, Параметры URL в FastAPI]] для загрузки одного файла:**
 
 ```Python
+from fastapi import UploadFile
+
 app = FastAPI()
 
 
@@ -44,7 +42,7 @@ async def upload_multiple_files(uploaded_files: list[UploadFile]):
 
 ## Скачивание файлов с сервера
 
-Чтобы скачать файл с сервера используются [[Классы|классы]] `File` и `FileResnonse` (`StreamingResponse` в случае транслирования файла из другого сервиса, например [[S3 Хранилище|S3 хранилища]]).
+Чтобы скачать файл с сервера используются [[Классы|класс]] `FileResnonse` (`StreamingResponse` в случае транслирования файла кусками и/или из другого сервиса, например [[S3 Хранилище|S3 хранилища]]).
 
 **Пример endpoint для скачивания файла, который хранится локально на сервере:**
 
@@ -57,10 +55,20 @@ async def get_file(filename: str):
 	return FileResponse(filename)
 ```
 
-**Пример endpoint для скачивания файла, который хранится на стороннем ресурсе:**
+**Пример [[Endpoint, Параметры URL в FastAPI|endpoint]] для скачивания файла, который хранится на стороннем ресурсе:**
+
+Для отправки файла кусками при помощи `StreamingResponse` требуется генератор:
+
+```Python
+
+```
+
+Далее сам endpoint использует написанный выше генератор:
 
 ```Python
 from fastapi.responses import StreamingResponse
+
+
 
 
 @app.get('/files/{filename}')
