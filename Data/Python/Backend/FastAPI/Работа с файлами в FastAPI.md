@@ -44,11 +44,26 @@ async def upload_multiple_files(uploaded_files: list[UploadFile]):
 
 ## Скачивание файлов с сервера
 
-Чтобы скачать файл с сервера используются [[Классы|классы]] `File` и `FileResnonse` (`StreamResponse` в случае транслирования файла из другого сервиса, например [[S3 Хранилище|S3 хранилища]]). Основные атрибуты данного [[Классы|класса]]:
+Чтобы скачать файл с сервера используются [[Классы|классы]] `File` и `FileResnonse` (`StreamingResponse` в случае транслирования файла из другого сервиса, например [[S3 Хранилище|S3 хранилища]]).
+
+**Пример endpoint для скачивания файла, который хранится локально на сервере:**
 
 ```Python
 from fastapi.responses import FileResponse
 
 
-@app.get('files')
+@app.get('/files/{filename}')
+async def get_file(filename: str):
+	return FileResponse(filename)
+```
+
+**Пример endpoint для скачивания файла, который хранится на стороннем ресурсе:**
+
+```Python
+from fastapi.responses import StreamingResponse
+
+
+@app.get('/files/{filename}')
+async def get_file(filename: str):
+	return FileResponse(filename)
 ```
