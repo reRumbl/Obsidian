@@ -10,7 +10,7 @@
 
 - `size` - Размер файла (в байтах).
 
-**Пример [[Endpoint, Параметры URL в FastAPI]] для загрузки одного файла:**
+**Пример [[Endpoint, Параметры URL в FastAPI|endpoint]] для загрузки одного файла:**
 
 ```Python
 from fastapi import UploadFile
@@ -60,18 +60,19 @@ async def get_file(filename: str):
 Для отправки файла кусками при помощи `StreamingResponse` требуется генератор:
 
 ```Python
-
+def get_file_chunk(filename: str):
+	with open(filename, 'rb') as file:
+		while chunk := file.read(1024 * 1024):
+			yield chunk
 ```
 
-Далее сам endpoint использует написанный выше генератор:
+Далее сам endpoint использует написанный выше генератор, например для отправки видео файла кусками:
 
 ```Python
 from fastapi.responses import StreamingResponse
 
 
-
-
 @app.get('/files/{filename}')
-async def get_file(filename: str):
-	return FileResponse(filename)
+async def get_video_chunk(filename: str):
+	return StreamingResponse(get_file_chunk(filename), media_type='')
 ```
