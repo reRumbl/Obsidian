@@ -62,17 +62,17 @@ async def get_file(filename: str):
 ```Python
 def get_file_chunk(filename: str):
 	with open(filename, 'rb') as file:
-		while chunk := file.read(1024 * 1024):
+		while chunk := file.read(1024 * 1024):  # Размер чанка - 1 Мб
 			yield chunk
 ```
 
-Далее сам endpoint использует написанный выше генератор, например для отправки видео файла кусками:
+Далее сам endpoint использует написанный выше генератор, например для отправки видео файла формата mp4 кусками:
 
 ```Python
 from fastapi.responses import StreamingResponse
 
 
-@app.get('/files/{filename}')
+@app.get('/files/streaming/video/{filename}')
 async def get_video_chunk(filename: str):
-	return StreamingResponse(get_file_chunk(filename), media_type='')
+	return StreamingResponse(get_file_chunk(filename), media_type='video/mp4')
 ```
