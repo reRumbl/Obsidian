@@ -2,6 +2,20 @@
 
 ![[PyTest.png]]
 
+**Установка через cmd или terminal:**
+
+```Shell
+pip install pytest
+pip install pytest-asyncio
+```
+
+**Подключение в проект:**
+
+```Python
+import pytest
+import pytest-asyncio
+```
+
 **Пример создания фабрик и основных функций в PyTest:**
 
 ```Python
@@ -43,4 +57,6 @@ async def test_login(async_client: AsyncClient, test_db: AsyncSession):
     assert response.status_code == 200  
     assert 'access_token' in response.json()
 ```
+
+Для запуска всех тестов, которые способен автоматически распознать **PyTest**
 
