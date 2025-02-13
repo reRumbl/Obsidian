@@ -29,55 +29,55 @@
 	208 Already Reported («уже сообщалось»).
 	226 IM Used («использовано IM»).
 3xx: Redirection (перенаправление):
-	300 Multiple Choices («множество выборов»)[3];
-	301 Moved Permanently («перемещено навсегда»)[3];
-	302 Found («найдено»)[3];
-	303 See Other («смотреть другое»)[3];
-	304 Not Modified («не изменялось»)[8];
-	305 Use Proxy («использовать прокси»)[3];
-	306 — зарезервировано (код использовался только в ранних спецификациях)[3];
-	307 Temporary Redirect («временное перенаправление»)[3];
-	308 Permanent Redirect («постоянное перенаправление»)[9].
+	300 Multiple Choices («множество выборов»).
+	301 Moved Permanently («перемещено навсегда»).
+	302 Found («найдено»).
+	303 See Other («смотреть другое»).
+	304 Not Modified («не изменялось»).
+	305 Use Proxy («использовать прокси»).
+	306 — зарезервировано (код использовался только в ранних спецификациях).
+	307 Temporary Redirect («временное перенаправление»).
+	308 Permanent Redirect («постоянное перенаправление»).
 4xx: Client Error (ошибка клиента):
-	400 Bad Request («неправильный, некорректный запрос»)[3][4];
-	401 Unauthorized («не авторизован»)[10];
-	402 Payment Required («необходима оплата») — зарезервировано для использования в будущем[3];
-	403 Forbidden («запрещено (не уполномочен)»)[3];
-	404 Not Found («не найдено»)[3];
-	405 Method Not Allowed («метод не поддерживается»)[3];
-	406 Not Acceptable («неприемлемо»)[3];
-	407 Proxy Authentication Required («необходима аутентификация прокси»)[10];
-	408 Request Timeout («истекло время ожидания»)[3];
-	409 Conflict («конфликт»)[3][4];
-	410 Gone («удалён»)[3];
-	411 Length Required («необходима длина»)[3];
-	412 Precondition Failed («условие ложно»)[8][11];
-	413 Payload Too Large («полезная нагрузка слишком велика»)[3];
-	414 URI Too Long («URI слишком длинный»)[3];
-	415 Unsupported Media Type («неподдерживаемый тип данных»)[3];
-	416 Range Not Satisfiable («диапазон не достижим»)[12];
-	417 Expectation Failed («ожидание не оправдалось»)[3];
-	418 I’m a teapot («я — чайник»);
-	419 Authentication Timeout (not in RFC 2616) («обычно ошибка проверки CSRF»);
-	421 Misdirected Request[13];
-	422 Unprocessable Entity («необрабатываемый экземпляр»);
-	423 Locked («заблокировано»);
-	424 Failed Dependency («невыполненная зависимость»);
-	425 Too Early («слишком рано»);
-	426 Upgrade Required («необходимо обновление»)[3];
-	428 Precondition Required («необходимо предусловие»)[14];
-	429 Too Many Requests («слишком много запросов»)[14];
-	431 Request Header Fields Too Large («поля заголовка запроса слишком большие»)[14];
-	449 Retry With («повторить с»)[1];
-	451 Unavailable For Legal Reasons («недоступно по юридическим причинам»)[15].
-	499 Client Closed Request (клиент закрыл соединение);
+	400 Bad Request («неправильный, некорректный запрос»).
+	401 Unauthorized («не авторизован»).
+	402 Payment Required («необходима оплата») — зарезервировано для использования в будущем.
+	403 Forbidden («запрещено (не уполномочен)»).
+	404 Not Found («не найдено»).
+	405 Method Not Allowed («метод не поддерживается»).
+	406 Not Acceptable («неприемлемо»).
+	407 Proxy Authentication Required («необходима аутентификация прокси»).
+	408 Request Timeout («истекло время ожидания»).
+	409 Conflict («конфликт»).
+	410 Gone («удалён»).
+	411 Length Required («необходима длина»).
+	412 Precondition Failed («условие ложно»).
+	413 Payload Too Large («полезная нагрузка слишком велика»).
+	414 URI Too Long («URI слишком длинный»).
+	415 Unsupported Media Type («неподдерживаемый тип данных»).
+	416 Range Not Satisfiable («диапазон не достижим»).
+	417 Expectation Failed («ожидание не оправдалось»).
+	418 I’m a teapot («я — чайник»).
+	419 Authentication Timeout (not in RFC 2616) («обычно ошибка проверки CSRF»).
+	421 Misdirected Request.
+	422 Unprocessable Entity («необрабатываемая сущность»).
+	423 Locked («заблокировано»).
+	424 Failed Dependency («невыполненная зависимость»).
+	425 Too Early («слишком рано»).
+	426 Upgrade Required («необходимо обновление»).
+	428 Precondition Required («необходимо предусловие»).
+	429 Too Many Requests («слишком много запросов»).
+	431 Request Header Fields Too Large («поля заголовка запроса слишком большие»).
+	449 Retry With («повторить вместе с»).
+	451 Unavailable For Legal Reasons («недоступно по юридическим причинам»).
+	499 Client Closed Request (клиент закрыл соединение).
 5xx: Server Error (ошибка сервера):
-	500 Internal Server Error («внутренняя ошибка сервера»)[3];
-	501 Not Implemented («не реализовано»)[3];
-	502 Bad Gateway («плохой, ошибочный шлюз»)[3];
-	503 Service Unavailable («сервис недоступен»)[3];
-	504 Gateway Timeout («шлюз не отвечает»)[3];
-	505 HTTP Version Not Supported («версия HTTP не поддерживается»)[3];
+	500 Internal Server Error («внутренняя ошибка сервера»).
+	501 Not Implemented («не реализовано»).
+	502 Bad Gateway («плохой, ошибочный шлюз»).
+	503 Service Unavailable («сервис недоступен»).
+	504 Gateway Timeout («шлюз не отвечает»).
+	505 HTTP Version Not Supported («версия HTTP не поддерживается»).
 	506 Variant Also Negotiates («вариант тоже проводит согласование»)[16];
 	507 Insufficient Storage («переполнение хранилища»);
 	508 Loop Detected («обнаружено бесконечное перенаправление»)[17];
