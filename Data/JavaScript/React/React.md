@@ -18,7 +18,7 @@ npm install --save-dev webpack webpack-cli webpack-dev-server babel-loader @babe
 Для начала нужно установить `create-react-app`, если он не установлен, чтобы создать новый проект:
 
 ```Shell
-npx create-react-app my-app
+npx create-react-app my-app --template typescript
 ```
 
 Это создаст структуру файлов, настроит Webpack и Babel, и позволит быстро начать разработку.
