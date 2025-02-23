@@ -12,4 +12,48 @@
 
 ## Состояния в классовых компонентах
 
-Для управления состоянием в классовом компоненте требуется ввести специальную переменную state типа object в конструкторе. В нее можно занести все меняюи
+Для управления состоянием в классовом компоненте требуется ввести специальную переменную state типа object в конструкторе. В нее можно занести все динамические свойства. Изменять свойства можно при помощи `setState`.
+
+Пример классового компонента с со=
+
+```TypeScript
+import React from 'react';
+
+
+interface ICounterProps {
+    initialValue?: number;
+}
+
+
+interface ICounterState {
+    count: number;
+}
+
+
+export default class Counter extends React.Component<ICounterProps, ICounterState> {
+    constructor(props: ICounterProps) {
+        super(props);
+        this.state = {
+            count: props.initialValue || 0,
+        };
+    }
+
+    increment = () => {
+        this.setState({ count: this.state.count + 1 });
+    };
+
+    decrement = () => {
+        this.setState({ count: this.state.count - 1 });
+    };
+
+    render() {
+        return (
+            <div>
+                <p>Текущее значение: {this.state.count}</p>
+                <button onClick={this.increment}>Увеличить</button>
+                <button onClick={this.decrement}>Уменьшить</button>
+            </div>
+        );
+    }
+}
+```
