@@ -18,11 +18,10 @@
 ```JSX
 import React from 'react';
 
-function Welcome(props) {
+
+export default function Welcome(props) {
     return <h1>Привет, {props.name}!</h1>;
 }
-
-export default Welcome;
 ```
 
 ### Классовые компоненты
@@ -32,7 +31,7 @@ export default Welcome;
 **Пример классового компонента:**
 
 ```JSX
-class Welcome extends React.Component {
+export default class Welcome extends React.Component {
 	render() {
 		return <h1>Привет, {this.props.name}</h1>;
 	}
