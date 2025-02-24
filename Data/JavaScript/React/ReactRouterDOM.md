@@ -8,7 +8,7 @@ npm install react react-dom
 
 ## Роутинг при помощи ReactRouterDOM
 
-Чтобы организовать роутинг используются специальные компоненты `<Router>`, `<Routes>` и `<Route>`.
+Чтобы организовать роутинг используются специальные компоненты `<Router>`, `<Routes>` и `<Route>` из `BrowserRouter`.
 
 **Пример роутинга при помощи ReactRouterDOM:**
 
