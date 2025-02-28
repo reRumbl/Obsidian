@@ -48,10 +48,15 @@ docker build -t my_image
 docker run --name=my_container -p 8000:8000 my_image
 ```
 
+**Подключение к консоли контейнера:**
+
+```Shell
+docker exec -it my_container bash
+```
+
 **Удаление контейнера:**
 
 ```Shell
-docker rm # uuid контейнера
+docker rm my_container
 ```
-
 
