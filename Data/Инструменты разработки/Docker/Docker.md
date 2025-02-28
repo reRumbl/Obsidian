@@ -30,10 +30,22 @@
 
 ## Основные команды
 
+Просмотр всех образов:
+
+```Shell
+docker images
+```
+
 Построение образа на основе [[Dockerfile|Dockerfile]]:
 
 ```Shell
 docker build -t my_image
+```
+
+Запуск контейнера на основе образа:
+
+```Shell
+docker run --name=my_container my_image
 ```
 
 
