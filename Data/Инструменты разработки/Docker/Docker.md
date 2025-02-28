@@ -30,22 +30,28 @@
 
 ## Основные команды
 
-Просмотр всех образов:
+**Просмотр всех образов:**
 
 ```Shell
 docker images
 ```
 
-Построение образа на основе [[Dockerfile|Dockerfile]]:
+**Построение образа на основе [[Dockerfile|Dockerfile]]:**
 
 ```Shell
 docker build -t my_image
 ```
 
-Запуск контейнера на основе образа:
+**Запуск контейнера на основе образа:**
 
 ```Shell
-docker run --name=my_container my_image
+docker run --name=my_container -p 8000:8000 my_image
+```
+
+**Удаление контейнера:**
+
+```Shell
+docker rm # uuid контейнера
 ```
 
 
