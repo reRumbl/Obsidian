@@ -9,14 +9,22 @@
 3. После этого запрос достигает конечного [[Endpoint, Параметры URL в FastAPI|endpoint]].
 
 4. Ответ проходит обратный путь, при этом каждая **middleware** может модифицировать его.
+
 ## Основные виды Middleware
 
+`CORSMiddleware` - используется для настройки параметров политики [[CORS|CORS]].
+
+**Пример CORSMiddleware:**
 
 ```Python
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+
+app = FastAPI()
 
 app.add_middleware(
 	CORSMiddleware,
-	allow_origins=['localhost']
+	allow_origins=['http://localhost:63342'],
+	allow_methods=['*']
 )
 ```
