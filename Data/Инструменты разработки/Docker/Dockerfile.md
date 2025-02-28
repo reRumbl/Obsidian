@@ -36,3 +36,13 @@ COPY . /app
 11. `EXPOSE` — указывает на необходимость открыть порт.
 
 12. `VOLUME` — создаёт точку монтирования для работы с постоянным хранилищем.
+
+## Некоторые шаблоны Dockerfile
+
+**Dockerfile для [[Python|Python]]-приложения:**
+
+```Dockerfile
+FROM python:3.12.8
+WORKDIR /app
+RUN pip install -r req
+```
