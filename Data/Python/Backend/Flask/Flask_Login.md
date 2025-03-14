@@ -8,13 +8,24 @@ from flask_login import LoginManager, login_required, current_user
 login_manager = LoginManager()
 login_manager.init_app(app)
 
-users = {
-	1
-}
+USERS = [
+	{
+		'id': 1,
+		'username': user1
+	},
+	{
+		'id': 2,
+		'username': user2
+	},
+]
+
 
 @login_manager.user_loader
 def load_user(user_id):
-    return User.query.get(int(user_id))
+    for user in USERS:
+	    if user['id'] == user_id:
+		    return user
+	return 'User not found'
 
 
 @app.route('/profile')
