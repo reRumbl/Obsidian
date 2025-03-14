@@ -121,7 +121,6 @@ def inject_global_vars():
 **Пример хорошей структуры файлов с шаблонами:**
 
 ```plaintext
-# Структура папок templates/
 templates/
     ├── base.html          # Базовый шаблон
     ├── layout/
