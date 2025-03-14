@@ -18,10 +18,8 @@ class ProductionConfig(Config):
     SQLALCHEMY_DATABASE_URI = 'postgresql://user:pass@db-host/db-name'
 ```
 
-**Для подключения блюпринта к основному приложению используется метод `register_blueprint`:**
+**Для установки конфигурации для приложения используется метод `from_object` поля `config`:**
 
 ```Python
-from 
-
 app.config.from_object('config.DevelopmentConfig')
 ```
