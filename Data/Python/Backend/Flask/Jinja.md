@@ -87,7 +87,32 @@ def index():
 {% include "_nav.html" %}
 ```
 
-## Рас
+## Расширение функциональности
+
+**Jinja** позволяет добавлять собственные фильтры и функции через конфигурацию [[Flask|Flask]].
+
+**Пример фильтра:**
+
+```Python
+@app.template_filter('pluralize')
+def pluralize_filter(number):
+    if number % 10 == 1 and number % 100 != 11:
+        return 'статья'
+    elif 2 <= number % 10 <= 4 and (number % 100 < 10 or number % 100 >= 20):
+        return 'статьи'
+    return 'статей'
+```
+
+**Пример функции:**
+
+```Python
+@app.context_processor
+def inject_global_vars():
+    return dict(
+        site_url='https://example.com',
+        version='1.0.0'
+    )
+```
 
 ## Лучшие практики
 
