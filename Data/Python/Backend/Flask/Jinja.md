@@ -86,3 +86,36 @@ def index():
 ```HTML
 {% include "_nav.html" %}
 ```
+
+## Лучшие практики
+
+**Организация шаблонов:**
+
+```plaintext
+# Структура папок templates/
+templates/
+    ├── base.html          # Базовый шаблон
+    ├── layout/
+    │   └── nav.html      # Частичные шаблоны
+    ├── pages/
+    │   ├── index.html    # Страницы
+    │   └── about.html
+    └── macros/
+        └── forms.html     # Переиспользуемые компоненты
+```
+
+Макросы для переиспользования кода:
+
+```HTML
+{% macro render_form(field) %}
+    <div class="form-group">
+        {{ field.label }}
+        {{ field(**kwargs)|safe }}
+        {% if field.errors %}
+            {% for error in field.errors %}
+                <span class="error">{{ error }}</span>
+            {% endfor %}
+        {% endif %}
+    </div>
+{% endmacro %}
+```
