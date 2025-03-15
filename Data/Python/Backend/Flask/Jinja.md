@@ -55,7 +55,7 @@ def index():
 ```HTML
 {% if user.is_admin %}
     <div>Администратор</div>
-	{% endif %}
+{% endif %}
 ```
 
 **Циклы:**
