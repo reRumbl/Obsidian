@@ -15,28 +15,28 @@ SELECT * FROM users
 - Создание в базе данных новой таблицы.
 
 ```SQL
-CREATE TABLE users (
-	id SERIAL PRIMARY KEY,
-	username VARCHAR
-)
+	CREATE TABLE users (
+		id SERIAL PRIMARY KEY,
+		username VARCHAR
+	)
 ```
 
 - Добавление в таблицу новых записей. 
 
 ```SQL
-INSERT INTO users (id, username) VALUES (123, 'Username123')
+	INSERT INTO users (id, username) VALUES (123, 'Username123')
 ```
 
 - Изменение записей.
 
 ```SQL
-UPDATE users SET username = 'SuperUsername' WHERE id = 123
+	UPDATE users SET username = 'SuperUsername' WHERE id = 123
 ```
 
 - Удаление записей.
 
 ```SQL
-DELETE FROM users WHERE id = 123
+	DELETE FROM users WHERE id = 123
 ```
 
 - Выборка записей из одной или нескольких таблиц (в соответствии с заданным условием).

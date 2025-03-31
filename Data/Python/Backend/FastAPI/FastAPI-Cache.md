@@ -18,12 +18,13 @@ import fastapi_cache
 
 ```Python
 from contextlib import asynccontextmanager
+
 from fastapi import FastAPI
 from fastapi_cache import FastAPICache  
 from fastapi_cache.backends.redis import RedisBackend
 from fastapi_cache.decorator import cache
 import uvicorn
-from redis import asyncio as aioredis
+import aioredis
 
 
 @asynccontextmanager  
@@ -41,7 +42,7 @@ app = FastAPI(title='CachedApp', lifespan=lifespan)
 
 
 @app.get('/api/status')
-@cache(expire=60)  # Декоратор кэширования (обязательно после маршрута)
+@cache(expire=60)  # Декоратор кэширования
 async def check_status():
 	# Какие-то вычисления
     return {  
