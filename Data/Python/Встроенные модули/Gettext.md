@@ -35,5 +35,8 @@ def get_translator(lang: str):
 	return translations.get(lang, translations.get('en'))
 
 
+# Параметр в функции обычно является динамическим и поступает извне
+_ = get_translator('ru').gettext
 
+print(_('Hello World'))
 ```

@@ -4,7 +4,7 @@
 
 **Установка через cmd или terminal:**
 
-```Python
+```Shell
 pip install arcade
 ```
 
