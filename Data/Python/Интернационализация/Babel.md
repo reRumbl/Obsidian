@@ -9,15 +9,19 @@ pip install babel
 **Подключение в проект:**
 
 ```Python
-import Babel
+import babel
 ```
 
 ## CLI команды
 
-**Сбор всех переводимых сообщений из указанных файлов в файл:**
+**Сбор всех переводимых сообщений из указанных файлов в `messages.pot`:**
 
 ```Shell
 pybabel extract -o translations/messages.pot src/*
 ```
 
-Инициализация самого 
+**Создание папок с переводами для указанного языка на основе `messages.pot`:**
+
+```Python
+pybabel init -i translations/messages.pot -d translations -l en
+```
