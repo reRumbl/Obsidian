@@ -10,9 +10,10 @@
 arcade.draw_lbwh_rectangle_filled(800 - 100, 0, 100, 50, arcade.color.BABY_BLUE)
 ```
 
-Пример создания объекта и отрисовки границы прямоугольника:
+**Пример создания объекта и отрисовки по нему границы прямоугольника:**
 
 ```Python
-arcade.draw_rect
+rect = arcade.Rect(0, 100, 0, 100, 100, 100, 400, 300)
+arcade.draw_rect_outline(rect, arcade.color.ALABAMA_CRIMSON, 5)
 ```
 
