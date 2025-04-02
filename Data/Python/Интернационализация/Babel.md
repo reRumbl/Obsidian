@@ -2,12 +2,22 @@
 
 **Установка через cmd или terminal:**
 
-```Python
-pip install arcade
+```Shell
+pip install babel
 ```
 
 **Подключение в проект:**
 
 ```Python
-import arcade
+import Babel
 ```
+
+## CLI команды
+
+**Сбор всех переводимых сообщений из указанных файлов в файл:**
+
+```Shell
+pybabel extract -o translations/messages.pot src/*
+```
+
+Инициализация самого 
