@@ -1,4 +1,4 @@
-**Gettext** - это встроенный модуль [[Python|Python]] для упрощения интернационализации и локализации приложений.
+**Gettext** - это встроенный модуль [[Python|Python]] для интернационализации и локализации приложений.
 
 **Подключение в проект:**
 
@@ -25,7 +25,7 @@ LANGUAGES = ['ru', 'en']
 
 translations = {
 	lang: gettext.translation(
-		'messages', localedir='translations', languages=[lang]
+		'messages', localedir='translations', languages=[lang], fallback=True
 	)
 	for lang in LANGUAGES
 }

@@ -25,3 +25,9 @@ pybabel extract -o translations/messages.pot src/*
 ```Python
 pybabel init -i translations/messages.pot -d translations -l en
 ```
+
+**Компиляция файлов `.po` в `.mo`:**
+
+```Python
+pybabel compile -d translations
+```
