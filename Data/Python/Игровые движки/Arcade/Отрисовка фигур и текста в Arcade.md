@@ -32,3 +32,7 @@ arcade.draw_circle_outline(center_x, center_y, radius, color, border_width)
 ```Python
 arcade.draw_circle_filled(center_x, center_y, radius, color)
 ```
+
+## Текст
+
+Для отрисовки текста
