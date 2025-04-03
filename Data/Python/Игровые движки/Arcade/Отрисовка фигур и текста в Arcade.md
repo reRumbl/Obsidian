@@ -7,13 +7,22 @@
 **Пример отрисовки заполненного прямоугольника с нуля:**
 
 ```Python
-arcade.draw_lbwh_rectangle_filled(800 - 100, 0, 100, 50, arcade.color.BABY_BLUE)
+arcade.draw_lbwh_rectangle_filled(l, b, width, height, arcade.color.BABY_BLUE)
 ```
 
 **Пример создания объекта и отрисовки по нему границы прямоугольника:**
 
 ```Python
-rect = arcade.Rect(0, 100, 0, 100, 100, 100, 400, 300)
-arcade.draw_rect_outline(rect, arcade.color.ALABAMA_CRIMSON, 5)
+rect = arcade.Rect(l, r, b, t, width, height, x, y)
+arcade.draw_rect_outline(rect, arcade.color.ALABAMA_CRIMSON, border_width)
 ```
 
+## Окружность
+
+Можно отрисовать как окружность, так и круг.
+
+**Пример отрисовки окружности:**
+
+```Python
+arcade.draw_circle_outline(x, y, )
+```
