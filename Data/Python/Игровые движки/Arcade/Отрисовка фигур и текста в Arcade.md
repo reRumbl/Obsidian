@@ -4,25 +4,31 @@
 
 Для отрисовки прямоугольника можно либо сначала создать сам объект прямоугольника (`Rect`), после чего отрисовать его выбранным цветом, либо отрисовать прямоугольник с нуля с выбранными параметрами. Также можно отрисовать только границу (`outline`) или заполненным (`filled`).
 
-**Пример отрисовки заполненного прямоугольника с нуля:**
+**Отрисовка заполненного прямоугольника с нуля:**
 
 ```Python
-arcade.draw_lbwh_rectangle_filled(l, b, width, height, arcade.color.BABY_BLUE)
+arcade.draw_lbwh_rectangle_filled(l, b, width, height, color)
 ```
 
-**Пример создания объекта и отрисовки по нему границы прямоугольника:**
+**Создание объекта и отрисовки по нему границы прямоугольника:**
 
 ```Python
 rect = arcade.Rect(l, r, b, t, width, height, x, y)
-arcade.draw_rect_outline(rect, arcade.color.ALABAMA_CRIMSON, border_width)
+arcade.draw_rect_outline(rect, color, border_width)
 ```
 
 ## Окружность
 
 Можно отрисовать как окружность, так и круг.
 
-**Пример отрисовки окружности:**
+**Отрисовка окружности:**
 
 ```Python
-arcade.draw_circle_outline(x, y, )
+arcade.draw_circle_outline(center_x, center_y, radius, color, border_width)
+```
+
+**Отрисовка круга:**
+
+```Python
+arcade.draw_circle_filled(center_x, center_y, radius, color)
 ```
