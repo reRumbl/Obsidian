@@ -1,8 +1,10 @@
-Базовый класс `arcade.Window` содержит специальные методы, которые необходимо переопределить, чтобы обработать события мыши и клавиату
+Базовый класс `arcade.Window` в [[Arcade|Arcade]] содержит специальные методы, которые необходимо переопределить, чтобы обработать события мыши и клавиатуры.
 
 ## Клавиатура
 
-Для обработки нажатия клавиш в [[Arcade|Arcade]] используются методы `on_key_press` и `on_key_release`. Отличаются только тем, что первый проверяет нажатие клавиши, а второй проверяет ее отпускание.
+Для обработки нажатия клавиш используются методы `on_key_press` и `on_key_release`. Отличаются только тем, что первый проверяет нажатие клавиши, а второй проверяет ее отпускание.
+
+**Пример обработки нажатия пробела:**
 
 ```Python
 import arcade
@@ -13,14 +15,22 @@ class Game(arcade.Window):
 		super().__init__(width=800, height=600, title='Arcade Game')
 		self.background_color = arcade.color.BLACK
 
+		self.space_clicked = False
+
 	def on_draw(self):
 		# Отрисовка
 
 	def on_update(self):
-		# Обновление (Например, в зависимости от клавиш)
+		if self.space_clicked:
+			print('Пробел зажат в данный момент')
 
-	def on_key_press(self, symbol,):
-		if s
+	def on_key_press(self, symbol, modifiers):
+		if symbol == arcade.key.SPACE:
+			self.space_clicked = True
+
+	def on_key_release(self, symbol, modifiers):
+		if symbol == arcade.key.SPACE:
+			self.space_clicked = False
 ```
 
 ## Мышь
