@@ -1,6 +1,6 @@
 **Request** в [[Flask|Flask]] представляет собой объект, содержащий всю информацию о текущем HTTP-запросе. Давайте разберем его структуру и основные методы использования.
 
-**Структура request:**
+**Пример использования request:**
 
 ```Python
 from flask import request
@@ -60,4 +60,36 @@ def api_data():
     # Работа с данными
     result = process_data(data)
     return jsonify(result)
+```
+
+## Работа с заголовками и Cookie
+
+**Пример обработки заголовков и cookie:**
+
+```Python
+# Заголовки
+auth_header = request.headers.get('Authorization')
+accept_lang = request.accept_languages.best       # Лучший язык из Accept-Language
+
+# Cookies
+session_id = request.cookies.get('session_id')
+
+# Мета-данные запроса
+remote_addr = request.remote_addr           # IP адрес клиента
+user_agent = request.user_agent.string     # User-Agent
+```
+
+## Работа с файлами и мультимедиа
+
+Пример загрузки файл
+
+```Python
+@app.route('/upload', methods=['POST'])
+def upload_file():
+    file = request.files['file']
+    if file.filename:
+        filename = secure_filename(file.filename)
+        file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+        return 'File uploaded successfully'
+    return 'No file provided', 400
 ```
