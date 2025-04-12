@@ -81,7 +81,7 @@ user_agent = request.user_agent.string     # User-Agent
 
 ## Работа с файлами и мультимедиа
 
-Пример загрузки файл
+**Пример загрузки файла на сервер:**
 
 ```Python
 @app.route('/upload', methods=['POST'])
@@ -92,4 +92,36 @@ def upload_file():
         file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
         return 'File uploaded successfully'
     return 'No file provided', 400
+```
+
+## Лучшие практики
+
+**Проверка безопасности запроса:**
+
+```Python
+from flask import request, abort
+
+
+@app.before_request
+def validate_request():
+    if not request.is_secure and not app.debug:
+        abort(403)  # Требовать HTTPS в продакшене
+```
+
+**Валидация данных:**
+
+```Python
+def validate_form_data():
+    if not request.method == 'POST':
+        raise ValueError('Only POST method is allowed')
+    if not request.content_length:
+        raise ValueError('Empty request body')
+```
+
+**Обработка ошибок:**
+
+```Python
+@app.errorhandler(404)
+def page_not_found(error):
+    return render_template('404.html'), 404
 ```
