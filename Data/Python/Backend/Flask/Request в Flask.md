@@ -25,3 +25,39 @@ def handle_request():
     # Файлы
     files = request.files            # Загружаемые файлы
 ```
+
+## Типы данных запроса
+
+**[[GET|GET]] параметры:**
+
+```Python
+@app.route('/search')
+def search():
+    query = request.args.get('q')       # Получение одного параметра
+    page = int(request.args.get('page', 1))  # С дефолтным значением
+    all_params = dict(request.args)     # Все параметры как словарь
+```
+
+**[[POST|POST]] данные из формы:**
+
+```Python
+@app.route('/submit', methods=['POST'])
+def submit():
+    username = request.form['username']  # Прямой доступ к полю
+    email = request.form.get('email')    # Безопасный доступ с None по умолчанию
+    all_fields = request.form.to_dict()  # Все поля как словарь
+```
+
+**JSON данные:**
+
+```Python
+@app.route('/api/data', methods=['POST'])
+def api_data():
+    data = request.get_json()
+    if not data:
+        return jsonify({'error': 'Invalid JSON'}), 400
+        
+    # Работа с данными
+    result = process_data(data)
+    return jsonify(result)
+```
