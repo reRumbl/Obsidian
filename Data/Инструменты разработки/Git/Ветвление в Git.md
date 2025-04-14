@@ -100,6 +100,8 @@ git branch -D <name of branch>
 
 - `merge` (слияние) – 
 
+- `rebase` (перебазирование) – 
+
 **Слияние веток:**
 
 ```Shell
