@@ -39,7 +39,7 @@ async def get_user_db(session: SessionDep):
 
 После подключения к БД следует задать конфигурацию транспортировки в отдельном файле.
 
-**Конфигурация транспортировки (bearer + database):**
+**Конфигурация транспортировки (bearer + jwt):**
 
 ```Python
 import uuid
@@ -100,10 +100,13 @@ async def get_user_manager(user_db: SQLAlchemyUserDatabase = Depends(get_user_db
 
 После всех вышеперечисленных действий требуется инициализировать класс `FastAPIUsers`.
 
+**Инициализация FastAPIUsers:**
+
 ```Python
 from fastapi_users import FastAPIUsers
 from app.auth.database import User
-from app.user
+from app.auth.manager import get_user_manager
+from app.auth.transport import auth_backend
 
 fastapi_users = FastAPIUsers[User, uuid.UUID](get_user_manager, [auth_backend])
 current_active_user = fastapi_users.current_user(active=True)
@@ -111,6 +114,56 @@ current_active_user = fastapi_users.current_user(active=True)
 
 ## Создание схем
 
-```Python
+Перед подключением маршрутов нужно создать [[Pydantic|Pydantic]] схемы.
 
+**Создание схем:**
+
+```Python
+import uuid
+from fastapi_users import schemas
+
+
+class UserRead(schemas.BaseUser[uuid.UUID]):
+    pass
+
+
+class UserCreate(schemas.BaseUserCreate):
+    pass
+
+
+class UserUpdate(schemas.BaseUserUpdate):
+    pass
 ```
+
+## Подключение маршрутов
+
+В основном файле нужно подключить маршруты из FastAPI-Users
+
+Подключение маршрутов:
+
+```Python
+app.include_router(
+    fastapi_users.get_auth_router(auth_backend), prefix='/api/auth/jwt', tags=['auth']
+)
+app.include_router(
+    fastapi_users.get_register_router(UserRead, UserCreate),
+    prefix='/api/auth',
+    tags=['auth'],
+)
+app.include_router(
+    fastapi_users.get_reset_password_router(),
+    prefix='/api/auth',
+    tags=['auth'],
+)
+app.include_router(
+    fastapi_users.get_verify_router(UserRead),
+    prefix='/api//auth",
+    tags=["auth"],
+)
+app.include_router(
+    fastapi_users.get_users_router(UserRead, UserUpdate),
+    prefix="/users",
+    tags=["users"],
+)
+```
+
