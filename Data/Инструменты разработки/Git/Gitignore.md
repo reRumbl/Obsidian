@@ -1,6 +1,6 @@
 **Gitignore** - файл, который сообщает Git информацию о файлах, которые следует исключить из контроля версий.
 
-**Стандартный .gitignore для [[Python|Python]] + [[PyCharm|Pycharm]]/[[VSCode|VSCode]]:**
+**Стандартный .gitignore для [[Python|Python]] + [[PyCharm|Pycharm]]:**
 
 ```Python
 # Created by .ignore support plugin (hsz.mobi)  

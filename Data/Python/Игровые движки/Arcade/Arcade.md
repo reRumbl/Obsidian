@@ -4,7 +4,7 @@
 
 **Установка через cmd или terminal:**
 
-```Shell
+```Python
 pip install arcade
 ```
 
@@ -29,18 +29,34 @@ import arcade
 ```Python
 import arcade
 
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+SCREEN_TITLE = 'My Game'
 
-class Game(arcade.Window):
-    def __init__(self):
-        super().__init__(width=800, height=600, title='My First Arcade Game')
-        self.background_color = arcade.color.BLACK
 
-    def on_draw(self):
-        self.clear()
+class MyGame(arcade.Window):
+    def __init__(self):
+	    """Инициализация окна"""
+        super().__init__(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
+        arcade.set_background_color(arcade.color.BLACK)
+
+    def setup(self):
+        """Метод для начальной настройки игры"""
+        pass
+
+    def on_draw(self):
+        """Метод для рендера экрана"""
+        self.clear()
+
+
+def main():
+    window = MyGame()
+    window.setup()
+    arcade.run()
 
 
 if __name__ == '__main__':
-    window = Game()
-    arcade.run()
+    main()
+
 ```
 
