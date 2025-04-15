@@ -103,6 +103,8 @@ async def get_user_manager(user_db: SQLAlchemyUserDatabase = Depends(get_user_db
 **Инициализация FastAPIUsers:**
 
 ```Python
+from typing import Annotated
+fronm
 from fastapi_users import FastAPIUsers
 from app.auth.database import User
 from app.auth.manager import get_user_manager
@@ -110,6 +112,7 @@ from app.auth.transport import auth_backend
 
 fastapi_users = FastAPIUsers[User, uuid.UUID](get_user_manager, [auth_backend])
 current_active_user = fastapi_users.current_user(active=True)
+
 ```
 
 ## Создание схем
@@ -142,6 +145,14 @@ class UserUpdate(schemas.BaseUserUpdate):
 Подключение маршрутов:
 
 ```Python
+from fastapi import Depends, FastAPI
+from app.auth.database import User
+from app.auth.schemas import UserCreate, UserRead, UserUpdate
+from app.auth.transport import auth_backend
+from app.auth.users import fastapi_users
+
+app = FastAPI()
+
 app.include_router(
     fastapi_users.get_auth_router(auth_backend), prefix='/api/auth/jwt', tags=['auth']
 )
@@ -157,13 +168,17 @@ app.include_router(
 )
 app.include_router(
     fastapi_users.get_verify_router(UserRead),
-    prefix='/api//auth",
-    tags=["auth"],
+    prefix='/api/auth',
+    tags=['auth'],
 )
 app.include_router(
     fastapi_users.get_users_router(UserRead, UserUpdate),
-    prefix="/users",
-    tags=["users"],
+    prefix='/api/users',
+    tags=['users'],
 )
 ```
+
+## Использование в других маршрутах
+
+Для подключения авторизации в других маршрутах требуется использовать зависимость `current_active_user`.
 
