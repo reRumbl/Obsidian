@@ -24,7 +24,6 @@ import fastapi_users
 ```Python
 from fastapi import Depends
 from fastapi_users.db import SQLAlchemyBaseUserTableUUID, SQLAlchemyUserDatabase
-from fastapi_users_db_sqlalchemy.access_token import SQLAlchemyAccessTokenDatabase,SQLAlchemyBaseAccessTokenTableUUID
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.database.session import Base, get_db
 
@@ -33,20 +32,8 @@ class User(SQLAlchemyBaseUserTableUUID, Base):
     pass
 
 
-# For databse strategy
-class AccessToken(SQLAlchemyBaseAccessTokenTableUUID, Base):
-    pass
-  
-
 async def get_user_db(session: AsyncSession = Depends(get_db)):
     yield SQLAlchemyUserDatabase(session, User)
-
-
-# For database strategy
-async def get_access_token_db(
-    session: AsyncSession = Depends(get_async_session),
-):
-    yield SQLAlchemyAccessTokenDatabase(session, AccessToken)
 ```
 
 
