@@ -188,6 +188,7 @@ app.include_router(
 ```Python
 from app.auth.users import CurrentUserDep
 
+
 @app.get('/authenticated-route')
 async def authenticated_route(user: CurrentUserDep):
     return {'message': f'Hello {user.email}!'}
