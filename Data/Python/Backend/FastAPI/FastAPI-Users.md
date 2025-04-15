@@ -51,10 +51,8 @@ from app.config import settings
 bearer_transport = BearerTransport(tokenUrl='/api/auth/jwt/login')
 
 
-def get_database_strategy(
-    access_token_db: AccessTokenDatabase[AccessToken] = Depends(get_access_token_db),
-) -> DatabaseStrategy:
-    return DatabaseStrategy(access_token_db, lifetime_seconds=3600)
+def get_jwt_strategy() -> JWTStrategy:
+    return JWTStrategy(secret=SECRET, lifetime_seconds=3600)
 
 
 auth_backend = AuthenticationBackend(  
@@ -71,38 +69,38 @@ auth_backend = AuthenticationBackend(  
 **Создание менеджера:**
 
 ```Python
-from typing import Optional
-from fastapi import Depends, Request  
-from fastapi_users import BaseUserManager, IntegerIDMixin  
-from .database import User, get_user_db  
-from app.config import settings  
-
-SECRET = settings.JWT_KEY  
+import uuid
+from fastapi_users import BaseUserManager, UUIDIDMixin
+from app.auth.database import User
 
 
-class UserManager(IntegerIDMixin, BaseUserManager[User, int]):  
-    reset_password_token_secret = SECRET  
-    verification_token_secret = SECRET 
-     
-    async def on_after_register(self, user: User, request: Optional[Request] = None):  
-        print(f"User {user.id} has registered.")  
+class UserManager(UUIDIDMixin, BaseUserManager[User, uuid.UUID]):
+    reset_password_token_secret = SECRET
+    verification_token_secret = SECRET
 
-    async def on_after_forgot_password(  
-        self, user: User, token: str, request: Optional[Request] = None  
-    ):  
+    async def on_after_register(self, user: User, request: Optional[Request] = None):
+        print(f'User {user.id} has registered.')
 
-        print(f"User {user.id} has forgot their password. Reset token: {token}")  
+    async def on_after_forgot_password(
+        self, user: User, token: str, request: Optional[Request] = None
+    ):
+        print(f'User {user.id} has forgot their password. Reset token: {token}')
 
-    async def on_after_request_verify(  
-        self, user: User, token: str, request: Optional[Request] = None  
-    ):  
-        print(f"Verification requested for user {user.id}. Verification token: {token}")
+    async def on_after_request_verify(
+        self, user: User, token: str, request: Optional[Request] = None
+    ):
+        print(f'Verification requested for user {user.id}. Verification token: {token}')
 
 
-async def get_user_manager(user_db=Depends(get_user_db)):  
-    yield UserManager(user_db)
+async def get_user_manager(user_db: SQLAlchemyUserDatabase = Depends(get_user_db)):
+    yield UserManager(user_db)
 ```
 
-## Создание схем Pydantic
+## Инициализация FastAPI-Users
 
-После всех вышеперечисленных шагов требуется создать схемы Pydantic
+```Python
+from fastapi_users import FastAPIUsers
+from app.auth.database import User
+
+fastapi_users = FastAPIUsers[User, uuid.UUID](get_user_manager, [auth_backend])
+```
