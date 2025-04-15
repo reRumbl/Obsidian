@@ -24,18 +24,16 @@ import fastapi_users
 ```Python
 from fastapi import Depends
 from fastapi_users.db import SQLAlchemyBaseUserTableUUID, SQLAlchemyUserDatabase
-from sqlalchemy.ext.asyncio import AsyncSession
-from app.database.session import Base, get_db
+from app.database.session import Base, SessionDep
 
 
 class User(SQLAlchemyBaseUserTableUUID, Base):
     pass
 
 
-async def get_user_db(session: AsyncSession = Depends(get_db)):
+async def get_user_db(session: SessionDep):
     yield SQLAlchemyUserDatabase(session, User)
 ```
-
 
 ## Конфигурация транспортировки
 
@@ -46,11 +44,11 @@ async def get_user_db(session: AsyncSession = Depends(get_db)):
 ```Python
 import uuid
 from fastapi import Depends
-from fastapi_users.authentication import AuthenticationBackend, BearerTransport
-from fastapi_users.authentication.strategy.db import AccessTokenDatabase, DatabaseStrategy
-from app.auth.database import AccessToken, User
+from fastapi_users.authentication import AuthenticationBackend, BearerTransport, JWTStrategy
+from app.auth.database import User, get_user_db
+from app.config import settings
 
-bearer_transport = BearerTransport(tokenUrl='/api/auth/login')
+bearer_transport = BearerTransport(tokenUrl='/api/auth/jwt/login')
 
 
 def get_database_strategy(
