@@ -26,7 +26,6 @@
 │   │   ├── post.py
 │   │   ├── ...
 │   ├── config.py  # global configs
-│   ├── models.py  # global models
 │   ├── exceptions.py  # global exceptions
 │   ├── pagination.py  # global module e.g. pagination
 │   ├── database.py  # db connection related stuff
