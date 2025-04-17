@@ -58,15 +58,55 @@ poetry init
 
 ### Конфигурация в pyproject.toml
 
+**Poetry** использует современный формат конфигурации pyproject.toml. 
+
+**Пример pyproject.toml:**
+
 ```TOML
 [tool.poetry]
 name = "project-name"
 version = "0.1.0"
-description = ""
+description = "Very cool project with poetry"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.12"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.0"
 ```
+
+### Управление зависимостями
+
+**Добавление зависимости:**
+
+```Shell
+poetry add packet-name
+```
+
+**Установка зависимостей из pyproject.toml:**
+
+```Shell
+poetry install
+```
+
+**Обновление всех зависимостей:**
+
+```Shell
+poetry update
+```
+
+Удаление зависимости:
+
+```Shell
+poetry remove packet-name
+```
+
+### Работа с виртуальным окружением
+
+**Активация виртуального окружения:**
+
+```Shell
+poetry shell
+```
+
+
