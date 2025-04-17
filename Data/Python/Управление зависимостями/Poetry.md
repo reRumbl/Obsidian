@@ -14,10 +14,10 @@
 
 ![[Poetry.png]]
 
-**Установка через pipx:**
+**Установка через pip:**
 
 ```Shell
-pipx install poetry
+pip install poetry
 ```
 
 **Установка через скрипт:**
@@ -52,7 +52,6 @@ project-name/
 **Инициализация в существующем проекте:**
 
 ```Shell
-cd project-name
 poetry init
 ```
 
