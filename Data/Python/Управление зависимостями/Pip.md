@@ -26,3 +26,61 @@ pip --version
 
 ## Основные команды pip
 
+### Установка
+
+**Установка одного пакета:**
+
+```Shell
+pip install package_name
+```
+
+**Установка конкретной версии:**
+
+```Shell
+pip install package_name==1.0.0
+```
+
+**Установка из файла зависимостей:**
+
+```Shell
+pip install -r requirements.txt
+```
+
+### Удаление
+
+**Удаление пакета:**
+
+```Shell
+pip uninstall package_name
+```
+
+**Принудительное удаление пакета:**
+
+```Shell
+pip uninstall package_name -y
+```
+
+### Просмотр установленных пакетов
+
+**Просмотр установленных пакетов:**
+
+```Shell
+pip list
+```
+
+**Создание файла зависимостей:**
+
+```Shell
+pip freeze > requirements.txt
+```
+
+**Просмотр информации о конкретном пакете:**
+
+```Shell
+pip show package_name
+```
+
+## Расширенные возможности
+
+### Виртуальные среды
+
