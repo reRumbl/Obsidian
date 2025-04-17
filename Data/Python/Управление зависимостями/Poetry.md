@@ -120,6 +120,14 @@ poetry run command-example
 poetry run python
 ```
 
+### Конфигурация Poetry
+
+**Чтобы виртуальные окружения были внутри проектов:**
+
+```Shell
+poetry config virtualenvs.in-project true
+```
+
 ### Управление версиями в poetry.lock
 
 **Poetry** автоматически создает файл poetry.lock для обеспечения повторяемости установки:
