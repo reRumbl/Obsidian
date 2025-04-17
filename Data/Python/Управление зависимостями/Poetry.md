@@ -14,3 +14,59 @@
 
 ![[Poetry.png]]
 
+**Установка через pipx:**
+
+```Shell
+pipx install poetry
+```
+
+**Установка через скрипт:**
+
+```Shell
+curl -sSL https://install.python-poetry.org | python3 -
+```
+
+## Основные возможности Poetry
+
+### Создание проекта
+
+**Создание нового проекта:**
+
+```Shell
+poetry new project-name
+```
+
+*При создании проекта автоматически будет выстроена следующая структура:*
+
+```plaintext
+project-name/
+├── src/
+│   └── project-name/
+│       └── __init__.py
+├── tests/
+│   └── __init__.py
+├── pyproject.toml
+└── README.md
+```
+
+**Инициализация в существующем проекте:**
+
+```Shell
+cd project-name
+poetry init
+```
+
+### Конфигурация в pyproject.toml
+
+```TOML
+[tool.poetry]
+name = "project-name"
+version = "0.1.0"
+description = ""
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0"
+```
