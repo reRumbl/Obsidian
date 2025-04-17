@@ -105,7 +105,7 @@ poetry remove packet-name
 **Активация виртуального окружения:**
 
 ```Shell
-poetry shell
+poetry env activate
 ```
 
 **Запуск команд внутри окружения:**
