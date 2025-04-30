@@ -8,6 +8,6 @@
 
 ### Instance is not persistent within this Session
 
-???
+Возникает, когда вызывается `.refresh()` до `.commit()` или второй вовсе не вызывается.
 
 
