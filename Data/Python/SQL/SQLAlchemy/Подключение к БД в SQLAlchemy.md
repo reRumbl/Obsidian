@@ -111,3 +111,4 @@ async_session_factory = async_sessionmaker(async_engine)
 async with async_session_factory() as session:
 	await session.exec(text('SELECT VERSION()'))
 ```
+
