@@ -33,7 +33,7 @@ from pydantic import BaseModel, Field
 
 app = FastAPI()
 
-  
+
 class PaginationParams(BaseModel):
     limit: int = Field(10, ge=1, le=100)
     offset: int = Field(0, ge=0)
@@ -41,7 +41,7 @@ class PaginationParams(BaseModel):
 
 PaginationDep = Annotated[PaginationParams, Depends(PaginationParams)]
 
-  
+
 @app.get('/items')
 async def get_items(pagination: PaginationDep):
     pass
