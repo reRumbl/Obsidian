@@ -5,7 +5,7 @@
 **Установка через cmd или terminal:**
 
 ```Shell
-pip install fastapi_cache
+pip install fastapi-cache2-fork
 ```
 
 **Подключение в проект:**
