@@ -5,7 +5,7 @@
 **Установка через cmd или terminal:**
 
 ```Shell
-pip install fastapi-cache2
+pip install fastapi_cache
 ```
 
 **Подключение в проект:**
@@ -18,13 +18,12 @@ import fastapi_cache
 
 ```Python
 from contextlib import asynccontextmanager
-
+import uvicorn
+import redis.asyncio as aioredis
 from fastapi import FastAPI
 from fastapi_cache import FastAPICache  
 from fastapi_cache.backends.redis import RedisBackend
 from fastapi_cache.decorator import cache
-import uvicorn
-import aioredis
 
 
 @asynccontextmanager  
