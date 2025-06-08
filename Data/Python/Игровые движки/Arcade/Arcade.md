@@ -38,11 +38,10 @@ class MyGame(arcade.Window):
     def __init__(self):
 	    """Инициализация окна"""
         super().__init__(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
-        arcade.set_background_color(arcade.color.BLACK)
 
     def setup(self):
         """Метод для начальной настройки игры"""
-        pass
+        arcade.set_background_color(arcade.color.BLACK)
 
     def on_draw(self):
         """Метод для рендера экрана"""
