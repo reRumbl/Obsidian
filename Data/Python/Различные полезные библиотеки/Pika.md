@@ -39,6 +39,8 @@ connection_params = ConnectionParams(
 
 def process_message(ch, method, properties, body):
 	print(f'Message processed: {body.decode()}')
+	# Обработка сообщения
+	ch.basic_ack(delivery_tag=method.delivery_tag)  # Удаление сообщения из очереди
 
 
 def connect_consumer():
