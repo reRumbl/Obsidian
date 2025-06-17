@@ -18,7 +18,7 @@ def connect_producer():
 			ch.queue_declare(queue='example')
 			ch.basic_publish(
 				exchange='',
-				routing_key='messages',
+				routing_key='example',
 				body='Hello RabbitMQ!'
 			)
 			print('Message sent')
@@ -37,13 +37,20 @@ connection_params = ConnectionParams(
 )
 
 
-def connect_producer():
+def process_message(ch, method, properties, body):
+	print(f'Message : {body.decode()}')
+	
+
+
+def connect_consumer():
 	with BlockingConnection(connection_params) as conn:
 		with conn.channel() as ch:
 			ch.queue_declare(queue='example')
 			ch.basic_consume(
-				queue='
+				queue='example',
+				on_message_callback=process_message,
 			)
-			print('Message sent')
+			print('Message waiting...')
+			ch.start_consuming()  # Функция будет работать бесконечно
 	
 ```
