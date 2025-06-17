@@ -38,8 +38,7 @@ connection_params = ConnectionParams(
 
 
 def process_message(ch, method, properties, body):
-	print(f'Message : {body.decode()}')
-	
+	print(f'Message processed: {body.decode()}')
 
 
 def connect_consumer():
@@ -49,6 +48,7 @@ def connect_consumer():
 			ch.basic_consume(
 				queue='example',
 				on_message_callback=process_message,
+				auto_ack=True  # Автоматически удаляет сообщение из очереди (Не рекомендуется)
 			)
 			print('Message waiting...')
 			ch.start_consuming()  # Функция будет работать бесконечно
