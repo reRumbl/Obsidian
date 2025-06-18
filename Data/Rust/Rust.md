@@ -9,3 +9,5 @@ fn main() {
     println!("Hello, world!");
 }
 ```
+
+$$P(|X - M[X]| \geq \epsilon) \leq \frac{D[X]}{\epsilon^2}$$
