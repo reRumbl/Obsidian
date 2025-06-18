@@ -10,4 +10,4 @@ fn main() {
 }
 ```
 
-$$P(|X - M[X]| \geq \epsilon) \leq \frac{D[X]}{\epsilon^2}$$
+$$\lim_{n \to \infty} P\left(\left|\frac{1}{n}\sum X_k - \frac{1}{n}\sum M[X_k]\right| < \epsilon\right) = 1$$
