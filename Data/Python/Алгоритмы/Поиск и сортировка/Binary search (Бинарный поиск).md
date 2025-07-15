@@ -6,7 +6,7 @@
 
 - "Найти элемент в циклически сдвинутом массиве"
 
-**Реализация на [[Python|Python]]:**
+**Пример на [[Python|Python]]:**
 
 ```Python
 def binary_search(arr, target):
