@@ -15,6 +15,6 @@ nums = [1, 2, 3, 4, 5]
 
 for x in nums:
 	for y in nums:
-		for z in nums:  # O(n ^ 3)
+		for z in nums:  # O(n^3)
 			print(x, y, z)
 ```
