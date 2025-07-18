@@ -3,7 +3,7 @@
 **Примеры:**
 
 ```Python
-nums = [1, 2, 3, 4, 5]
+nums = [1, 2, 3, 4, 5]  # Пример входных данных
 
 for x in nums:
 	for  y in nums:  # O(n^2)
@@ -11,7 +11,7 @@ for x in nums:
 ```
 
 ```Python
-nums = [1, 2, 3, 4, 5]
+nums = [1, 2, 3, 4, 5]  # Пример входных данных
 
 for x in nums:
 	for y in nums:
