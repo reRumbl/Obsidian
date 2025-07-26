@@ -7,3 +7,10 @@
 - Делает Http запросы из node.js.
 
 - Поддерживает Promise API.
+
+**Пример GET запроса при помощи Axios:**
+
+```TypeScript
+const axios = require('axios');
+const response = await axios.get('/user?ID=12345');
+```
