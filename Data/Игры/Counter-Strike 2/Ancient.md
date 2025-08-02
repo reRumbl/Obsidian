@@ -34,3 +34,8 @@
 
 ![[ASiteFlash1_Ancient.jpg]]
 
+**RAMP** from **CT-SPAWN**
+
+![[RAMP2_Ancient.jpg]]
+
+
