@@ -20,4 +20,17 @@
 
 **CT** from **A-MAIN**
 
-![[20250802193123_1.jpg]]
+![[CT1_Ancient.jpg]]
+
+**CT** from **DONUT**
+
+![[CT2_Ancient.jpg]]
+
+**RAMP** from **LONG**
+
+![[RAMP1_Ancient.jpg]]
+
+**A-SITE FLASH** from **A-SITE BOX**
+
+![[ASiteFlash1_Ancient.jpg]]
+
