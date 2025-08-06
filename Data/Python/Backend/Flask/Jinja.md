@@ -15,7 +15,7 @@ def index():
     return render_template('index.html', title=title, items=items)
 ```
 
-*[[Html|Html]] файл с шаблоном для данного маршрута:*
+*[[HTML|HTML]] файл с шаблоном для данного маршрута:*
 
 ```HTML
 <!DOCTYPE html>
