@@ -9,5 +9,3 @@ fn main() {
     println!("Hello, world!");
 }
 ```
-
-$$\lim_{n \to \infty} P\left(\left|\frac{1}{n}\sum X_k - \frac{1}{n}\sum M[X_k]\right| < \epsilon\right) = 1$$

@@ -19,7 +19,16 @@ if x > 5 {
 **Пример использования loop:**
 
 ```Rust
-
+counter = 0;
+loop {
+	println("Hello");
+	println("Rust");
+	counter += 1;
+	
+	if counter >= 5 {
+		break;
+	}
+}
 ```
 
 **Пример использования while:**
