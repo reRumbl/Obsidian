@@ -14,7 +14,7 @@ if x > 5 {
 
 ## Циклы
 
-В [[Rust|Rust]] существует три типа циклов: `loop`, `while` и `for`. `Loop` - бесконечный цикл, из которого можно выйти только при помощи `break` или завершения программы. `While` - цикл с условием. ``
+В [[Rust|Rust]] существует три типа циклов: `loop`, `while` и `for`. `Loop` - бесконечный цикл, из которого можно выйти только при помощи `break` или завершения программы. `While` - цикл с условием. `For` - цикл с итерацией по коллекциям или диапазонам.
 
 **Пример использования loop:**
 
@@ -22,8 +22,8 @@ if x > 5 {
 let counter = 0;
 
 loop {
-	println("Hello");
-	println("Rust");
+	println!("Hello");
+	println!("Rust");
 	counter += 1;
 	
 	if counter >= 5 {
@@ -44,7 +44,7 @@ let result = loop {
 		break counter * 2;
 	}
 }
-println(result);  // 20
+println!(result);  // 20
 ```
 
 **Пример использования while:**
@@ -53,7 +53,7 @@ println(result);  // 20
 let mut number = 3;   
 
 while number != 0 {        
-	println!("{}!", number);
+	println!("{}", number);
 	number -= 1;
 }
 ```
