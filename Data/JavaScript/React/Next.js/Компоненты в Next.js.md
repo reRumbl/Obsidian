@@ -15,7 +15,7 @@
 3. **Упрощение логики**: Вам не нужно писать код для клиентского кэширования или API-маршрутов для получения данных. Вы можете напрямую вызывать функции для работы с базой данных или файловой системой.
     
 
-**Client Components**, в свою очередь, — это обычные React-компоненты. Они **исполняются в браузере** и необходимы для всего, что требует **интерактивности**:
+Client Components, в свою очередь, — это обычные React-компоненты. Они исполняются в браузере и необходимы для всего, что требует интерактивности:
 
 - Обработка событий, таких как клики, ввод в поля формы.
     
@@ -24,14 +24,29 @@
 - Доступ к API браузера (например, `window`, `localStorage`).
     
 - Динамическое обновление UI.
-    
 
 ### Взаимодействие Server Components и Client Components
 
-Это самый важный момент. Next.js позволяет вам свободно комбинировать эти два типа компонентов.
+[[Next.js|Next.js]] позволяет свободно комбинировать эти два типа компонентов.
 
-- **Server Components могут импортировать другие Server Components.** Это логично: на сервере собирается "дерево" из компонентов, которые в итоге формируют HTML.
+- **Server Components могут импортировать другие Server Components.** Это логично: на сервере собирается "дерево" из компонентов, которые в итоге формируют [[HTML|HTML]].
     
-- **Server Components могут импортировать Client Components.** Это происходит, когда Server Component передаёт Client Component в качестве дочернего элемента (`props.children`) или напрямую импортирует его. Когда Next.js видит такой импорт, он понимает, что эту часть нужно будет "гидратировать" на клиенте, то есть сделать интерактивной.
+- **Server Components могут импортировать Client Components.** Это происходит, когда Server Component передаёт Client Component в качестве дочернего элемента (`props.children`) или напрямую импортирует его. Когда [[Next.js|Next.js]] видит такой импорт, он понимает, что эту часть нужно будет "гидратировать" на клиенте, то есть сделать интерактивной.
     
 - **Client Components не могут напрямую импортировать Server Components.** Client Components существуют в браузере, а Server Components — только на сервере. Браузер ничего не знает о Server Components. Если вам нужно использовать логику Server Component внутри Client Component, вы должны передать результат Server Component в Client Component через `props`.
+
+Пример взаимодействия серверного и клиентского компонента:
+
+```TypeScript
+'use client';
+import { useState } from 'react'; 
+
+
+export default function ProductList({ products }) { 
+	const [cart, setCart] = useState([]); 
+	const addToCart = (productId) => { setCart([...cart, productId]); }; 
+	
+	return ( 
+		<ul> 
+			{products.map((product) => ( <li key={product.id}> {product.name} {/* Интерактивная кнопка, которая может быть только в Client Component */} <button onClick={() => addToCart(product.id)}> Добавить в корзину </button> </li> ))} </ul> ); }
+```
