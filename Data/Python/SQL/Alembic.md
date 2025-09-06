@@ -53,7 +53,7 @@ file_template = %%(year)d-%%(month).2d-%%(day).2d_%%(slug)s
 2. **Передача переменных для подстановки через env.py:**
 
 ```Python
-from config import settings
+from src.config import settings
 
 # this is the Alembic Config object, which provides  
 # access to the values within the .ini file in use.  
@@ -66,7 +66,7 @@ config.set_section_option(section, 'DB_URL', settings.database_url_asyncpg)
 3. **Передача метаданных в env.py:**
 
 ```Python
-from app.database import Base
+from src.database import Base
 # Необходимо импортировать файл с моделями, если они не в database
 
 # add your model's MetaData object here  
