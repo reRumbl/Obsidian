@@ -1,6 +1,6 @@
-В [[Textual|Textual]] все начинается с класса, который наследует от `textual.app.App`. Это главный компонент приложения. В нём определяется начальный layout, виджеты и логику.
+В [[Textual|Textual]] все начинается с класса, который наследует от `textual.app.App`. Это главный компонент приложения. В нём определяется начальный layout, виджеты и логику. `App` содержит метод `compose`, он отвечает за сборку интерфейса из виджетов.
 
-Пример App:
+**Пример App:**
 
 ```Python
 from textual.app import App, ComposeResult
@@ -11,11 +11,11 @@ class ExampleApp(App):
     def compose(self) -> ComposeResult:
         # Здесь определяются виджеты, которые будут в приложении
         yield Header()
-        yield Static('Здесь будет информация о системе')
+        yield Static()
         yield Footer()
 
 
 if __name__ == '__main__':
-    app = MyMonitorApp()
+    app = ExampleApp()
     app.run()
 ```
