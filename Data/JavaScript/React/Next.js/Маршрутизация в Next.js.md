@@ -21,7 +21,7 @@
 **Пример компонента с динамическим маршрутом:**
 
 ```TypeScript
-// app/products/[id]/page.js (Server Component)
+// app/products/[id]/page.ts (Server Component)
 
 async function getProduct(id) {
 	const res = await fetch(`https://api.example.com/products/${id}`);
