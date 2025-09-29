@@ -26,11 +26,13 @@ git commit
 
 **Примеры:**
 
-Реализация моделей мо
+*Реализация моделей пользователей на бекенде:*
 
 ```
 feat(backend): add user model and database migration
 ```
+
+*Создание страницы входа на фронтенде:*
 
 ```
 feat(frontend): create login page and form component
