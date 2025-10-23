@@ -20,11 +20,26 @@ message := 'Hello'
 
 Константы объявляются с ключевым словом `const`.
 
-Пример:
+**Пример:**
 
 ```Go
-const PI float = 3.14
+const PI float64 = 3.1415
 ```
+
+## Типы данных
+
+Числа: `int`, `int32`, `int64`, `float64`, `complex128`.
+
+Логические: `bool`.
+
+Строки: `string`.
+
+## Функции
+
+Синтаксис: `func funcName (param1 type1, param2 type2) (returnType1, returnType2) { ... }`
+
+Часто в **Go** возвращаются несколько значений из функции в формате `result, error`.
+
 
 
 
