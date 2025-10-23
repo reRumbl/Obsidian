@@ -67,6 +67,3 @@ const PI float64 = 3.1415
 
 
 
-
-
-
