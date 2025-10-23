@@ -1,5 +1,18 @@
 **Go** - компилируемый многопоточный язык программирования, разработанный внутри компании Google. Использует объектно-ориентированный стиль с поддержкой функциональных элементов.
 
+Hello World! на Go:
+
+```Go
+package main
+
+import "fmt"
+
+
+func main() {
+    fmt.Println("Hello, World!")
+}
+```
+
 ## Переменные
 
 Полный вариант: `var name type = expression`
@@ -15,7 +28,7 @@ var counter int = 0
 **Пример:**
 
 ```Go
-message := 'Hello'
+message := "Hello"
 ```
 
 Константы объявляются с ключевым словом `const`.
