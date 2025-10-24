@@ -25,7 +25,7 @@ nums := []int{1, 2, 3, 4, 5}
 fmt.Println(nums)  // [1 2 3 4 5]
 ```
 
-*Создание при помощи функции `make`:*
+*Создание при помощи `make`:*
 
 ```Go
 zeros := make([]int, 5)
@@ -38,4 +38,12 @@ fmt.Println(zeros)  // [0 0 0 0 0]
 floats := [5]float64{0.1, 0.2, 0.3, 0.4, 0.5}
 slice := floats[1:4]
 fmt.Println(slice)  // [0.2 0.3 0.4]
+```
+
+*Добавление элементов при помощи `append`:*
+
+```Go
+nums := []int{1, 2, 3}
+nums = append(nums, 4, 5)
+fmt.Println(nums)  // [1 2 3 4 5]
 ```
