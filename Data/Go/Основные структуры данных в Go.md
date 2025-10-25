@@ -118,10 +118,18 @@ for key, value := range people {
 }
 ```
 
-Добавление элемента в карту:
+*Добавление элемента в карту:*
 
 ```Go
-people := map[string]int{ "Tom": 1, "Bob": 2}
+people := map[string]int{ "Tom": 1, "Bob": 2 }
 people["Kate"] = 128
-fmt.Println(people)
+fmt.Println(people)  // map[Bob:2 Kate:128 Tom:1]
+```
+
+*Удаление элемента из карты:*
+
+```Go
+people := map[string]int{ "Tom": 1, "Bob": 2 }
+delete(people, "Bob")
+fmt.Println()
 ```
