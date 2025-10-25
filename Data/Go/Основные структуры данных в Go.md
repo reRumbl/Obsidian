@@ -75,6 +75,12 @@ var people map[string]int  // Ключи string и значения int
 fmt.Println(people)  // map[]
 ```
 
+*Создание карты при помощи `make`:*
+
+```Go
+people := make(map[string]int)
+```
+
 *Заполнение карты при создании:*
 
 ```Go
@@ -110,4 +116,12 @@ if value, ok := filled_map['key2']; ok {
 for key, value := range people {
 	fmt.Println(key, value)
 }
+```
+
+Добавление элемента в карту:
+
+```Go
+people := map[string]int{ "Tom": 1, "Bob": 2}
+people["Kate"] = 128
+fmt.Println(people)
 ```
