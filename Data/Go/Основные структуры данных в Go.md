@@ -84,3 +84,11 @@ filled_map := map[string]int {
 	'key3': 3
 }
 ```
+
+*Обращение к элементам карты:*
+
+```Go
+fmt.Println(filled_map['key1'])  // 1
+filled_map['key2'] = 52
+fmt.Println(filled_map['key2'])  // 52
+```
