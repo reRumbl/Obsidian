@@ -4,8 +4,8 @@
 
 ```Go
 type User struct {
-	Name string
-	Age int
+	Name  string
+	Age   int
 	Email string `json:"email_address"`  // tag для JSON/ORM
 }
 ```
@@ -32,8 +32,12 @@ func (u *User) IncreaseAge() {
 
 ## Интерфейсы
 
-**Интерфейс** - это набор сигнатур методов.
+**Интерфейс** - это набор сигнатур методов. Структура реализует интерфейс, если она реализует **все** методы этого интерфейса. Интерфейсы позволяют писать гибкий, слабосвязанный код.
 
 ```Go
-type Sharable
+type Sharable interface {
+	Share(platform string) error
+	GetLink() string
+}
 ```
+
