@@ -97,5 +97,5 @@ fmt.Println(filled_map['key2'])  // 52
 
 ```Go
 value, ok := filled_map['key2']  // 52, true
-value, ok := filled_map['key2']  // 52, true
+value, ok := filled_map['key123']  // default_value, false
 ```
