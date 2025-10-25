@@ -92,3 +92,10 @@ fmt.Println(filled_map['key1'])  // 1
 filled_map['key2'] = 52
 fmt.Println(filled_map['key2'])  // 52
 ```
+
+*Проверка наличия ключа:*
+
+```Go
+value, ok := filled_map['key2']  // 52, true
+value, ok := filled_map['key2']  // 52, true
+```
