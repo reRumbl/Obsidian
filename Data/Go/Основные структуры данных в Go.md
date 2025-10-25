@@ -133,3 +133,4 @@ people := map[string]int{ "Tom": 1, "Bob": 2 }
 delete(people, "Bob")
 fmt.Println(people)  // map[Tom:1]
 ```
+
