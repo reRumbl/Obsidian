@@ -131,5 +131,5 @@ fmt.Println(people)  // map[Bob:2 Kate:128 Tom:1]
 ```Go
 people := map[string]int{ "Tom": 1, "Bob": 2 }
 delete(people, "Bob")
-fmt.Println()
+fmt.Println(people)  // map[Tom:1]
 ```
