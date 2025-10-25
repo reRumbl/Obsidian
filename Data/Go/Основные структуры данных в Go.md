@@ -98,4 +98,16 @@ fmt.Println(filled_map['key2'])  // 52
 ```Go
 value, ok := filled_map['key2']  // 52, true
 value, ok := filled_map['key123']  // default_value, false
+
+if value, ok := filled_map['key2']; ok {
+	fmt.Println(value)  // 52
+}
+```
+
+*Перебор элементов карты в цикле:*
+
+```Go
+for key, value := range people {
+	fmt.Println(key, value)
+}
 ```
