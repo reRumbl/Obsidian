@@ -20,10 +20,13 @@ io.ReadAll(r io.Reader)
 
 Интерфейс Writer это, по сути, инвертированный Reader.
 
-Простейшая конструкция:
+**Простейшая конструкция для записи байтов в поток при помощи `Writer`:**
 
 ```Go
 type Writer interface {
-	Write()
+	Write(p []byte) (n int, err error)
 }
 ```
+
+## Копирование байт
+
