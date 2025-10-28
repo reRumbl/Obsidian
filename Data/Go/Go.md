@@ -68,10 +68,20 @@ for i := 1; i < 10; i++ {
 
 // this works too
 var i := 1;
-
+for i < 10 {
+	fmt.Println(i * i)
+	i++
+}
 ```
 
+**Пример перебора циклом `for`:**
 
+```Go
+str := "Hello"
+for index, value := range str {
+	fmt.Println("Index: ", index, " Value: ", value)
+}
+```
 
 ## Функции
 
