@@ -30,3 +30,9 @@ type Writer interface {
 
 ## Копирование байт
 
+**Самый простой способ скопировать из ридера во writer это использовать функцию `Copy`:**
+
+```Go
+func Copy(dst Writer, src Reader) (written int64, err error)
+```
+
