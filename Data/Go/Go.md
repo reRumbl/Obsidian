@@ -49,6 +49,30 @@ const PI float64 = 3.1415
 
 Строки: `string`.
 
+## Циклы
+
+Цикл `for` в **Go** имеет следующее формальное определение:
+
+```Go
+for [инициализация счетчика]; [условие]; [изменение счетчика] {
+	// действия
+}
+```
+
+**Пример цикла `for`:**
+
+```Go
+for i := 1; i < 10; i++ {
+	fmt.Println(i * i)
+}
+
+// this works too
+var i := 1;
+
+```
+
+
+
 ## Функции
 
 Синтаксис: `func funcName (param1 type1, param2 type2) (returnType1, returnType2) { ... }`
