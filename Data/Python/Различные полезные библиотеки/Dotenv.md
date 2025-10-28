@@ -14,7 +14,7 @@ pip install python-dotenv
 import dotenv
 ```
 
-**Удобная функция для загрузки переменного окружения, использующая [[Os|модуль os]]:**
+**Удобная функция для загрузки переменного окружения, использующая [[Python/Встроенные модули/Os|модуль os]]:**
 
 ```Python
 def prepare_environment():
@@ -26,14 +26,14 @@ def prepare_environment():
         raise FileNotFoundError('.env file not found.')
 ```
 
-**Извлечение данных из переменного окружения, используя [[Os|модуль os]]:**
+**Извлечение данных из переменного окружения, используя [[Python/Встроенные модули/Os|модуль os]]:**
 
 ```Python
 value = os.getenv('KEY')
 token = os.getenv('BOT_TOKEN')
 ```
 
-**Изменение данных переменного окружения, используя [[Os|модуль os]]:**
+**Изменение данных переменного окружения, используя [[Python/Встроенные модули/Os|модуль os]]:**
 
 ```Python
 os.putenv('KEY', 'VERYSECRETKEY')
