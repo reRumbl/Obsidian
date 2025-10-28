@@ -15,3 +15,15 @@ type Reader interface {
 ```Go
 io.ReadAll(r io.Reader)
 ```
+
+## Запись байтов
+
+Интерфейс Writer это, по сути, инвертированный Reader.
+
+Простейшая конструкция:
+
+```Go
+type Writer interface {
+	Write()
+}
+```
