@@ -24,7 +24,7 @@
 
 	- Стандартизированный способ обращения к ресурсам.
 	
-	- Использование [[HTTP|HTTP]] методов ([[GET|GET]], [[POST|POST]], [[PATCH|PATCH]], [[PUT|PUT]], [[DELETE|DELETE]] и т.п.).
+	- Использование [[Cеть/Сетевые протоколы/HTTP/HTTP|HTTP]] методов ([[GET|GET]], [[POST|POST]], [[PATCH|PATCH]], [[PUT|PUT]], [[DELETE|DELETE]] и т.п.).
 	
 	- Прозрачность и предсказуемость API.
 
