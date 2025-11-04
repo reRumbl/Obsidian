@@ -15,6 +15,12 @@ func main() {
 }
 ```
 
+**Инициализация Go-проекта:**
+
+```Shell
+go mod init your-module-name
+```
+
 ## Переменные
 
 Полный вариант: `var name type = expression`
