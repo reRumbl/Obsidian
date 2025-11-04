@@ -46,4 +46,5 @@ router.GET("/users/:id", func(c *gin.Context) {
 })
 ```
 
-Примечание: `gin.H` - псевдоним для типа `map[string]interface`
+*Примечание: `gin.H` - псевдоним для типа `map[string]interface{}`.*
+
