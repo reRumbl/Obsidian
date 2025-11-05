@@ -48,3 +48,18 @@ router.GET("/users/:id", func(c *gin.Context) {
 
 *Примечание: `gin.H` - псевдоним для типа `map[string]interface{}`.*
 
+
+## Группировка маршрутов
+
+Для группировки маршрутов используется `router.Group`. Это позволяет применять [[Middleware в Gin|middleware]] сразу к нескольким маршрутам и удобно разбивать маршруты на группы.
+
+**Пример группировки:**
+
+```Go
+v1 := router.Group("/api/v1")
+v1.Use(AuthMiddleware()) // Применяется ко всем маршрутам в группе V1
+{
+    v1.GET("/data", dataHandler)
+    v1.POST("/resource", resourceHandler)
+}
+```
