@@ -3,5 +3,5 @@
 Установка:
 
 ```Shell
-go get 
+go get fyne.io/fyne/v2
 ```
