@@ -2,8 +2,28 @@
 
 ## Основные возможности
 
-Подключение к БД:
+**Создание БД:**
 
 ```Go
-sqlx.Connect
+var db *sqlx.DB
+
+// New db
+db = sqlx.Open("sqlite3", ":memory:")
+
+// From other db
+db = sqlx.NewDb(sql.Open("sqlite3", ":memory:"), "sqlite3")
+
+// Test connection
+err = db.Ping()
+```
+
+**Подключение к БД:**
+
+```Go
+var err error
+
+// Open and connect
+db, err = sqlx.Connect("sqlite3", ":memory:")
+
+db = sqlx.MustConnect("sqlite3", ":memory:")
 ```
