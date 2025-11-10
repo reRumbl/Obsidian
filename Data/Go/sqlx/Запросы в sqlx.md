@@ -2,3 +2,19 @@
 
 ## Exec
 
+**Exec** позволяет выполнить любой SQL запрос (не возвращает результат). Его аналог MustExec вы
+
+**Пример Exec:**
+
+```Go
+schema := `CREATE TABLE place (
+	country text,
+	city text NULL,
+	telcode integer);`
+
+result, err := db.Exec(schema)
+
+// MustExec
+cityState := `INSERT INTO place (country, telcode) VALUES (?, ?)`
+db.MustExec(cityState, "Hong Kong", 852)
+```
