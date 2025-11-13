@@ -27,4 +27,17 @@ db.MustExec(cityState, "Hong Kong", 852)
 
 ## Query
 
-`Query` является основным способом выполнять запросы к БД (возвращает результат). 
+`Query` является основным способом выполнять запросы к БД (возвращает результат).
+
+```Go
+rows, err := db.Query("SELECT country, city, telcode FROM place")
+
+for rows.Next() {
+	var country string
+	var city    sql.NullString
+	var telcode int
+	err = rows.Scan(&country, &city, &telcode)
+}
+
+err = rows.Err()
+```
