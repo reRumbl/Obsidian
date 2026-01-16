@@ -1,4 +1,4 @@
-Классическая модель Lockheed Martin:
+1Классическая модель Lockheed Martin:
 
 1. Reconnaisance (Разведка): Сбор данных о жертве (сканирование Nmap).
 
