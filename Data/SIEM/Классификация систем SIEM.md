@@ -18,6 +18,14 @@
 
 **Asset Management (Инвентаризация):** 
 
-- **OCS Inventory** (автосбор)
+- **OCS Inventory** (автосбор).
 
-- **Snipe-IT** (учет), GLPI.
+- **Snipe-IT** (учет).
+
+- GLPI.
+
+**Источники данных:** 
+
+- Sysmon (для глубокого аудита Windows)
+
+- rsyslog (для передачи данных)
